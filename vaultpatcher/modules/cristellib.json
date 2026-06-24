@@ -1,0 +1,25 @@
+[
+  {
+    "name": "cristellib_zh_tw",
+    "desc": "cristellib-1.1.6-forge.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "cristellib-1.1.6-forge.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "net.cristellib.CristelLib"
+    ],
+    "pairs": [
+      {
+        "key": "Cristel Lib Config Pack",
+        "value": "Cristel Lib 配置包"
+      },
+      {
+        "key": "Cristel Lib",
+        "value": "信徒圖書館"
+      }
+    ]
+  }
+]

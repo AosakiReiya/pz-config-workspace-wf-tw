@@ -1,0 +1,117 @@
+[
+  {
+    "name": "entity_texture_features_zh_tw",
+    "desc": "entity_texture_features_1.20.1-forge-7.1.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "entity_texture_features_1.20.1-forge-7.1.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "traben.entity_texture_features.ETF"
+    ],
+    "pairs": [
+      {
+        "key": "Forge ModList checking failed!",
+        "value": "Forge 模組列表檢查失敗！"
+      },
+      {
+        "key": "Forge ModList checking failed, via exception!",
+        "value": "Forge 模組列表檢查失敗，異常導致！"
+      },
+      {
+        "key": "also try EMF!",
+        "value": "也試試 EMF！"
+      },
+      {
+        "key": "also known as ETF!",
+        "value": "也叫 ETF！"
+      },
+      {
+        "key": "not to be confused with CIT, seriously, why does that keep happening?",
+        "value": "別和 CIT 搞混了，說真的，為什麼這種事總會發生？"
+      },
+      {
+        "key": "the worst server plugin one guy on my discord has ever seen!",
+        "value": "這是我 Discord 上有個人見過的最爛伺服器外掛！"
+      },
+      {
+        "key": "your third cousin's, dog's, previous owner's, uncle's, old boss's, fourth favourite mod!",
+        "value": "你表親的狗的前主人的叔叔的前老闆最喜歡的第四個模組！"
+      },
+      {
+        "key": "Thanks for 10 Million plus downloads!!",
+        "value": "感謝突破 1000 萬次下載！！"
+      },
+      {
+        "key": "why does no one download Solid Mobs :(",
+        "value": "為什麼沒人下載 Solid Mobs :("
+      },
+      {
+        "key": "breaking your resource packs since 17 Jan 2022.",
+        "value": "自 2022 年 1 月 17 日起一直在破壞你的資源包。"
+      },
+      {
+        "key": "not fit for consumption in the US.",
+        "value": "在美國不適合食用。"
+      },
+      {
+        "key": "one of the mods ever made!",
+        "value": "史上其中一個模組！"
+      },
+      {
+        "key": ",serutaeF erutxeT ytitnE gnidoaL",
+        "value": ",正在載入實體紋理特性"
+      },
+      {
+        "key": "hello there!",
+        "value": "你好啊！"
+      },
+      {
+        "key": "you just lost the game.",
+        "value": "你剛剛輸了遊戲。"
+      },
+      {
+        "key": "did you know if you turn off the lights and whisper 'OptiFine' 3 times you will lose 20fps.",
+        "value": "你知道嗎，如果你關掉燈並低聲念 3 次“OptiFine”，你就會損失 20fps。"
+      },
+      {
+        "key": "now compatible with Minecraft!",
+        "value": "現在相容 Minecraft！"
+      },
+      {
+        "key": "now available for Terraria!",
+        "value": "現已登陸 Terraria！"
+      },
+      {
+        "key": "OptiFine's weirder younger half-brother that runs around making train noises.",
+        "value": "OptiFine 那個更古怪的弟弟，四處跑來跑去模仿火車聲音。"
+      },
+      {
+        "key": "did you know this mod was made because I missed the glowing drowned textures in the Fresh animations addons.",
+        "value": "你知道嗎，這個模組誕生的原因是我懷念 Fresh animations addons 裡會發光的溺屍紋理。"
+      },
+      {
+        "key": "0% Opti, 100% Fine.",
+        "value": "0% Opti，100% 正常。"
+      },
+      {
+        "key": "Curse you Perry the Platypus!",
+        "value": "詛咒你，派瑞鴨嘴獸！"
+      },
+      {
+        "key": "Lisa needs braces.",
+        "value": "麗薩需要牙套。"
+      },
+      {
+        "key": "Paranormal ResourcePacktivity.",
+        "value": "超自然資源包活動。"
+      },
+      {
+        "key": "Has Anyone Really Been Far Even as Decided to Use Even Go Want to do Look More Like?",
+        "value": "真的有人遠到甚至決定使用甚至去想要做看起來更像嗎？"
+      }
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "sort_order": "0",
+  "requirements": [
+    {
+      "type": "questlog:visit_dimension",
+      "dimension": "minecraft:overworld",
+      "required_amount": 1
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:read"
+    }
+  ],
+  "rewards": [],
+  "title": "生存主義者筆記 - 卷。 1",
+  "description": "- 請記住，太陽從東方升起，從西方落下。\n\n- 大多數旅行者長途跋涉穿過河邊以避免迷路。它還使得透過帶有箱子的船運輸物品變得更容易。\n\n- [馬](任務:任務日誌:nftsmounts)是你在這片土地上航行的首選方式。\n\n- 要在河流中航行，可以製作一艘[划艇](quest:questlog:nftsrowboat)，使其變得微不足道。\n\n- 要在海洋中航行，可以製作一艘[單桅帆船](quest:questlog:nftssloop)。\n\n- 乘坐單桅帆船在海上航行可能需要一些技巧，因為需要依靠風向來航行。\n\n- 可以製作導航工具；其中包括[磁羅盤](quest:questlog:nftscompass)，它指向北方並可以告訴坐標，以及[地圖集](quest:questlog:nftsmapping)，它可以幫助您繪製區域。其他工具也很有幫助，例如恢復指南針，它可以幫助您找到死亡地點。",
+  "icon": {
+    "item": "supplementaries:globe"
+  },
+  "left_panel_width": 275,
+  "right_panel_width": 170,
+  "panel_height": 233,
+  "background_texture": "questlog:textures/gui/quest_page.png",
+  "toast_on_complete": false,
+  "toast_on_unlock": false
+}

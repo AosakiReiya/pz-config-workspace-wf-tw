@@ -1,0 +1,70 @@
+[
+  {
+    "name": "collective_zh_tw",
+    "desc": "collective-1.20.1-8.22.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "collective-1.20.1-8.22.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.natamus.collective_common_fabric.cmds.CommandCollective"
+    ],
+    "pairs": [
+      {
+        "key": "Collective Admin Usage:",
+        "value": "收集* 管理員用法："
+      },
+      {
+        "key": "The player head cache has successfully been reset.",
+        "value": "玩家頭顱快取已成功重置。"
+      },
+      {
+        "key": "     Resets Collective's cached player head data, to for example update skins.",
+        "value": "重置 Collective 快取的玩家頭顱資料，例如用於更新皮膚。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.natamus.collective_common_forge.cmds.CommandCollective"
+    ],
+    "pairs": [
+      {
+        "key": "Collective Admin Usage:",
+        "value": "收集* 管理員用法："
+      },
+      {
+        "key": "The player head cache has successfully been reset.",
+        "value": "玩家頭顱快取已成功重置。"
+      },
+      {
+        "key": "     Resets Collective's cached player head data, to for example update skins.",
+        "value": "重置 Collective 快取的玩家頭顱資料，例如用於更新皮膚。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.natamus.collective_common_fabric.functions.CommandFunctions$1"
+    ],
+    "pairs": [
+      {
+        "key": "Executing command block",
+        "value": "正在執行命令方塊"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.natamus.collective_common_forge.functions.CommandFunctions$1"
+    ],
+    "pairs": [
+      {
+        "key": "Executing command block",
+        "value": "正在執行命令方塊"
+      }
+    ]
+  }
+]

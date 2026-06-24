@@ -1,0 +1,21 @@
+[
+  {
+    "name": "puzzleslib_zh_tw",
+    "desc": "PuzzlesLib-v8.1.33-1.20.1-Forge.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "fuzs.puzzleslib.impl.item.CreativeModeTabConfiguratorImpl"
+    ],
+    "pairs": [
+      {
+        "key": "icons is empty",
+        "value": "圖示為空"
+      }
+    ]
+  }
+]

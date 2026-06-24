@@ -1,0 +1,25 @@
+[
+  {
+    "name": "modulation_zh_tw",
+    "desc": "modulation-forge-1.20.1-1.5.0.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "modulation-forge-1.20.1-1.5.0.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.evandev.modulation.items.ZiplineStaffItem"
+    ],
+    "pairs": [
+      {
+        "key": "Zipline Mode",
+        "value": "滑索模式"
+      },
+      {
+        "key": "Shift + Right-Click to switch to Placement Mode",
+        "value": "Shift + 右鍵點選以切換至放置模式"
+      }
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "minecells:prison_doorway",
+            "minecells:promenade_doorway",
+            "minecells:ramparts_doorway",
+            "minecells:insufferable_crypt_doorway",
+            "minecells:black_bridge_doorway",
+            "minecells:assassins_dagger",
+            "minecells:blood_sword",
+            "minecells:broadsword",
+            "minecells:balanced_blade",
+            "minecells:crowbar",
+            "minecells:nutcracker",
+            "minecells:frost_blast",
+            "minecells:spite_sword",
+            "minecells:flint",
+            "minecells:phaser",
+            "minecells:multiple_nocks_bow",
+            "minecells:bow_and_endless_quiver",
+            "minecells:marksmans_bow",
+            "minecells:infantry_bow",
+            "minecells:quick_bow",
+            "minecells:nerves_of_steel",
+            "minecells:heavy_crossbow",
+            "minecells:lightning_bolt",
+            "minecells:cudgel",
+            "minecells:rampart",
+            "minecells:assault_shield",
+            "minecells:bloodthirsty_shield",
+            "minecells:greed_shield",
+            "minecells:ice_shield"
+        ]
+    }
+]

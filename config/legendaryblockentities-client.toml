@@ -1,0 +1,12 @@
+
+#Toggle which block entities to optimize. Changes require restart.
+[optimizations]
+	#Optimize chests, trapped chests, and ender chests.
+	chests = true
+	#Optimize all 16 bed colors.
+	beds = true
+	#Optimize bells.
+	bells = true
+	#Optimize all shulker box variants (17 colors).
+	shulker_boxes = true
+

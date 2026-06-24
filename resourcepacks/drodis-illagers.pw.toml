@@ -1,0 +1,13 @@
+name = "Drodi's Illagers"
+filename = "§4Drodi's Illagers [v5.3.2].zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a554171dd60e61ff2d9fd5261a8855d44d95d4e4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7224938
+project-id = 1176713

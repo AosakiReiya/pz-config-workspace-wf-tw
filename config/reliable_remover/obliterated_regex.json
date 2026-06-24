@@ -1,0 +1,230 @@
+[
+    {
+        "action": "remove",
+        "pattern": "/spartanweaponry:.*bolt/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/spartanweaponry:.*longbow/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/spartanweaponry:.*crossbow/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/spartanweaponry:.*quiver/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/spartanweaponry:.*quiver_brace/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/bbb:.*_ladder/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/bbb:.*_support/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/magistuarmory:diamond_.*/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/magistuarmory:silver_.*/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/magistuarmory:netherite_.*/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/magistuarmory:tin_.*/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/magistuarmory:bronze_.*/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/magistuarmory:stone_.*/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/magistuarmory:copper_.*/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/twigs:polished_tuff_.*/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/twigs:polished_tuff_brick_.*/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/twigs:cobblestone_brick_.*/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/twigs:mossy_cobblestone_brick_.*/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/twigs:.*_table/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/upgrade_aquatic:.*_bedroll/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/spartanweaponry:.*_arrow/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/spartanweaponry:copper_.*/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/spartanweaponry:tipped_.*/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/spartanweaponry:.*_quarterstaff/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/spartanweaponry:tin_.*/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/spartanweaponry:bronze_.*/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/spartanweaponry:silver_.*/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/spartanweaponry:electrum_.*/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/spartanweaponry:lead_.*/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/spartanweaponry:nickel_.*/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/spartanweaponry:invar_.*/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/spartanweaponry:constantan_.*/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/spartanweaponry:platinum_.*/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/spartanweaponry:aluminum_.*/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/bbb:.*_layer/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/hearth_and_home:.*_terracotta_bricks/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/hearth_and_home:.*_terracotta_brick_stairs/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/hearth_and_home:.*_terracotta_brick_slab/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/.*boat.*/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/.*boomerang.*/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/minecraft:.*_raft/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/hearth_and_home:.*_trim/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/sewingkit:.*_needle/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/sewingkit:leather_.*/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/sewingkit:wool_.*/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/sewingkit:.*_pattern/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/environmental:pine_.*/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/environmental:.*_pine_.*/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/environmental:cattail_.*/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/environmental:.*_hibiscus/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/.*:.*_trim_smithing_template/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/archeryexp:.*_arrow/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/backpacked:.*/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/create:.*/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/suppsquared:.*_shelf_.*/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/storagedrawers:.*upgrade.*/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/storagedrawers:.*key.*/"
+    }
+]

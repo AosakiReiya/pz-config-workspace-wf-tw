@@ -1,0 +1,30 @@
+
+[ShieldList]
+	#
+	#List of items to considered as shields, any item with right-click functionality will theoretically work
+	#Automatically populated with items that have parrying stats set by active datapacks
+	shieldList = ["legendary_monsters:spiky_shield", "shieldexp:wooden_shield", "shieldexp:griefer_shield", "shieldexp:iron_shield", "shieldexp:netherite_shield", "legendary_monsters:frostbitten_shield", "alexsmobs:shield_of_the_deep", "minecraft:shield", "legendary_monsters:dinosaur_bone_shield", "legendary_monsters:shulker_shield", "shieldexp:golden_shield", "shieldexp:diamond_shield", "artifacts:umbrella", "magistuarmory:gold_roundshield", "magistuarmory:wood_roundshield", "magistuarmory:steel_ellipticalshield", "magistuarmory:iron_roundshield", "magistuarmory:steel_buckler", "magistuarmory:wood_buckler", "magistuarmory:wood_heatershield", "magistuarmory:gold_kiteshield", "magistuarmory:iron_buckler", "magistuarmory:iron_tartsche", "magistuarmory:wood_tartsche", "magistuarmory:steel_kiteshield", "magistuarmory:gold_rondache", "magistuarmory:iron_pavese", "magistuarmory:wood_target", "magistuarmory:steel_rondache", "magistuarmory:gold_heatershield", "magistuarmory:iron_target", "magistuarmory:steel_tartsche", "magistuarmory:iron_ellipticalshield", "magistuarmory:steel_pavese", "magistuarmory:wood_pavese", "magistuarmory:gold_buckler", "magistuarmory:gold_tartsche", "magistuarmory:gold_pavese", "magistuarmory:steel_roundshield", "magistuarmory:iron_rondache", "magistuarmory:gold_target", "magistuarmory:wood_rondache", "magistuarmory:iron_heatershield", "magistuarmory:steel_heatershield", "magistuarmory:gold_ellipticalshield", "magistuarmory:wood_ellipticalshield", "magistuarmory:wood_kiteshield", "magistuarmory:iron_kiteshield", "magistuarmory:steel_target", "cataclysm:black_steel_targe", "cataclysm:azure_sea_shield", "cataclysm:bulwark_of_the_flame", "shieldexp:paragon_shield"]
+	#
+	#List of items to not consider as shields, even if they have stats set by a datapack
+	shieldBlacklist = []
+
+[Modifiers]
+	#
+	#Disable the cooldown when the player lowers their shield
+	noLoweringCooldown = false
+	#
+	#Disable putting shields on cooldown at all
+	noCooldown = false
+	#
+	#Make all shields have vanilla movement speed
+	noSpeedModifier = false
+	#
+	#Make shields only block partial damage from explosions when not parrying
+	harderExplosions = true
+	#
+	#Double the parry window for a more relaxed experience
+	lenientParryMode = false
+	#
+	#Double the shield stamina for a more relaxed experience
+	lenientStaminaMode = false
+

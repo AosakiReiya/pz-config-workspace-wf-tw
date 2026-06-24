@@ -1,0 +1,29 @@
+{
+  "chapter": "tkb",
+  "sort_order": "0",
+  "requirements": [
+    {
+      "type": "questlog:advancement",
+      "advancement": "fantasia_quests:new_arrival/phase_1/time_to_mine"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "clayworks:kiln",
+      "required_amount": 1
+    }
+  ],
+  "rewards": [],
+  "title": "I - 冶煉廠基礎知識",
+  "description": "要開始鐵匠之旅，您可以從鍛造銅工具開始。由於與鐵或鋼等其他材料相比，它的熔點較低，因此可以在[窯](image:questlog:textures/gui/popups/popup_tkb_kiln.png:125:62)中熔煉。\n\n錠也可以在窯中加熱，然後進行加工。然而，人們可以製作[火鉗](image:questlog:textures/gui/popups/popup_tkb_tongs.png:125:62:3:800)來防止在處理熱材料時燙傷自己。\n\n[石砧](image:questlog:textures/gui/popups/popup_stone_anvil.png:174:141)可以用史密斯錘在石塊上執行§l[SHIFT]+[RMB]§r來製作。原始的鉗子可以透過組合兩根棍子來製成。\n\n像鐵之類的東西由於熔點較高，無法在窯中熔煉。相反，你需要製作一個叫做[合金爐](quest:questlog:tkballoy)的東西。",
+  "icon": {
+    "item": "clayworks:kiln"
+  },
+  "left_panel_width": 275,
+  "right_panel_width": 170,
+  "panel_height": 200,
+  "background_texture": "questlog:textures/gui/quest_page.png",
+  "toast_on_complete": false,
+  "triggered_sound": "minecraft:block.note_block.bell"
+}

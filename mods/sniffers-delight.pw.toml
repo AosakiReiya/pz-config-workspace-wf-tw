@@ -1,0 +1,13 @@
+name = "Sniffer's Delight"
+filename = "sniffers_delight-1.0.3-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b5cd9dd93db98f09c47d0bfcffdaefbd2f0efacc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6357220
+project-id = 1230222

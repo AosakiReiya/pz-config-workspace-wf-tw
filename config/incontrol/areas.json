@@ -1,0 +1,13 @@
+[
+  {
+    "dimension": "minecraft:the_end",
+    "name": "main_end_island",
+    "type": "box",
+    "x": 0,
+    "y": 100,
+    "z": 0,
+    "dimx": 500,
+    "dimy": 50,
+    "dimz": 500
+  }
+]

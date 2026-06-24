@@ -1,0 +1,13 @@
+name = "Midnight Thoughts"
+filename = "mthoughts-1.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5fa7088d658c14c14f02bef68c68b2f2f6236efd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8031902
+project-id = 1401318

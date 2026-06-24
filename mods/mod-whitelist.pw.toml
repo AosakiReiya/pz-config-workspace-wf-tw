@@ -1,0 +1,13 @@
+name = "Mod Whitelist"
+filename = "mod_whitelist-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "65096f7689e893a2a26222c9c2a96791bd554bfa"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4971494
+project-id = 949096

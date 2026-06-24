@@ -1,0 +1,13 @@
+name = "Neko's Dragon Blazes"
+filename = "Neko's Dragon Blazes.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b32a7408a1f1c4d738bfbd320cadd984b4dad07d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7518412
+project-id = 1442957

@@ -1,0 +1,105 @@
+[
+  {
+    "name": "questlog_zh_tw",
+    "desc": "questlog-forge-1.20.1-2.3.1.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "questlog-forge-1.20.1-2.3.1.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "org.infernalstudios.questlog.commands.QuestlogCommands"
+    ],
+    "pairs": [
+      {
+        "key": "Opened Questlog UI for ",
+        "value": "已開啟任務日誌介面，目標為 "
+      },
+      {
+        "key": "Edit mode for ",
+        "value": "為 {0} 編輯模式"
+      },
+      {
+        "key": "No quests found or able to be triggered for target: ",
+        "value": "未找到可觸發的目標任務："
+      },
+      {
+        "key": "Successfully triggered ",
+        "value": "成功觸發 "
+      },
+      {
+        "key": "No quests found for target: ",
+        "value": "未找到目標的任務："
+      },
+      {
+        "key": "Successfully reset all quest progress for ",
+        "value": "已成功重置所有任務進度，目標為 "
+      },
+      {
+        "key": "Successfully completed all quests for ",
+        "value": "已成功完成所有任務，目標為 "
+      },
+      {
+        "key": "Successfully completed all quests for ",
+        "value": "已成功完成"
+      },
+      {
+        "key": " player(s).",
+        "value": "名玩家的所有任務。"
+      },
+      {
+        "key": "Successfully reset all quest progress for ",
+        "value": "已成功重置"
+      },
+      {
+        "key": " player(s).",
+        "value": "名玩家的所有任務進度。"
+      },
+      {
+        "key": "\u0001 progress for \u0001 quests across \u0001 player(s).",
+        "value": "\u0001個任務在\u0001名玩家中的進度。"
+      },
+      {
+        "key": "Successfully triggered ",
+        "value": "已成功觸發"
+      },
+      {
+        "key": " quests across ",
+        "value": "個任務，涉及"
+      },
+      {
+        "key": " player(s).",
+        "value": "名玩家。"
+      },
+      {
+        "key": "Edit mode for ",
+        "value": "已將"
+      },
+      {
+        "key": " set to ",
+        "value": "的編輯模式設為"
+      },
+      {
+        "key": "Opened Questlog UI for ",
+        "value": "已為"
+      },
+      {
+        "key": " player(s)",
+        "value": "名玩家開啟任務日誌介面"
+      },
+      {
+        "key": "Reloaded ",
+        "value": "已從配置中過載"
+      },
+      {
+        "key": " quests and ",
+        "value": "個任務和"
+      },
+      {
+        "key": " chapters from config.",
+        "value": "個章節。"
+      }
+    ]
+  }
+]

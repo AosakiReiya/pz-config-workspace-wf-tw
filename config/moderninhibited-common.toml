@@ -1,0 +1,6 @@
+
+[ModernInhibited]
+	validStructures = ["minecraft:stronghold"]
+	showEffectIcon = false
+	showEffectParticle = false
+

@@ -1,0 +1,76 @@
+[
+  {
+    "name": "polytone_zh_tw",
+    "desc": "polytone-1.20-3.5.26.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "polytone-1.20-3.5.26.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "net.mehvahdjukaar.polytone.block.IRenderProperties"
+    ],
+    "pairs": [
+      {
+        "key": "Tried to serialize non serializable render type: ",
+        "value": "嘗試序列化不可序列化的渲染型別："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.mehvahdjukaar.polytone.slotify.GuiModifier"
+    ],
+    "pairs": [
+      {
+        "key": "Slot modifiers cannot alter position when using a screen_class or screen_title target_type. Use menu_id or menu_class instead",
+        "value": "使用 screen_class 或 screen_title target_type 時，槽位修飾符無法更改位置。請改用 menu_id 或 menu_class。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.mehvahdjukaar.polytone.slotify.WidgetModifier"
+    ],
+    "pairs": [
+      {
+        "key": "Widget modifier must have at least one target",
+        "value": "控制元件修改器必須至少有一個目標"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.mehvahdjukaar.polytone.tabs.CreativeTabModifier"
+    ],
+    "pairs": [
+      {
+        "key": "Modifiers that register new creative tabs cannot have item removals or target existing tabs.",
+        "value": "註冊新創造模式標籤的修改器不能移除物品，也不能以現有標籤為目標。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.mehvahdjukaar.polytone.utils.Targets"
+    ],
+    "pairs": [
+      {
+        "key": "Failed to parse some target(s) for polytone file ",
+        "value": "解析 polytone 檔案 "
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.mehvahdjukaar.polytone.utils.Targets$TagLocation"
+    ],
+    "pairs": [
+      {
+        "key": "Tag location must start with #",
+        "value": "標籤位置必須以 # 開頭"
+      }
+    ]
+  }
+]

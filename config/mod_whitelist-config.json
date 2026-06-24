@@ -1,0 +1,21 @@
+{
+	"USE_WHITELIST_ONLY": false,
+	"CLIENT_MOD_NECESSARY": [
+		"mod_whitelist"
+	],
+	"CLIENT_MOD_WHITELIST": [
+		"forge",
+		"minecraft",
+		"mod_whitelist"
+	],
+	"CLIENT_MOD_BLACKLIST": [
+		"aristois",
+		"bleachhack",
+		"meteor-client",
+		"wurst",
+		"blazemap",
+		"journeymap",
+		"xaerominimap",
+		"xaeroworldmap"
+	]
+}

@@ -1,0 +1,13 @@
+name = "waccyy's Fantasia Taiwanese Translate"
+author = "AosakiReiya"
+version = "Beta 11.9"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "a6c62fffdb39e7a68855779a3e4885f39fedc4064763b9986a4bac120a372e17"
+
+[versions]
+forge = "47.4.10"
+minecraft = "1.20.1"

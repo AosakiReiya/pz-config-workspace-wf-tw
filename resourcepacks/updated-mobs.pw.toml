@@ -1,0 +1,13 @@
+name = "Updated Mobs"
+filename = "Updated Mobs v.1.1.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "becb6942b06a45c183ec6112b003d881eae938d5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6030916
+project-id = 1144335

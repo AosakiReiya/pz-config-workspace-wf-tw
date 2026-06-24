@@ -1,0 +1,65 @@
+[
+  {
+    "name": "modernfix_zh_tw",
+    "desc": "modernfix-forge-5.27.40+mc1.20.1.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "modernfix-forge-5.27.40+mc1.20.1.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "org.embeddedt.modernfix.command.ModernFixCommands"
+    ],
+    "pairs": [
+      {
+        "key": "Couldn't find server level",
+        "value": "找不到伺服器世界"
+      },
+      {
+        "key": "All structures upgraded",
+        "value": "所有結構已升級"
+      },
+      {
+        "key": "mcfunction runtime breakdown:",
+        "value": "mcfunction 執行時明細："
+      },
+      {
+        "key": "ModernFix mcfunction profiling is not enabled on this server.",
+        "value": "此伺服器未啟用 ModernFix mcfunction 效能分析。"
+      },
+      {
+        "key": "error reading ",
+        "value": "讀取錯誤 "
+      },
+      {
+        "key": "checked ",
+        "value": "已檢查"
+      },
+      {
+        "key": " (",
+        "value": "（"
+      },
+      {
+        "key": ")",
+        "value": "）"
+      },
+      {
+        "key": "Couldn't upgrade structure ",
+        "value": "無法升級結構"
+      },
+      {
+        "key": "error reading ",
+        "value": "讀取 "
+      },
+      {
+        "key": " (",
+        "value": " 時出錯（"
+      },
+      {
+        "key": ")",
+        "value": "）"
+      }
+    ]
+  }
+]

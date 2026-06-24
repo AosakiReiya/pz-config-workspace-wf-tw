@@ -1,0 +1,26 @@
+{
+  "requirements": [
+    {
+      "type": "questlog:visit_biome",
+      "biome": "minecraft:river",
+      "required_amount": 1
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:read"
+    }
+  ],
+  "rewards": [],
+  "title": "划艇",
+  "description": "要製造一艘船，您需要製造造船者的鷹架，它用作船隻的框架。\n\n划艇的製作方式是[像這樣](image:questlog:textures/gui/popups/popup_rowboat.png:125:125)，中間有兩個槳鎖。\n\n對於划艇，您需要\n- 6 傾斜造船工的鷹架\n- 2 個槳架\n- 您選擇的 24 塊木板。\n\n您可能還需要製作兩支槳才能航行。\n\n[功能塊](image:questlog:textures/gui/popups/popup_compartment_1.png:125:125)可以放置在船上。",
+  "icon": {
+    "item": "alekiships:oar"
+  },
+  "background_texture": "questlog:textures/gui/quest_page.png",
+  "left_panel_width": 275,
+  "panel_height": 200,
+  "chapter": "nfts",
+  "toast_on_complete": false,
+  "triggered_sound": "minecraft:block.note_block.bell"
+}

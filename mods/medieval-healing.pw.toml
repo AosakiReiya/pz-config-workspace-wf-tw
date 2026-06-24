@@ -1,0 +1,13 @@
+name = "Medieval Healing"
+filename = "medieval_healing-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d8a2a31373a850458dd6b545e6d8356fe0fba71e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6217857
+project-id = 1031876

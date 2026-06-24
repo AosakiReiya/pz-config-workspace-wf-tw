@@ -1,0 +1,84 @@
+[
+  {
+    "name": "owo_zh_tw",
+    "desc": "owo-lib-0.11.2+1.20.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "owo-lib-0.11.2+1.20.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "io.wispforest.owo.renderdoc.RenderdocScreen"
+    ],
+    "pairs": [
+      {
+        "key": "RenderDoc Controls",
+        "value": "RenderDoc控制"
+      },
+      {
+        "key": "Capture Hotkey",
+        "value": "捕獲熱鍵"
+      },
+      {
+        "key": "Press...",
+        "value": "按下..."
+      },
+      {
+        "key": "Enabled",
+        "value": "已啟用"
+      },
+      {
+        "key": "Capture List",
+        "value": "捕獲列表"
+      },
+      {
+        "key": "Frame Rate",
+        "value": "幀率"
+      },
+      {
+        "key": "Frame Number",
+        "value": "幀數"
+      },
+      {
+        "key": "Launch UI",
+        "value": "啟動介面"
+      },
+      {
+        "key": "Capture Frame",
+        "value": "捕獲幀"
+      },
+      {
+        "key": "Captures: §",
+        "value": "已捕獲：§"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "io.wispforest.owo.ui.util.UIErrorToast"
+    ],
+    "pairs": [
+      {
+        "key": "Type: ",
+        "value": "型別："
+      },
+      {
+        "key": "Thrown by: ",
+        "value": "投擲者："
+      },
+      {
+        "key": "No context provided",
+        "value": "未提供上下文"
+      },
+      {
+        "key": "owo-ui error",
+        "value": "owo-ui 錯誤"
+      },
+      {
+        "key": "Check your log for details",
+        "value": "檢視日誌瞭解詳情"
+      }
+    ]
+  }
+]

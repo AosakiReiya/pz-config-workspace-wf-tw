@@ -1,0 +1,30 @@
+{
+  "chapter": "asof",
+  "sort_order": "4",
+  "include_in_main": true,
+  "requirements": [
+    {
+      "type": "questlog:advancement",
+      "advancement": "fantasia_quests:song_of_fantasia/phase_1/1_imperial_guardian"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:visit_dimension",
+      "dimension": "fantasia_hall:decimus",
+      "required_amount": 1,
+      "name": "使用水晶前往大廳"
+    }
+  ],
+  "rewards": [],
+  "title": "第二章 德西姆斯大廳",
+  "description": "「德西姆斯大廳；對你來說，是一個安全的避風港，對某些人來說，是一個家。\n\n大廳有古老的禁區保護，拒絕不懷好意的人。在這個新發現的安全港的圍牆內，您可以期待找到一兩個朋友，以及一些願意向您出售商品的好心人。除此之外，有些人在這裡待的時間比其他人長。他們或許能夠回答您提出的一些此處未解答的問題。 」",
+  "icon": {
+    "item": "bbb:stone_column"
+  },
+  "left_panel_width": 275,
+  "right_panel_width": 170,
+  "panel_height": 233,
+  "background_texture": "questlog:textures/gui/quest_page.png",
+  "toast_on_complete": false
+}

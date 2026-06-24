@@ -1,0 +1,13 @@
+name = "nebulus tree's"
+filename = "nebulus_trees-1.0.0-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a07198f01f572bcf5a6e2fa541324dd4a9f8e1c9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6474809
+project-id = 1254275

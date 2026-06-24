@@ -1,0 +1,13 @@
+name = "Modern Inhibited"
+filename = "moderninhibited-1.20.1-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9e69965ee01fe1b6c4fd6c2ab07c04b46b0b541c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4872062
+project-id = 881733

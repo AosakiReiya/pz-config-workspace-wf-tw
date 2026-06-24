@@ -1,0 +1,13 @@
+name = "Obscure API Modification"
+filename = "obscure_api_modification-1.20.1-1.1.1-all.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8012467bd15b5c312e45ba706c72ad316d48e278"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7198938
+project-id = 1115992

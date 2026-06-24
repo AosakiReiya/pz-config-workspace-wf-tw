@@ -1,0 +1,13 @@
+name = "Simple Kite Shield"
+filename = "KiteShieldTexturePack.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "dccafd607a61f4dcbafe9eb6175b35d4f6820c55"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6260684
+project-id = 1212599

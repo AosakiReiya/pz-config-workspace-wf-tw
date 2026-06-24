@@ -1,0 +1,32 @@
+[
+  {
+    "name": "quark_zh_tw",
+    "desc": "Quark-4.0-462.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "Quark-4.0-462.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "org.violetmoon.quark.addons.oddities.block.MagnetBlock"
+    ],
+    "pairs": [
+      {
+        "key": "haha yes",
+        "value": "哈哈是的"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "org.violetmoon.quark.content.tools.item.SeedPouchItem"
+    ],
+    "pairs": [
+      {
+        "key": "The inventory you are trying to insert into is full...",
+        "value": "你嘗試插入的容器已滿……"
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "chapter": "tkb",
+  "sort_order": "3",
+  "requirements": [
+    {
+      "type": "questlog:advancement",
+      "advancement": "fantasia_quests:age_of_advancement/phase_1/in_bloom"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:read"
+    }
+  ],
+  "rewards": [],
+  "title": "IV - 煉鐵廠",
+  "description": "最終，您需要升級您的工具；史密斯錘是最重要的。它用在鍛造砧上，可以透過在砧上執行§l[SHIFT]+[RMB]§r來製作工具頭。\n\n高爐可用於加熱要在砧上加工的鋼錠。如果一個人加熱了一塊錠並且不打算對其進行加工，他們可能會用大鍋或水源將其冷卻。",
+  "icon": {
+    "item": "overgeared:smithing_hammer"
+  },
+  "left_panel_width": 275,
+  "right_panel_width": 170,
+  "panel_height": 200,
+  "background_texture": "questlog:textures/gui/quest_page.png",
+  "toast_on_complete": false
+}

@@ -1,0 +1,138 @@
+[
+  {
+    "name": "mca_zh_tw",
+    "desc": "minecraft-comes-alive-7.6.16+1.20.1-universal.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "minecraft-comes-alive-7.6.16+1.20.1-universal.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "fabric.net.mca.client.gui.InteractScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Genes",
+        "value": "基因"
+      },
+      {
+        "key": "analysis.",
+        "value": "分析。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "fabric.net.mca.client.gui.SkinLibraryScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Toggle invalid",
+        "value": "切換無效"
+      },
+      {
+        "key": "Counter Report",
+        "value": "計數器報告"
+      },
+      {
+        "key": "Unexpected value: ",
+        "value": "意外的值："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "fabric.net.mca.entity.ai.chatAI.OpenAIChatAI"
+    ],
+    "pairs": [
+      {
+        "key": "Invalid model!",
+        "value": "無效的模型！"
+      },
+      {
+        "key": "Bearer ",
+        "value": "持有者 "
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "forge.net.mca.client.gui.InteractScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Genes",
+        "value": "基因"
+      },
+      {
+        "key": "analysis.",
+        "value": "分析。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "forge.net.mca.entity.ai.chatAI.OpenAIChatAI"
+    ],
+    "pairs": [
+      {
+        "key": "Invalid model!",
+        "value": "無效的模型！"
+      },
+      {
+        "key": "Bearer ",
+        "value": "持有者 "
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "quilt.net.mca.client.gui.InteractScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Genes",
+        "value": "基因"
+      },
+      {
+        "key": "analysis.",
+        "value": "分析。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "quilt.net.mca.client.gui.SkinLibraryScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Toggle invalid",
+        "value": "切換無效"
+      },
+      {
+        "key": "Counter Report",
+        "value": "計數器報告"
+      },
+      {
+        "key": "Unexpected value: ",
+        "value": "意外的值："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "quilt.net.mca.entity.ai.chatAI.OpenAIChatAI"
+    ],
+    "pairs": [
+      {
+        "key": "Invalid model!",
+        "value": "無效的模型！"
+      },
+      {
+        "key": "Bearer ",
+        "value": "持有者 "
+      }
+    ]
+  }
+]

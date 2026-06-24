@@ -1,0 +1,105 @@
+ServerEvents.recipes((event) => {
+    event.remove({ id: 'irons_spellbooks:wizard_chestplate' }),
+        event.remove({ id: 'irons_spellbooks:wizard_helmet_hood' }),
+        event.remove({ id: 'irons_spellbooks:wizard_leggings' }),
+        event.remove({ id: 'irons_spellbooks:wizard_boots' }),
+        event.remove({ id: 'irons_spellbooks:wizard_helmet_hat' }),
+        // removing pyromancer armor recipes
+        event.remove({ id: 'irons_spellbooks:pyromancer_chestplate_crafting' }),
+        event.remove({ id: 'irons_spellbooks:pyromancer_helmet_crafting' }),
+        event.remove({ id: 'irons_spellbooks:pyromancer_leggings_crafting' }),
+        event.remove({ id: 'irons_spellbooks:pyromancer_boots_crafting' }),
+        event.remove({ id: 'irons_spellbooks:pyromancer_chestplate_smithing' }),
+        event.remove({ id: 'irons_spellbooks:pyromancer_helmet_smithing' }),
+        event.remove({ id: 'irons_spellbooks:pyromancer_leggings_smithing' }),
+        event.remove({ id: 'irons_spellbooks:pyromancer_boots_smithing' }),
+        // removing electromancer armor recipes
+        event.remove({ id: 'irons_spellbooks:electromancer_chestplate_crafting' }),
+        event.remove({ id: 'irons_spellbooks:electromancer_helmet_crafting' }),
+        event.remove({ id: 'irons_spellbooks:electromancer_leggings_crafting' }),
+        event.remove({ id: 'irons_spellbooks:electromancer_boots_crafting' }),
+        event.remove({ id: 'irons_spellbooks:electromancer_chestplate_smithing' }),
+        event.remove({ id: 'irons_spellbooks:electromancer_helmet_smithing' }),
+        event.remove({ id: 'irons_spellbooks:electromancer_leggings_smithing' }),
+        event.remove({ id: 'irons_spellbooks:electromancer_boots_smithing' }),
+        // removing archevoker armor recipes
+        event.remove({ id: 'irons_spellbooks:archevoker_chestplate_crafting' }),
+        event.remove({ id: 'irons_spellbooks:archevoker_helmet_crafting' }),
+        event.remove({ id: 'irons_spellbooks:archevoker_leggings_crafting' }),
+        event.remove({ id: 'irons_spellbooks:archevoker_boots_crafting' }),
+        event.remove({ id: 'irons_spellbooks:archevoker_chestplate_smithing' }),
+        event.remove({ id: 'irons_spellbooks:archevoker_helmet_smithing' }),
+        event.remove({ id: 'irons_spellbooks:archevoker_leggings_smithing' }),
+        event.remove({ id: 'irons_spellbooks:archevoker_boots_smithing' });
+        // removing cultist armor recipes
+        event.remove({ id: 'irons_spellbooks:cultist_chestplate_crafting' }),
+        event.remove({ id: 'irons_spellbooks:cultist_helmet_crafting' }),
+        event.remove({ id: 'irons_spellbooks:cultist_leggings_crafting' }),
+        event.remove({ id: 'irons_spellbooks:cultist_boots_crafting' }),
+        event.remove({ id: 'irons_spellbooks:cultist_chestplate_smithing' }),
+        event.remove({ id: 'irons_spellbooks:cultist_helmet_smithing' }),
+        event.remove({ id: 'irons_spellbooks:cultist_leggings_smithing' }),
+        event.remove({ id: 'irons_spellbooks:cultist_boots_smithing' });
+        // removing cryomancer armor recipes
+        event.remove({ id: 'irons_spellbooks:cryomancer_chestplate_crafting' }),
+        event.remove({ id: 'irons_spellbooks:cryomancer_helmet_crafting' }),
+        event.remove({ id: 'irons_spellbooks:cryomancer_leggings_crafting' }),
+        event.remove({ id: 'irons_spellbooks:cryomancer_boots_crafting' }),
+        event.remove({ id: 'irons_spellbooks:cryomancer_chestplate_smithing' }),
+        event.remove({ id: 'irons_spellbooks:cryomancer_helmet_smithing' }),
+        event.remove({ id: 'irons_spellbooks:cryomancer_leggings_smithing' }),
+        event.remove({ id: 'irons_spellbooks:cryomancer_boots_smithing' });
+        //removing shadowwalker armor recipes
+        event.remove({ id: 'irons_spellbooks:shadowwalker_chestplate_crafting' }),
+        event.remove({ id: 'irons_spellbooks:shadowwalker_helmet_crafting' }),
+        event.remove({ id: 'irons_spellbooks:shadowwalker_leggings_crafting' }),
+        event.remove({ id: 'irons_spellbooks:shadowwalker_boots_crafting' }),
+        event.remove({ id: 'irons_spellbooks:shadowwalker_chestplate_smithing' }),
+        event.remove({ id: 'irons_spellbooks:shadowwalker_helmet_smithing' }),
+        event.remove({ id: 'irons_spellbooks:shadowwalker_leggings_smithing' }),
+        event.remove({ id: 'irons_spellbooks:shadowwalker_boots_smithing' });
+        //removing priest armor recipes
+        event.remove({ id: 'irons_spellbooks:priest_chestplate_crafting' }),
+        event.remove({ id: 'irons_spellbooks:priest_helmet_crafting' }),
+        event.remove({ id: 'irons_spellbooks:priest_leggings_crafting' }),
+        event.remove({ id: 'irons_spellbooks:priest_boots_crafting' }),
+        event.remove({ id: 'irons_spellbooks:priest_chestplate_smithing' }),
+        event.remove({ id: 'irons_spellbooks:priest_helmet_smithing' }),
+        event.remove({ id: 'irons_spellbooks:priest_leggings_smithing' }),
+        event.remove({ id: 'irons_spellbooks:priest_boots_smithing' });
+        //removing plagued armor recipes
+        event.remove({ id: 'irons_spellbooks:plagued_chestplate_crafting' }),
+        event.remove({ id: 'irons_spellbooks:plagued_helmet_crafting' }),
+        event.remove({ id: 'irons_spellbooks:plagued_leggings_crafting' }),
+        event.remove({ id: 'irons_spellbooks:plagued_boots_crafting' }),
+        event.remove({ id: 'irons_spellbooks:plagued_chestplate_smithing' }),
+        event.remove({ id: 'irons_spellbooks:plagued_helmet_smithing' }),
+        event.remove({ id: 'irons_spellbooks:plagued_leggings_smithing' }),
+        event.remove({ id: 'irons_spellbooks:plagued_boots_smithing' });
+        //removing mithril weave recipe
+        event.remove({ id: 'irons_spellbooks:mithril_weave' });
+        //removing paladin armor recipe
+        event.remove({ id: 'irons_spellbooks:paladin_chestplate' });
+        //removing mithril ingot recipe
+        event.remove({ id: 'irons_spellbooks:mithril_ingot_from_scrap' });
+        //removing infernal sorcerer armor recipe
+        event.remove({ id: 'irons_spellbooks:infernal_sorcerer_chestplate' });
+        //removing speed boots recipe
+        event.remove({ id: 'irons_spellbooks:speed_boots' });
+        //removing boreal blade recipe
+        event.remove({ id: 'irons_spellbooks:boreal_blade' });
+        //removing twilight gale recipe
+        event.remove({ id: 'irons_spellbooks:twilight_gale' });
+        //removing spellbreaker recipe
+        event.remove({ id: 'irons_spellbooks:spellbreaker' });
+        //removing pyrium staff recipe
+        event.remove({ id: 'irons_spellbooks:pyrium_staff' });
+        //removing cooldown ring recipe
+        event.remove({ id: 'irons_spellbooks:cooldown_ring' });
+        //removing affinity ring recipe
+        event.remove({ id: 'irons_spellbooks:affinity_ring' });
+        //removing visibility ring recipe
+        event.remove({ id: 'irons_spellbooks:visibility_ring' });
+        //removing weapon parts recipe
+        event.remove({ id: 'irons_spellbooks:weapon_parts' });
+})

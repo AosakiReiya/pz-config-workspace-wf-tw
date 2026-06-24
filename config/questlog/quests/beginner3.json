@@ -1,0 +1,27 @@
+{
+  "sort_order": "2",
+  "requirements": [
+    {
+      "type": "questlog:visit_dimension",
+      "dimension": "minecraft:overworld",
+      "required_amount": 1
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:read"
+    }
+  ],
+  "rewards": [],
+  "title": "生存主義者筆記 - 卷。 3",
+  "description": "- 如果你沒有拿著任何東西，你可以攜帶某些[方塊](image:questlog:textures/gui/popups/popup_carryon_block.png:125:125)和[小動物](image:questlog:textures/gui/popups/popup_carryon_animal.png:125:125)。\n\n- [麻袋](image:questlog:textures/gui/popups/popup_sack.png:125:62) 用畫布和一條繩子製成。帆布是由成捆的稻草製成的。\n\n- [籃子](image:questlog:textures/gui/popups/popup_basket.png:125:62) 由帆布、甘蔗和成捆的棍子製成。它們對於攜帶各種食物非常有用。它還可以防止海鷗偷走它們。\n\n- 人們可以製作一些推車，例如[補給車](image:questlog:textures/gui/popups/popup_supplycart.png:125:125)，它可以提供良好的儲存空間，可以由人或坐騎移動。\n\n- 其他推車包括[動物推車](image:questlog:textures/gui/popups/popup_animalcart.png:125:125)，它可以讓一個人攜帶 2 只動物，還有犁，它對農業很有用，因為它可以用來耕種大片區域，或者用於尋路，因為它可以用來輕鬆修路。",
+  "icon": {
+    "item": "supplementaries:sack"
+  },
+  "left_panel_width": 275,
+  "right_panel_width": 170,
+  "panel_height": 233,
+  "background_texture": "questlog:textures/gui/quest_page.png",
+  "toast_on_complete": false,
+  "toast_on_unlock": false
+}

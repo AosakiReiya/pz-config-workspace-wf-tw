@@ -1,0 +1,136 @@
+[
+  {
+    "name": "connectivity_zh_tw",
+    "desc": "connectivity-1.20.1-7.6.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "connectivity-1.20.1-7.6.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.connectivity.command.IMCOPCommand"
+    ],
+    "pairs": [
+      {
+        "key": "You need to be OP for this command.",
+        "value": "你需要是 OP 才能使用此命令。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.connectivity.networkstats.NetworkStatGatherer"
+    ],
+    "pairs": [
+      {
+        "key": "next --->",
+        "value": "下一頁 --->"
+      },
+      {
+        "key": "Player not found",
+        "value": "未找到玩家"
+      },
+      {
+        "key": "Invalid name",
+        "value": "無效名稱"
+      },
+      {
+        "key": "Network players summary of last ",
+        "value": "最近的網路玩家摘要 "
+      },
+      {
+        "key": "total sent: ",
+        "value": "總髮送量："
+      },
+      {
+        "key": "Network packet summary of last ",
+        "value": "最近的網路資料包摘要 "
+      },
+      {
+        "key": "Total kb:",
+        "value": "總計 kb："
+      },
+      {
+        "key": "Network packet summary for ",
+        "value": "網路資料包摘要："
+      },
+      {
+        "key": "Network outgoing packet summary of last ",
+        "value": "最近的網路傳出資料包摘要 "
+      },
+      {
+        "key": "Printing biggest packets fitting ",
+        "value": "正在列印符合以下條件的最大數據包 "
+      },
+      {
+        "key": "Printed: ",
+        "value": "已列印："
+      },
+      {
+        "key": "Print triggered by command",
+        "value": "由命令觸發的列印"
+      },
+      {
+        "key": "Network players summary of last ",
+        "value": "最近 "
+      },
+      {
+        "key": " minutes.",
+        "value": " 分鐘的網路玩家彙總。"
+      },
+      {
+        "key": "total sent: ",
+        "value": "總計已傳送："
+      },
+      {
+        "key": "Network packet summary of last ",
+        "value": "最近 "
+      },
+      {
+        "key": " minutes.",
+        "value": " 分鐘的網路資料包彙總。"
+      },
+      {
+        "key": "Total kb:",
+        "value": "總 kb："
+      },
+      {
+        "key": " total rate:",
+        "value": " 總速率："
+      },
+      {
+        "key": "maxSize: ",
+        "value": "最大大小："
+      },
+      {
+        "key": "Network packet summary for ",
+        "value": "最近 "
+      },
+      {
+        "key": " of last ",
+        "value": " 分鐘中 "
+      },
+      {
+        "key": " minutes.",
+        "value": " 的網路資料包彙總。"
+      },
+      {
+        "key": "Network outgoing packet summary of last ",
+        "value": "最近 "
+      },
+      {
+        "key": " minutes.",
+        "value": " 分鐘的網路傳出資料包彙總。"
+      },
+      {
+        "key": "Printing biggest packets fitting ",
+        "value": "正在將符合 "
+      },
+      {
+        "key": " to latest.log",
+        "value": " 的最大數據包輸出到 latest.log"
+      }
+    ]
+  }
+]

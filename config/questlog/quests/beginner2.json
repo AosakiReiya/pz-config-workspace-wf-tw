@@ -1,0 +1,27 @@
+{
+  "sort_order": "1",
+  "requirements": [
+    {
+      "type": "questlog:visit_dimension",
+      "dimension": "minecraft:overworld",
+      "required_amount": 1
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:read"
+    }
+  ],
+  "rewards": [],
+  "title": "生存主義者筆記 - 卷。 2",
+  "description": "- [岩石](image:questlog:textures/gui/popups/popup_rocks.png:125:125) 可以從地面上的鵝卵石或透過與燧石石塊互動來獲得。\n\n- 要開始敲擊，請用主手和副手[握住一塊岩石](image:questlog:textures/gui/popups/popup_knapping.png:125:125)，然後進行互動。\n\n- 簡單的手把是由一根棍子和一根吸管組合而成。或者，您可以[與草互動](image:questlog:textures/gui/popups/popup_handle.png:70:34) 或蕨類植物，同時拿著一根棍子來製作一個。\n\n- 最後將工具頭與手把組合即可得到對應的工具。\n\n- 額外說明，篝火非常方便，因為它們可以用來烹飪食物和製作火把。它可以用火炬、火焰咒語或打火石點燃。",
+  "icon": {
+    "item": "twigs:twig"
+  },
+  "left_panel_width": 275,
+  "right_panel_width": 170,
+  "panel_height": 233,
+  "background_texture": "questlog:textures/gui/quest_page.png",
+  "toast_on_complete": false,
+  "toast_on_unlock": false
+}

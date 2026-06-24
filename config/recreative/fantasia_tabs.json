@@ -1,0 +1,259 @@
+[
+    {
+        "action": "remove_tab",
+        "tabs": [
+            "customnpcs:cnpcs",
+            "spartanweaponry:modded",
+            "fluffy_fur:tab",
+            "epicknights_open_helms:open_helm",
+            "nebulus_trees:nebulus"
+        ]
+    },
+    {
+        "action": "modify_tab",
+        "tabs": [
+            "spartanweaponry:basic"
+        ],
+        "name": "Fantasia Weaponry"
+    },
+    {
+        "action": "modify_tab",
+        "tabs": [
+            "spartanweaponry:basic"
+        ],
+        "add_items": [
+            {
+                "item": "spartanweaponry:steel_dagger",
+                "after": "spartanweaponry:iron_dagger"
+            }
+        ]
+    },
+    {
+        "action": "modify_tab",
+        "tabs": [
+            "spartanweaponry:basic"
+        ],
+        "add_items": [
+            {
+                "item": "spartanweaponry:steel_parrying_dagger",
+                "after": "spartanweaponry:iron_parrying_dagger"
+            }
+        ]
+    },
+    {
+        "action": "modify_tab",
+        "tabs": [
+            "spartanweaponry:basic"
+        ],
+        "add_items": [
+            {
+                "item": "spartanweaponry:steel_longsword",
+                "after": "spartanweaponry:iron_longsword"
+            }
+        ]
+    },
+    {
+        "action": "modify_tab",
+        "tabs": [
+            "spartanweaponry:basic"
+        ],
+        "add_items": [
+            {
+                "item": "spartanweaponry:steel_katana",
+                "after": "spartanweaponry:iron_katana"
+            }
+        ]
+    },
+    {
+        "action": "modify_tab",
+        "tabs": [
+            "spartanweaponry:basic"
+        ],
+        "add_items": [
+            {
+                "item": "spartanweaponry:steel_saber",
+                "after": "spartanweaponry:iron_saber"
+            }
+        ]
+    },
+    {
+        "action": "modify_tab",
+        "tabs": [
+            "spartanweaponry:basic"
+        ],
+        "add_items": [
+            {
+                "item": "spartanweaponry:steel_rapier",
+                "after": "spartanweaponry:iron_rapier"
+            }
+        ]
+    },
+    {
+        "action": "modify_tab",
+        "tabs": [
+            "spartanweaponry:basic"
+        ],
+        "add_items": [
+            {
+                "item": "spartanweaponry:steel_greatsword",
+                "after": "spartanweaponry:iron_greatsword"
+            }
+        ]
+    },
+    {
+        "action": "modify_tab",
+        "tabs": [
+            "spartanweaponry:basic"
+        ],
+        "add_items": [
+            {
+                "item": "spartanweaponry:steel_battle_hammer",
+                "after": "spartanweaponry:iron_battle_hammer"
+            }
+        ]
+    },
+    {
+        "action": "modify_tab",
+        "tabs": [
+            "spartanweaponry:basic"
+        ],
+        "add_items": [
+            {
+                "item": "spartanweaponry:steel_warhammer",
+                "after": "spartanweaponry:iron_warhammer"
+            }
+        ]
+    },
+    {
+        "action": "modify_tab",
+        "tabs": [
+            "spartanweaponry:basic"
+        ],
+        "add_items": [
+            {
+                "item": "spartanweaponry:steel_spear",
+                "after": "spartanweaponry:iron_spear"
+            }
+        ]
+    },
+    {
+        "action": "modify_tab",
+        "tabs": [
+            "spartanweaponry:basic"
+        ],
+        "add_items": [
+            {
+                "item": "spartanweaponry:steel_halberd",
+                "after": "spartanweaponry:iron_halberd"
+            }
+        ]
+    },
+    {
+        "action": "modify_tab",
+        "tabs": [
+            "spartanweaponry:basic"
+        ],
+        "add_items": [
+            {
+                "item": "spartanweaponry:steel_pike",
+                "after": "spartanweaponry:iron_pike"
+            }
+        ]
+    },
+    {
+        "action": "modify_tab",
+        "tabs": [
+            "spartanweaponry:basic"
+        ],
+        "add_items": [
+            {
+                "item": "spartanweaponry:steel_lance",
+                "after": "spartanweaponry:iron_lance"
+            }
+        ]
+    },
+    {
+        "action": "modify_tab",
+        "tabs": [
+            "spartanweaponry:basic"
+        ],
+        "add_items": [
+            {
+                "item": "spartanweaponry:steel_throwing_knife",
+                "after": "spartanweaponry:iron_throwing_knife"
+            }
+        ]
+    },
+    {
+        "action": "modify_tab",
+        "tabs": [
+            "spartanweaponry:basic"
+        ],
+        "add_items": [
+            {
+                "item": "spartanweaponry:steel_tomahawk",
+                "after": "spartanweaponry:iron_tomahawk"
+            }
+        ]
+    },
+    {
+        "action": "modify_tab",
+        "tabs": [
+            "spartanweaponry:basic"
+        ],
+        "add_items": [
+            {
+                "item": "spartanweaponry:steel_javelin",
+                "after": "spartanweaponry:iron_javelin"
+            }
+        ]
+    },
+    {
+        "action": "modify_tab",
+        "tabs": [
+            "spartanweaponry:basic"
+        ],
+        "add_items": [
+            {
+                "item": "spartanweaponry:steel_battleaxe",
+                "after": "spartanweaponry:iron_battleaxe"
+            }
+        ]
+    },
+    {
+        "action": "modify_tab",
+        "tabs": [
+            "spartanweaponry:basic"
+        ],
+        "add_items": [
+            {
+                "item": "spartanweaponry:steel_flanged_mace",
+                "after": "spartanweaponry:iron_flanged_mace"
+            }
+        ]
+    },
+    {
+        "action": "modify_tab",
+        "tabs": [
+            "spartanweaponry:basic"
+        ],
+        "add_items": [
+            {
+                "item": "spartanweaponry:steel_glaive",
+                "after": "spartanweaponry:iron_glaive"
+            }
+        ]
+    },
+    {
+        "action": "modify_tab",
+        "tabs": [
+            "spartanweaponry:basic"
+        ],
+        "add_items": [
+            {
+                "item": "spartanweaponry:steel_scythe",
+                "after": "spartanweaponry:iron_scythe"
+            }
+        ]
+    }
+]

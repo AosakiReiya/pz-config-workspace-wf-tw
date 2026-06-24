@@ -1,0 +1,44 @@
+[
+  {
+    "name": "reliable_recipes_zh_tw",
+    "desc": "reliable_recipes-forge-1.20.1-1.13.2.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "reliable_recipes-forge-1.20.1-1.13.2.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.evandev.reliable_recipes.client.SharedToastOverlay"
+    ],
+    "pairs": [
+      {
+        "key": "Deleted",
+        "value": "已刪除"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.evandev.reliable_recipes.command.UndoCommand"
+    ],
+    "pairs": [
+      {
+        "key": "Restored recipe ",
+        "value": "已恢復配方 "
+      },
+      {
+        "key": "Could not restore recipe ",
+        "value": "無法恢復配方 "
+      },
+      {
+        "key": "Could not restore recipe ",
+        "value": "無法恢復配方"
+      },
+      {
+        "key": " (not in cache or already exists)",
+        "value": "（不在快取中或已存在）"
+      }
+    ]
+  }
+]

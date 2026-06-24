@@ -1,0 +1,27 @@
+{
+  "chapter": "tkb",
+  "sort_order": "4",
+  "requirements": [
+    {
+      "type": "questlog:advancement",
+      "advancement": "fantasia_quests:age_of_advancement/phase_2/iron_age"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "overgeared:drafting_table",
+      "required_amount": 1
+    }
+  ],
+  "rewards": [],
+  "title": "V - 藍圖",
+  "description": "如果您想提高工具的質量，那麼您可以從繪圖表建立藍圖並改進它們。基礎級工具、武器和盔甲使用可以在繪圖台中製作的通用藍圖。\n\n然而，對於鋼製及以上的工具，將需要精美的藍圖，可以從鐵匠那裡購買。同樣，對於較重的裝甲，您需要購買電鍍裝甲藍圖。\n\n鋼鐵、鑽石和黑鋼是唯一使用精美藍圖的等級。除此之外的工具可能需要只有鐵匠大師才能掌握的特定藍圖。",
+  "icon": {
+    "item": "overgeared:blueprint"
+  },
+  "left_panel_width": 275,
+  "right_panel_width": 170,
+  "panel_height": 200,
+  "background_texture": "questlog:textures/gui/quest_page.png"
+}

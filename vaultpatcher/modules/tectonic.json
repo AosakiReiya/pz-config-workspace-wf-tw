@@ -1,0 +1,53 @@
+[
+  {
+    "name": "tectonic_zh_tw",
+    "desc": "tectonic-3.0.17-forge-1.20.1.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "tectonic-3.0.17-forge-1.20.1.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "dev.worldgen.tectonic.command.TectonicCommand"
+    ],
+    "pairs": [
+      {
+        "key": "Tectonic debug info:",
+        "value": "Tectonic 除錯資訊："
+      },
+      {
+        "key": "Depth cutoff: %s",
+        "value": "深度截斷：%s"
+      },
+      {
+        "key": "Region: %s %s (Erosion %s / Region Selector %s)",
+        "value": "區域：%s %s（侵蝕 %s / 區域選擇器 %s）"
+      },
+      {
+        "key": "Tectonic terrain feature ",
+        "value": "構造地質地形特徵 "
+      },
+      {
+        "key": " is not enabled.",
+        "value": " 未啟用。"
+      },
+      {
+        "key": "The nearest ",
+        "value": "最近的"
+      },
+      {
+        "key": " is at %s (%s blocks away)",
+        "value": "位於 %s（距離 %s 格）"
+      },
+      {
+        "key": "Couldn't find ",
+        "value": "無法在 25,000 格半徑內找到 "
+      },
+      {
+        "key": " within a 25,000 block radius.",
+        "value": "。"
+      }
+    ]
+  }
+]

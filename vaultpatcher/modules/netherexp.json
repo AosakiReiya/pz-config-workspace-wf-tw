@@ -1,0 +1,124 @@
+[
+  {
+    "name": "netherexp_zh_tw",
+    "desc": "Jadens-Nether-Expansion-2.3.5.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "Jadens-Nether-Expansion-2.3.5.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "net.jadenxgamer.netherexp.registry.item.JNECreativeModeTabs"
+    ],
+    "pairs": [
+      {
+        "key": "JNE - Mod Compat",
+        "value": "JNE - 模組相容"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.jadenxgamer.netherexp.registry.misc_registry.JNEBuiltinPacks"
+    ],
+    "pairs": [
+      {
+        "key": "Emissive Textures for JNE \nmove down to disable",
+        "value": "JNE 的自發光紋理\n下移以停用"
+      },
+      {
+        "key": "Built-in JNE Vanilla Retextures \nmove down to disable",
+        "value": "內建 JNE 原版重繪紋理\n下移以停用"
+      },
+      {
+        "key": "Conflicting Retextures",
+        "value": "衝突的重紋理"
+      },
+      {
+        "key": "Adds Retextures which may cause Mod Conflicts",
+        "value": "新增可能導致模組衝突的重貼圖"
+      },
+      {
+        "key": "Unique Nether Wood",
+        "value": "獨特地獄木"
+      },
+      {
+        "key": "Gives All Nether Woodsets Unique Designs",
+        "value": "為所有地獄木質套裝賦予獨特設計"
+      },
+      {
+        "key": "Larger Nether Biomes",
+        "value": "更大的地獄生物群系"
+      },
+      {
+        "key": "Increases the size of all nether biomes",
+        "value": "增大所有地獄生物群系的大小"
+      },
+      {
+        "key": "JNE + My Nether's Delight",
+        "value": "JNE + 我的地獄樂事"
+      },
+      {
+        "key": "Compatibility for My Nether's Delight",
+        "value": "我的地獄樂事相容性"
+      },
+      {
+        "key": "JNE + Alex's Caves",
+        "value": "JNE + Alex 的洞穴"
+      },
+      {
+        "key": "Compatibility for Alex's Caves",
+        "value": "Alex 的洞穴相容性"
+      },
+      {
+        "key": "JNE + Alex's Mobs",
+        "value": "JNE + Alex的生物"
+      },
+      {
+        "key": "Compatibility for Alex's Mobs",
+        "value": "Alex的生物相容性"
+      },
+      {
+        "key": "JNE + Gardens of The Dead",
+        "value": "JNE + 亡魂花園"
+      },
+      {
+        "key": "Compatibility for Gardens of The Dead",
+        "value": "與亡魂花園的相容性"
+      },
+      {
+        "key": "JNE + Rubinated Nether",
+        "value": "JNE + 耀紅地獄"
+      },
+      {
+        "key": "Compatibility for Rubinated Nether",
+        "value": "與耀紅地獄的相容性"
+      },
+      {
+        "key": "JNE + Caverns & Chasms",
+        "value": "JNE + 洞穴與裂谷"
+      },
+      {
+        "key": "Compatibility for Caverns & Chasms",
+        "value": "與 Caverns & Chasms 的相容性"
+      },
+      {
+        "key": "JNE + Oreganized",
+        "value": "JNE + 井然有礦"
+      },
+      {
+        "key": "Compatibility for Oreganized",
+        "value": "井然有礦相容"
+      },
+      {
+        "key": "JNE + Temprature Mods",
+        "value": "JNE + 溫度模組"
+      },
+      {
+        "key": "Compatibility for Various Temperature Mods",
+        "value": "各種溫度模組的相容性"
+      }
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+name = "Simplest Excavators"
+filename = "simplest_excavators-1.20.1-1.1.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "17e07f26b10a0273ddddc6208315e2adbf381d9e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6126233
+project-id = 983663

@@ -1,0 +1,22 @@
+{
+  "chapter": "nfts",
+  "left_panel_width": 275,
+  "panel_height": 200,
+  "requirements": [
+    {
+      "type": "questlog:stat",
+      "stat": "minecraft:deaths",
+      "required_amount": 1
+    }
+  ],
+  "objectives": [],
+  "rewards": [],
+  "title": "死亡",
+  "description": "死亡在這片土地上是很常見的。很多人可能會說她殘忍，但她是正義的。\n\n死亡後，你會掉落工具、武器和盔甲之外的所有東西。除非一件物品已經充滿了靈魂束縛，在這種情況下，它會在你死後留在你身邊。\n\n靈魂束縛是一種結界，可以從迴聲碎片中提取，也可以在書籍形式的戰利品中找到。迴聲碎片可以在古城中找到，或由強大的敵人掉落。\n\n當你在遠離家鄉、距離你的避難所大約 2,000 個街區的地方死去時，你可能會發現自己就在你死亡的地方附近。否則，你會發現自己身處家園。\n\n一開始找到你的屍體可能會很困難，你必須熟悉你死亡地點的周圍環境，而一開始就找到它，尤其是當你遠離家鄉時，會很困難。最終你將能夠製作一個恢復指南針，這將使它變得毫不費力。",
+  "icon": {
+    "item": "supplementaries:cartographers_quill"
+  },
+  "background_texture": "questlog:textures/gui/quest_page.png",
+  "toast_on_complete": false,
+  "triggered_sound": "minecraft:block.note_block.bell"
+}

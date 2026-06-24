@@ -1,0 +1,295 @@
+[
+  {
+    "name": "customnpcs_zh_tw",
+    "desc": "CustomNPCs-1.20.1-GBPort-Unofficial-1.20.1.20260227.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "CustomNPCs-1.20.1-GBPort-Unofficial-1.20.1.20260227.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "noppes.npcs.client.VersionChecker"
+    ],
+    "pairs": [
+      {
+        "key": "§9§nClick here",
+        "value": "§9§n點選此處"
+      },
+      {
+        "key": " installed. For more info ",
+        "value": " 已安裝。更多資訊請見 "
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "noppes.npcs.client.gui.GuiNbtBook"
+    ],
+    "pairs": [
+      {
+        "key": "Saved",
+        "value": "已儲存"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "noppes.npcs.client.gui.GuiNpcMobSpawnerAdd"
+    ],
+    "pairs": [
+      {
+        "key": "Save as",
+        "value": "另存為"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "noppes.npcs.client.gui.player.GuiRecipes"
+    ],
+    "pairs": [
+      {
+        "key": "Recipe List",
+        "value": "配方列表"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "noppes.npcs.client.parts.MpmPartReader"
+    ],
+    "pairs": [
+      {
+        "key": "Error in ",
+        "value": "錯誤發生在 "
+      },
+      {
+        "key": "Error in ",
+        "value": ""
+      },
+      {
+        "key": " - Unable to find parent ",
+        "value": " 中出錯 - 無法找到父級 "
+      },
+      {
+        "key": "Unknown animation inherit: ",
+        "value": "未知的動畫繼承："
+      },
+      {
+        "key": "Error in ",
+        "value": ""
+      },
+      {
+        "key": " - ",
+        "value": " 中的錯誤 - "
+      },
+      {
+        "key": "Can't fine ",
+        "value": "找不到"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "noppes.npcs.command.CmdClone"
+    ],
+    "pairs": [
+      {
+        "key": "--- Stored NPCs --- (server side)",
+        "value": "--- 已儲存的NPC ---（伺服器端）"
+      },
+      {
+        "key": "Unknown npc",
+        "value": "未知NPC"
+      },
+      {
+        "key": "Location needed",
+        "value": "需要指定位置"
+      },
+      {
+        "key": "Npc '%s' wasn't found",
+        "value": "未找到 NPC“%s”"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "noppes.npcs.command.CmdDialog"
+    ],
+    "pairs": [
+      {
+        "key": "Unknown DialogID",
+        "value": "未知對話ID"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "noppes.npcs.command.CmdFaction"
+    ],
+    "pairs": [
+      {
+        "key": "Unknown FactionID",
+        "value": "未知陣營ID"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "noppes.npcs.command.CmdNPC"
+    ],
+    "pairs": [
+      {
+        "key": "No owner",
+        "value": "無主人"
+      },
+      {
+        "key": "Owner is: ",
+        "value": "擁有者為："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "noppes.npcs.command.CmdQuest"
+    ],
+    "pairs": [
+      {
+        "key": "Unknown QuestID",
+        "value": "未知任務ID"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "noppes.npcs.command.CmdScene"
+    ],
+    "pairs": [
+      {
+        "key": "Active scenes:",
+        "value": "活動場景："
+      },
+      {
+        "key": "Scene %s time is %s",
+        "value": "場景 %s 時間為 %s"
+      },
+      {
+        "key": "Unknown scene name %s",
+        "value": "未知場景名稱 %s"
+      },
+      {
+        "key": "Scene %s set to %s",
+        "value": "場景 %s 已設為 %s"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "noppes.npcs.command.CmdSchematics"
+    ],
+    "pairs": [
+      {
+        "key": "No schemas available",
+        "value": "沒有可用的架構"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "noppes.npcs.command.CmdScript"
+    ],
+    "pairs": [
+      {
+        "key": "Reload player scripts succesfully",
+        "value": "已成功過載玩家指令碼"
+      },
+      {
+        "key": "Failed reloading player scripts",
+        "value": "重新載入玩家指令碼失敗"
+      },
+      {
+        "key": "Reload forge scripts succesfully",
+        "value": "過載 Forge 指令碼成功"
+      },
+      {
+        "key": "Failed reloading forge scripts",
+        "value": "重新載入 Forge 指令碼失敗"
+      },
+      {
+        "key": "Reload stored data succesfully",
+        "value": "已成功重新載入儲存的資料"
+      },
+      {
+        "key": "Failed reloading stored data",
+        "value": "重新載入已儲存的資料失敗"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "noppes.npcs.controllers.SchematicController"
+    ],
+    "pairs": [
+      {
+        "key": "Nothing is being build",
+        "value": "沒有在建造任何內容"
+      },
+      {
+        "key": "Already building: ",
+        "value": "已在建造："
+      },
+      {
+        "key": "Build started by: ",
+        "value": "開始建造者："
+      },
+      {
+        "key": "Not building",
+        "value": "未在建造"
+      },
+      {
+        "key": "Stopped building: ",
+        "value": "已停止建造："
+      },
+      {
+        "key": "Building at ",
+        "value": "正在建造："
+      },
+      {
+        "key": "Building finished",
+        "value": "建造完成"
+      },
+      {
+        "key": "Already building: ",
+        "value": "已在建造："
+      },
+      {
+        "key": "Building at ",
+        "value": "建造進度："
+      },
+      {
+        "key": "Schematic ",
+        "value": "原理圖 "
+      },
+      {
+        "key": " succesfully created",
+        "value": " 已成功建立"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "noppes.npcs.packets.server.SPacketToolMobSpawner"
+    ],
+    "pairs": [
+      {
+        "key": "Failed to create an entity out of your clone",
+        "value": "無法從你的克隆建立實體"
+      },
+      {
+        "key": "Currently you cant create horse spawner, its a minecraft bug",
+        "value": "目前你無法建立馬刷怪蛋，這是 Minecraft 的一個漏洞。"
+      }
+    ]
+  }
+]

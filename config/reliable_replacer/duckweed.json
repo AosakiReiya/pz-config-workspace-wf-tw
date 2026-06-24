@@ -1,0 +1,8 @@
+[
+  {
+    "inputs": [
+      "regions_unexplored:duckweed"
+    ],
+    "output": "environmental:duckweed"
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "name": "minecraft_cursor_zh_tw",
+    "desc": "minecraft-cursor-forge-3.11.3+1.20.1.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "minecraft-cursor-forge-3.11.3+1.20.1.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "io.github.fishstiz.minecraftcursor.MinecraftCursorForge$ClientModEvents"
+    ],
+    "pairs": [
+      {
+        "key": "Cursors Extended",
+        "value": "游標增強"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "io.github.fishstiz.minecraftcursor.cursor.resolver.ElementInspectorImpl"
+    ],
+    "pairs": [
+      {
+        "key": "Cache: ",
+        "value": "快取："
+      },
+      {
+        "key": "Virtual Mode: ",
+        "value": "虛擬模式："
+      }
+    ]
+  }
+]

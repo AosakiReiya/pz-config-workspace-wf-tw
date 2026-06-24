@@ -1,0 +1,13 @@
+name = "Angel's Weather"
+filename = "Angel's_Weather_v1.9.1.1hf.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3400d7c1d13919fc0292051bc401a305f9e696d2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7131427
+project-id = 943396

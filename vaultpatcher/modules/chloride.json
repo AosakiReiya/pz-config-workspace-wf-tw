@@ -1,0 +1,25 @@
+[
+  {
+    "name": "chloride_zh_tw",
+    "desc": "chloride-FORGE-mc1.20.1-v1.7.7.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "chloride-FORGE-mc1.20.1-v1.7.7.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "me.srrapero720.chloride.impl.FastBlocks$ModEvents"
+    ],
+    "pairs": [
+      {
+        "key": "Chloride: Solid Beds",
+        "value": "氯化物：固態床"
+      },
+      {
+        "key": "Chloride: Solid Chests",
+        "value": "氯化物：固態箱子"
+      }
+    ]
+  }
+]

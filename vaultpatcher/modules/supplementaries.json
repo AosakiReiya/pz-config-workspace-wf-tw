@@ -1,0 +1,55 @@
+[
+  {
+    "name": "supplementaries_zh_tw",
+    "desc": "supplementaries-1.20-3.1.43-forge.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "supplementaries-1.20-3.1.43-forge.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "net.mehvahdjukaar.supplementaries.client.renderers.forge.PicklePlayer"
+    ],
+    "pairs": [
+      {
+        "key": "I am Jarman",
+        "value": "我是 Jarman"
+      },
+      {
+        "key": "I turned myself into a pickle!",
+        "value": "我把自己變成醃黃瓜了！"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.mehvahdjukaar.supplementaries.common.items.crafting.SpecialRecipeDisplays"
+    ],
+    "pairs": [
+      {
+        "key": "Ew sticky!",
+        "value": "呃，黏糊糊的！"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.mehvahdjukaar.supplementaries.common.utils.VibeChecker"
+    ],
+    "pairs": [
+      {
+        "key": "Supplementaries detected a possible crash caused by another mod. Check the logs.",
+        "value": "錦致裝飾檢測到可能由其他模組引起的崩潰。請檢視日誌。"
+      },
+      {
+        "key": "Some OTHER mod loaded the Sheets class to early, causing modded banner patterns and sherds textures to not include modded ones.\nRefusing to proceed further.\nMissing entries: ",
+        "value": "某個其他模組過早載入了 Sheets 類，導致模組橫幅圖案和陶片材質未能包含模組新增內容。\n拒絕繼續處理。\n缺失條目："
+      },
+      {
+        "key": " (mods listed here are NOT the cause of this, merely the ones that got broken because of it)\nCheck previous forge log lines to find the offending mod. ",
+        "value": "（此處列出的模組並非問題原因，只是因此受影響而損壞的模組）\n請檢查之前的 forge 日誌行以找出導致問題的模組。"
+      }
+    ]
+  }
+]

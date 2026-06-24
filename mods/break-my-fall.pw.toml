@@ -1,0 +1,13 @@
+name = "Break My Fall"
+filename = "Break My Fall-forge-1.20.1-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "47b699892a0c19ad4cbb0538e66349420ad14b05"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7206856
+project-id = 895113

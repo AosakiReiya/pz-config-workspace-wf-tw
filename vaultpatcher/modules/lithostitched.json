@@ -1,0 +1,21 @@
+[
+  {
+    "name": "lithostitched_zh_tw",
+    "desc": "lithostitched-forge-1.20.1-1.4.11.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "lithostitched-forge-1.20.1-1.4.11.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "dev.worldgen.lithostitched.LithostitchedForge"
+    ],
+    "pairs": [
+      {
+        "key": "Lithostitched extras",
+        "value": "Lithostitched 附加內容"
+      }
+    ]
+  }
+]

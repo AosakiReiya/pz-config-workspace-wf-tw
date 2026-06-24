@@ -1,0 +1,25 @@
+{
+  "chapter": "tkb",
+  "sort_order": "6",
+  "requirements": [
+    {
+      "type": "questlog:advancement",
+      "advancement": "fantasia_quests:age_of_advancement/phase_2/steel_age"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:read"
+    }
+  ],
+  "rewards": [],
+  "title": "VII - 重鑄",
+  "description": "重鍛是重新製造工具的過程，通常在工具以前品質不佳或有缺陷時進行。\n\n- 要重新鍛造現有的工具，您必須將工具頭與其手柄分開，這是用鉗子完成的。\n\n- 該工具頭必須在營火上加熱，並可使用風箱來加速其加熱過程。\n\n- 完成後，將工具頭與相應的錠和更好的藍圖一起放置，以將其加工成品質更好的工具。\n\n- 最後，在與最終產品的手柄結合之前，可以對其進行回火和拋光。",
+  "icon": {
+    "item": "overgeared:iron_tongs"
+  },
+  "left_panel_width": 275,
+  "right_panel_width": 170,
+  "panel_height": 200,
+  "background_texture": "questlog:textures/gui/quest_page.png"
+}

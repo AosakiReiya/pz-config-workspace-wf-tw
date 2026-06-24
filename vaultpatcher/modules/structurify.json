@@ -1,0 +1,215 @@
+[
+  {
+    "name": "structurify_zh_tw",
+    "desc": "structurify-forge-2.0.25+mc1.20.1.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "structurify-forge-2.0.25+mc1.20.1.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.faboslav.structurify.common.commands.StructurifyCommand"
+    ],
+    "pairs": [
+      {
+        "key": "Structurify debug enabled.",
+        "value": "Structurify 除錯已啟用。"
+      },
+      {
+        "key": "Structurify debug disabled.",
+        "value": "Structurify 除錯已停用。"
+      },
+      {
+        "key": "There is no structures at ",
+        "value": "此處沒有結構"
+      },
+      {
+        "key": "List of structures at ",
+        "value": "位於以下位置的結構列表"
+      },
+      {
+        "key": "Structurify config dumped to \"",
+        "value": "Structurify 配置已匯出到“"
+      },
+      {
+        "key": "Unknown debug mode: ",
+        "value": "未知除錯模式："
+      },
+      {
+        "key": "Structurify debug mode changed to ",
+        "value": "Structurify 除錯模式已更改為 "
+      },
+      {
+        "key": "Unknown sampling mode: ",
+        "value": "未知取樣模式："
+      },
+      {
+        "key": "Structurify debug sampling mode changed to ",
+        "value": "Structurify 除錯取樣模式已更改為 "
+      },
+      {
+        "key": "Click to enable \"",
+        "value": "點選以啟用“"
+      },
+      {
+        "key": "Click to disable \"",
+        "value": "點選以停用“"
+      },
+      {
+        "key": "Locating ",
+        "value": "正在 6400 區塊半徑內定位 "
+      },
+      {
+        "key": " in the radius of 6400 chunks",
+        "value": ""
+      },
+      {
+        "key": "Click to disable \"",
+        "value": "點選停用“"
+      },
+      {
+        "key": "\" structure generation",
+        "value": "”結構生成"
+      },
+      {
+        "key": "Click to enable \"",
+        "value": "點選啟用“"
+      },
+      {
+        "key": "\" structure generation",
+        "value": "”結構生成"
+      },
+      {
+        "key": "Structure ",
+        "value": "結構 "
+      },
+      {
+        "key": ".",
+        "value": "。"
+      },
+      {
+        "key": "Structure ",
+        "value": "結構 "
+      },
+      {
+        "key": " is already ",
+        "value": " 已經是 "
+      },
+      {
+        "key": ".",
+        "value": "。"
+      },
+      {
+        "key": "Structurify debug sampling mode changed to ",
+        "value": "Structurify 除錯取樣模式已更改為 "
+      },
+      {
+        "key": ".",
+        "value": "。"
+      },
+      {
+        "key": "Structurify debug mode changed to ",
+        "value": "Structurify 除錯模式已更改為 "
+      },
+      {
+        "key": ".",
+        "value": "。"
+      },
+      {
+        "key": "Structurify config dumped to \"",
+        "value": "Structurify 配置已匯出到 \""
+      },
+      {
+        "key": "\".",
+        "value": "\"。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.faboslav.structurify.common.config.client.api.option.HolderOption$HolderOptionBuilder"
+    ],
+    "pairs": [
+      {
+        "key": "Name not specified!",
+        "value": "未指定名稱！"
+      },
+      {
+        "key": "`name` cannot be null",
+        "value": "`name` 不能為空"
+      },
+      {
+        "key": "`description` cannot be null",
+        "value": "`description` 不能為 null"
+      },
+      {
+        "key": "`descriptionFunction` cannot be null",
+        "value": "`descriptionFunction` 不能為 null"
+      },
+      {
+        "key": "`controllerBuilder` cannot be null",
+        "value": "`controllerBuilder` 不能為空"
+      },
+      {
+        "key": "`control` cannot be null",
+        "value": "`control` 不能為 null"
+      },
+      {
+        "key": "`optionPair` cannot be null",
+        "value": "`optionPair` 不能為 null"
+      },
+      {
+        "key": "`flag` must not be null",
+        "value": "`flag` 不能為空"
+      },
+      {
+        "key": "`flags` must not be null",
+        "value": "`flags` 不能為空"
+      },
+      {
+        "key": "`optionEventListener` must not be null",
+        "value": "`optionEventListener` 不能為 null"
+      },
+      {
+        "key": "`collection` must not be null",
+        "value": "`collection` 不能為 null"
+      },
+      {
+        "key": "`listener` must not be null",
+        "value": "`listener` 不能為空"
+      },
+      {
+        "key": "`listeners` must not be null",
+        "value": "`listeners` 不能為 null"
+      },
+      {
+        "key": "`optionPair` must not be null when building HolderOption",
+        "value": "構建 HolderOption 時，`optionPair` 不能為 null"
+      },
+      {
+        "key": "`control` must not be null when building HolderOption",
+        "value": "構建 HolderOption 時，`control` 不能為 null"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.faboslav.structurify.common.config.client.api.option.HolderOption$PairStateManager"
+    ],
+    "pairs": [
+      {
+        "key": "`value` cannot be null",
+        "value": "`value` 不能為空"
+      },
+      {
+        "key": "HolderOption does not support replacing its option pair",
+        "value": "HolderOption 不支援替換其選項對"
+      },
+      {
+        "key": "`stateListener` cannot be null",
+        "value": "`stateListener` 不能為 null"
+      }
+    ]
+  }
+]

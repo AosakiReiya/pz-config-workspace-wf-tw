@@ -1,0 +1,13 @@
+name = "Blabber"
+filename = "blabber-1.6.2-mc1.20.1-standalone.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "19288736567756e8ff0ff35a5a4bcc408e88c0a4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6535358
+project-id = 565396

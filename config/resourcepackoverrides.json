@@ -1,0 +1,52 @@
+{
+  "schema_version": "2",
+  "pack_overrides": {
+    "1": [
+      "file/Angel's_Weather_v1.9.1.1hf.zip",
+      "silly_oddities:bat",
+      "silly_oddities:dyes"
+    ],
+    "$$1": {
+      "required": true,
+      "force_compatible": true,
+      "fixed_position": true
+    },
+    "2": [
+      "file/\u00A7aChests\u00A78-\u00A7aReimagined\u00A70_\u00A78[v1.6.1]\u00A70.zip",
+      "file/\u00A7eArmorstands-Reimagined\u00A78-[v1.2].zip",
+      "file/EnderEyes_1.20.1_v3.zip",
+      "file/Muskets_Overhaul v.3.4.zip",
+      "file/MCA_resourcepack-V3.1.zip",
+      "file/UnlitCampfireIcons_1.20.zip",
+      "file/Updated Mobs v.1.1.zip",
+      "file/\u00A74Drodi's Illagers [v5.1].zip",
+      "file/Iron's Spells SR v1.7.zip",
+      "file/SE Vanilla Consistency 1.20.1.zip",
+      "file/Simple Lower Grass Sides v1.1.0.zip",
+      "file/3D item on coaster.zip",
+      "file/Cataclysm Reimagined v1.3.1 for Forge.zip",
+      "file/KiteShieldTexturePack.zip",
+      "file/Iron's Spells AR v0.1.zip",
+      "file/Neko's Dragon Blazes.zip",
+      "silly_oddities:clouds",
+      "silly_oddities:ghast",
+      "silly_oddities:horse_leather_armor",
+      "silly_oddities:horse_leather_armor_classic",
+      "silly_oddities:redstone",
+      "silly_oddities:shadow",
+      "silly_oddities:spawn_eggs",
+      "silly_oddities:zombie_horse",
+      "silly_oddities:zombie_horse_spawn_egg",
+      "minecraft-cursor:cursors_extended",
+      "netherexp:conflicting_retextures",
+      "netherexp:unique_nether_wood",
+      "irons_spellbooks:legacy_dead_king_resource_pack",
+      "spelunkery:better_vanilla_gems",
+      "supplementaries:darker_ropes",
+      "eclipticseasons:EclipticSeasonsLegacySnowyBlock"
+    ],
+    "$$2": {
+      "hidden": true
+    }
+  }
+}

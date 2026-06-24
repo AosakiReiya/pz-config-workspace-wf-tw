@@ -1,0 +1,21 @@
+[
+  {
+    "name": "copperagebackport_zh_tw",
+    "desc": "copperagebackport-forge-1.20.1-0.1.4.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "copperagebackport-forge-1.20.1-0.1.4.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.github.smallinger.copperagebackport.client.gui.options.control.IntegerFieldControl$Element"
+    ],
+    "pairs": [
+      {
+        "key": "Min: ",
+        "value": "最小值："
+      }
+    ]
+  }
+]

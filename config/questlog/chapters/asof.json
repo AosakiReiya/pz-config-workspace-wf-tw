@@ -1,0 +1,8 @@
+{
+  "icon": {
+    "item": "irons_spellbooks:necronomicon_spell_book"
+  },
+  "order": 1,
+  "default_chapter": false,
+  "hidden": false
+}

@@ -1,0 +1,21 @@
+[
+  {
+    "name": "fancytoasts_zh_tw",
+    "desc": "fancytoasts-forge-1.20.1-1.4.7.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "fancytoasts-forge-1.20.1-1.4.7.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "net.bivrik.fancytoasts.client.gui.screen.FancyToastsScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Fancy Toasts",
+        "value": "精美提示"
+      }
+    ]
+  }
+]

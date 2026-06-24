@@ -1,0 +1,32 @@
+[
+  {
+    "name": "obscure_tooltips_zh_tw",
+    "desc": "obscure_tooltips-forge-1.20.1-3.10.0.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "obscure_tooltips-forge-1.20.1-3.10.0.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "dev.obscuria.tooltips.ObscureTooltips"
+    ],
+    "pairs": [
+      {
+        "key": "Vibrant Tooltips",
+        "value": "炫彩信息提示"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.obscuria.tooltips.client.toast.VibrantTooltipsHint"
+    ],
+    "pairs": [
+      {
+        "key": "Vibrant Tooltips",
+        "value": "炫彩信息提示"
+      }
+    ]
+  }
+]

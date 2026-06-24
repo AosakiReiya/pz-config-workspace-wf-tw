@@ -1,0 +1,8 @@
+{
+  "icon": {
+    "item": "overgeared:smithing_anvil"
+  },
+  "order": 2,
+  "default_chapter": false,
+  "hidden": false
+}

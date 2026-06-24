@@ -1,0 +1,56 @@
+[
+  {
+    "name": "enhancedai_zh_tw",
+    "desc": "enhancedai-3.3.7.1.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "enhancedai-3.3.7.1.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "insane96mcp.enhancedai.command.EAICommand"
+    ],
+    "pairs": [
+      {
+        "key": "Logged list of data keys",
+        "value": "已記錄的資料鍵列表"
+      },
+      {
+        "key": "Goal Selector: ",
+        "value": "目標選擇器："
+      },
+      {
+        "key": "Target Selector: ",
+        "value": "目標選擇器"
+      },
+      {
+        "key": "Invalid value for data ",
+        "value": "資料的值無效"
+      },
+      {
+        "key": "Entity does not have data ",
+        "value": "實體沒有資料"
+      },
+      {
+        "key": "Goals for ",
+        "value": "目標："
+      },
+      {
+        "key": "Changed %s to %s",
+        "value": "已將 %s 更改為 %s"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "insane96mcp.enhancedai.modules.creeper.swell.CreeperSwell"
+    ],
+    "pairs": [
+      {
+        "key": "Angry Creeper",
+        "value": "憤怒爬行者"
+      }
+    ]
+  }
+]

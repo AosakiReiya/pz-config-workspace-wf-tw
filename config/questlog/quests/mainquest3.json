@@ -1,0 +1,31 @@
+{
+  "chapter": "asof",
+  "sort_order": "5",
+  "include_in_main": true,
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:mainquest2",
+      "required_amount": 1
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:visit_dimension",
+      "dimension": "minecraft:the_nether",
+      "required_amount": 1,
+      "name": "挖掘至最低點"
+    }
+  ],
+  "rewards": [],
+  "title": "第三章 超越幻想曲",
+  "description": "「有傳言說，地底下有一片充滿敵意的土地；其中一個被描述為熾熱的地獄，永遠燃燒，只居住著史前野獸和古代文明。\n\n酒館裡的談話是迷失的冒險家的對話，再也見不到了！\n有人说，即使是最好的装备也无法让你走得太远……”",
+  "icon": {
+    "item": "minecraft:netherrack"
+  },
+  "left_panel_width": 275,
+  "right_panel_width": 170,
+  "panel_height": 233,
+  "background_texture": "questlog:textures/gui/quest_page.png",
+  "toast_on_complete": false
+}

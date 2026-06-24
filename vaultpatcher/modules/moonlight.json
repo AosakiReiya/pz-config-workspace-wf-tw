@@ -1,0 +1,32 @@
+[
+  {
+    "name": "moonlight_zh_tw",
+    "desc": "moonlight-1.20-2.16.32-forge.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "moonlight-1.20-2.16.32-forge.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "net.mehvahdjukaar.moonlight.api.set.leaves.LeavesType"
+    ],
+    "pairs": [
+      {
+        "key": "No such leaves type: ",
+        "value": "不存在此類樹葉型別："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.mehvahdjukaar.moonlight.api.set.wood.WoodType"
+    ],
+    "pairs": [
+      {
+        "key": "No such wood type: ",
+        "value": "不存在此類木頭型別："
+      }
+    ]
+  }
+]

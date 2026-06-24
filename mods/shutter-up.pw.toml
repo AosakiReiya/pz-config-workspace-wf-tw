@@ -1,0 +1,13 @@
+name = "Shutter Up!"
+filename = "shutterup-forge-1.20.1-1.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9053f316990dac3a49675ad673293ec3caf2ecb3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7896449
+project-id = 1420451

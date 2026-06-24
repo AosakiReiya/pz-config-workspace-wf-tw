@@ -1,0 +1,13 @@
+name = "Neko's Deer Creeper"
+filename = "Neko's Deer Creeper.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "570c124a7a100bd2f0689836694bd2d4a1c97cda"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8108626
+project-id = 1546894

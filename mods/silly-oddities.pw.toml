@@ -1,0 +1,13 @@
+name = "Silly Oddities"
+filename = "silly_oddities-1.20.1-0.1.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "aa4a5018c8a4243f7a25c6071e68cd8e19a98b47"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7812353
+project-id = 1300184

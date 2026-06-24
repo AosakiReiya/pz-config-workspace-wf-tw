@@ -1,0 +1,303 @@
+[
+  {
+    "name": "calmtheleaks_zh_tw",
+    "desc": "calmtheleaks-1.2 Hotfix-forge.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "calmtheleaks-1.2 Hotfix-forge.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "uk.creatopia.unbound.calml_the_leaks_ctl.CTLCommands"
+    ],
+    "pairs": [
+      {
+        "key": "Use /ctl narrow snapshot | compare | mod … (see /ctl narrow mod list).",
+        "value": "使用 /ctl narrow snapshot | compare | mod …（參見 /ctl narrow mod list）。"
+      },
+      {
+        "key": "Type and class arguments are only valid for 'explain' subcommand",
+        "value": "型別和類引數僅對“explain”子命令有效"
+      },
+      {
+        "key": "CTL diagnostics panel sent to client.",
+        "value": "CTL 診斷面板已傳送至客戶端。"
+      },
+      {
+        "key": "Panel is only available for players with the mod on the client, or set prefer_diagnostics_gui=false and use /ctl status.",
+        "value": "面板僅對客戶端安裝了該模組的玩家可用，或設定 prefer_diagnostics_gui=false 並使用 /ctl status。"
+      },
+      {
+        "key": "No leaks currently tracked. Run /atl force refresh to check for leaks.",
+        "value": "當前沒有追蹤到洩漏。執行 /atl force refresh 以檢查是否存在洩漏。"
+      },
+      {
+        "key": "No state found for leak signature",
+        "value": "未找到與洩漏簽名對應的狀態"
+      },
+      {
+        "key": "Unknown subcommand: ",
+        "value": "未知子命令："
+      },
+      {
+        "key": "No leak found matching type: ",
+        "value": "未找到匹配型別的洩漏："
+      },
+      {
+        "key": "No leak found matching type: ",
+        "value": "未找到匹配型別："
+      },
+      {
+        "key": ", class: ",
+        "value": "，類別："
+      },
+      {
+        "key": "CTL narrow-down snapshot saved (",
+        "value": "CTL縮小範圍快照已儲存（"
+      },
+      {
+        "key": " signatures). Disable mods, restart, ATL refresh, then /ctl narrow compare",
+        "value": "個簽名）。請停用模組、重啟遊戲、重新整理ATL，然後執行/ctl narrow compare"
+      },
+      {
+        "key": "Unknown subcommand: ",
+        "value": "未知子命令："
+      },
+      {
+        "key": ". Use: status, leaks, explain, panel, narrow",
+        "value": "。可用命令：status、leaks、explain、panel、narrow"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "uk.creatopia.unbound.calml_the_leaks_ctl.CTLCommands$arguments"
+    ],
+    "pairs": [
+      {
+        "key": "Narrow-down snapshot cleared.",
+        "value": "縮小範圍快照已清除。"
+      },
+      {
+        "key": "Narrow-down disabled-mod checklist cleared.",
+        "value": "縮小範圍的已停用模組清單已清除。"
+      },
+      {
+        "key": "CTL narrow-down snapshot saved (",
+        "value": "CTL 縮小範圍快照已儲存（"
+      },
+      {
+        "key": "Added to narrow-down checklist: ",
+        "value": "已新增到縮小範圍清單："
+      },
+      {
+        "key": "Could not add (duplicate or list full): ",
+        "value": "無法新增（重複或列表已滿）："
+      },
+      {
+        "key": "Removed from narrow-down checklist: ",
+        "value": "已從縮小範圍清單中移除："
+      },
+      {
+        "key": "Mod id not in list: ",
+        "value": "模組 id 不在列表中："
+      },
+      {
+        "key": "Narrow-down checklist empty.",
+        "value": "縮小範圍清單為空。"
+      },
+      {
+        "key": "Disabled mods (checklist): ",
+        "value": "已停用的模組（清單）："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "uk.creatopia.unbound.calml_the_leaks_ctl.ReportFormatter"
+    ],
+    "pairs": [
+      {
+        "key": "CTL Status",
+        "value": "CTL 狀態"
+      },
+      {
+        "key": "  Phase: ",
+        "value": "  階段： "
+      },
+      {
+        "key": "  Uptime: ",
+        "value": "  執行時間："
+      },
+      {
+        "key": "  Baseline threshold: ",
+        "value": "基線閾值:"
+      },
+      {
+        "key": "  Tracked leaks: ",
+        "value": "已跟蹤的洩漏："
+      },
+      {
+        "key": "Tracked Leaks:",
+        "value": "已追蹤的洩漏："
+      },
+      {
+        "key": "  No leaks tracked yet. Run /atl force refresh to check for leaks.",
+        "value": "尚未跟蹤到洩漏。執行 /atl force refresh 以檢查是否有洩漏。"
+      },
+      {
+        "key": "No leaks currently tracked. Run /atl force refresh to check for leaks.",
+        "value": "當前沒有追蹤到洩漏。執行 /atl force refresh 以檢查是否存在洩漏。"
+      },
+      {
+        "key": "CTL Dynamic Leak Analysis",
+        "value": "CTL 動態洩漏分析"
+      },
+      {
+        "key": "No concerning leaks detected. All tracked leaks are baseline or transitional.",
+        "value": "未檢測到值得關注的洩漏。所有已跟蹤的洩漏都屬於基線或過渡性洩漏。"
+      },
+      {
+        "key": "  Diagnosis uses ATL counts + JVM heap; Spark profiles help you dig deeper in Spark's viewer, not inside CTL text.",
+        "value": "診斷使用 ATL 計數 + JVM 堆；Spark 分析可幫助你在 Spark 的檢視器中進一步深入，而不是在 CTL 文本內。"
+      },
+      {
+        "key": "  Spark not loaded — optional; install Spark if you want interactive CPU/heap profiles.",
+        "value": "  Spark 未載入——這是可選項；如果你想要互動式 CPU/堆分析，請安裝 Spark。"
+      },
+      {
+        "key": "  → Potential conflict detected",
+        "value": "→ 檢測到潛在衝突"
+      },
+      {
+        "key": "  → Gathering more data to improve diagnosis...",
+        "value": "正在收集更多資料以改進診斷..."
+      },
+      {
+        "key": "CTL Tracked Leaks (Summary)",
+        "value": "CTL 洩漏追蹤（摘要）"
+      },
+      {
+        "key": "Mod: ",
+        "value": "模組："
+      },
+      {
+        "key": "Use /ctl explain for detailed diagnosis",
+        "value": "使用 /ctl explain 進行詳細診斷"
+      },
+      {
+        "key": " - Count: ",
+        "value": "數量"
+      },
+      {
+        "key": " | Trend: ",
+        "value": "| 趨勢:"
+      },
+      {
+        "key": " | Verdict: ",
+        "value": "| 判定:"
+      },
+      {
+        "key": "  ✓ Death Detangler active - cleaned up ",
+        "value": "✓ 死亡解纏器已啟用 - 已清理完畢"
+      },
+      {
+        "key": "  ℹ Death Detangler installed (has cleaned ",
+        "value": "ℹ Death Detangler 已安裝 (已清理"
+      },
+      {
+        "key": "  Spark mod: installed | profiler (reflection): ",
+        "value": "  Spark mod：已安裝 | 效能分析器（反射）："
+      },
+      {
+        "key": "  → Primary suspect: ",
+        "value": "→ 頭號嫌疑人："
+      },
+      {
+        "key": "  Related: ",
+        "value": "  相關： "
+      },
+      {
+        "key": " (ATL line suppressed)",
+        "value": " (ATL 行已隱藏)"
+      },
+      {
+        "key": "  • auto_spark_profiling is ON — CTL may start Spark when a leak looks severe (calmtheleaks-common.toml).",
+        "value": "  • auto_spark_profiling 當前為開啟——當洩漏看起來很嚴重時，CTL 可能會啟動 Spark（calmtheleaks-common.toml）。"
+      },
+      {
+        "key": "  • Spark mod is loaded on this server (TPS/telemetry can feed into CTL).",
+        "value": "  • 此伺服器已載入 Spark mod（TPS/遙測資料可輸入到 CTL）。"
+      },
+      {
+        "key": "  • auto_spark_profiling is OFF — start Spark yourself with /spark when you want a profile.",
+        "value": "  • auto_spark_profiling 當前為關閉——當你想進行效能分析時，請自行使用 /spark 啟動 Spark。"
+      },
+      {
+        "key": "  • Spark mod is not loaded on this server — add Spark to the pack to use its profiler with CTL/ATL.",
+        "value": "  • 此伺服器未載入 Spark mod——將 Spark 新增到整合包中，以便將其效能分析器與 CTL/ATL 一起使用。"
+      },
+      {
+        "key": "Heap (JVM): ",
+        "value": "堆記憶體（JVM）： "
+      },
+      {
+        "key": "MOD CONFLICT DETECTED: Hardcore Revival + Corpse mods are creating player clone leaks. Death Detangler is active and has cleaned up ",
+        "value": "檢測到模組衝突：硬核復活與屍體模組正在造成玩家克隆體洩漏。死亡解纏器已啟用並清理了"
+      },
+      {
+        "key": " player(s), but leaks are still growing. The conflict may be too severe for automatic cleanup.",
+        "value": "名玩家，但洩漏仍在增長。衝突可能過於嚴重，無法自動清理。"
+      },
+      {
+        "key": "MULTIPLE PLAYER ENTITIES: Death Detangler is active and has cleaned up ",
+        "value": "存在多個玩家實體：死亡解纏器已啟用並清理了"
+      },
+      {
+        "key": " player(s), but ",
+        "value": "名玩家，但仍有"
+      },
+      {
+        "key": " player entities remain. This may be expected if corpse mods are holding references until inventory recovery.",
+        "value": "個玩家實體殘留。若屍體模組在物品欄回收前持有引用，此情況可能是正常的。"
+      },
+      {
+        "key": "  ✓ Death Detangler active - cleaned up ",
+        "value": "  ✓ 死亡解纏器已啟用 - 已清理"
+      },
+      {
+        "key": " player(s)",
+        "value": "名玩家"
+      },
+      {
+        "key": "  ℹ Death Detangler installed (has cleaned ",
+        "value": "  ℹ 死亡解纏器已安裝（已清理"
+      },
+      {
+        "key": " player(s))",
+        "value": "名玩家）"
+      },
+      {
+        "key": "  Death Detangler active - cleaned up ",
+        "value": "  死亡解纏器已啟用 - 已清理"
+      },
+      {
+        "key": " player(s)",
+        "value": "名玩家"
+      },
+      {
+        "key": "  Death Detangler installed (has cleaned ",
+        "value": "  死亡解纏器已安裝（已清理"
+      },
+      {
+        "key": " player(s))",
+        "value": "名玩家）"
+      },
+      {
+        "key": "  -> Primary suspect: ",
+        "value": "  -> 主要嫌疑："
+      }
+    ]
+  }
+]

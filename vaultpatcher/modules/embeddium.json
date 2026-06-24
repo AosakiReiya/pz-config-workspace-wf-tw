@@ -1,0 +1,112 @@
+[
+  {
+    "name": "embeddium_zh_tw",
+    "desc": "embeddium-0.3.31+mc1.20.1.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "embeddium-0.3.31+mc1.20.1.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "me.jellysquid.mods.sodium.client.compatibility.checks.LateDriverScanner"
+    ],
+    "pairs": [
+      {
+        "key": "Embeddium-PostlaunchChecks",
+        "value": "Embeddium-啟動後檢查"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "me.jellysquid.mods.sodium.client.compatibility.checks.ResourcePackScanner"
+    ],
+    "pairs": [
+      {
+        "key": "Sodium-ResourcePackScanner",
+        "value": "鈉-ResourcePackScanner"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "me.jellysquid.mods.sodium.client.gui.options.OptionImpl$Builder"
+    ],
+    "pairs": [
+      {
+        "key": "Id must not be null",
+        "value": "ID 不能為空"
+      },
+      {
+        "key": "Argument must not be null",
+        "value": "引數不得為 null"
+      },
+      {
+        "key": "Setter must not be null",
+        "value": "Setter 不能為空"
+      },
+      {
+        "key": "Getter must not be null",
+        "value": "Getter 不能為空"
+      },
+      {
+        "key": "Name must be specified or inferred from a specified ID",
+        "value": "必須指定名稱，或從已指定的 ID 中推斷名稱"
+      },
+      {
+        "key": "Tooltip must be specified or inferred from a specified ID",
+        "value": "必須指定工具提示，或根據指定的 ID 推斷工具提示"
+      },
+      {
+        "key": "Option binding must be specified",
+        "value": "必須指定選項繫結"
+      },
+      {
+        "key": "Control must be specified",
+        "value": "必須指定控制元件"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "me.jellysquid.mods.sodium.client.gui.options.control.CyclingControl"
+    ],
+    "pairs": [
+      {
+        "key": "Mismatch between universe length and names array length",
+        "value": "宇宙長度與名稱陣列長度不匹配"
+      },
+      {
+        "key": "The enum universe must contain at least one item",
+        "value": "列舉 universe 必須至少包含一個項"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "me.jellysquid.mods.sodium.client.gui.prompt.ScreenPrompt"
+    ],
+    "pairs": [
+      {
+        "key": "Close",
+        "value": "關閉"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "org.embeddedt.embeddium.gui.frame.OptionPageFrame$Builder"
+    ],
+    "pairs": [
+      {
+        "key": "Dimension must be specified",
+        "value": "必須指定維度"
+      },
+      {
+        "key": "Option Page must be specified",
+        "value": "必須指定選項頁"
+      }
+    ]
+  }
+]

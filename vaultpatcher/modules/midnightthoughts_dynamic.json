@@ -1,0 +1,21 @@
+[
+  {
+    "name": "midnightthoughts_dynamic_zh_tw",
+    "desc": "mthoughts-1.4.jar 硬編碼文本漢化（動態替換）",
+    "authors": "Auto-Translation-Tool",
+    "mods": "mthoughts-1.4.jar",
+    "dynamic": true,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "mt.client.ui.DailySummaryScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Summary",
+        "value": "摘要"
+      }
+    ]
+  }
+]

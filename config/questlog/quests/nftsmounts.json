@@ -1,0 +1,27 @@
+{
+  "requirements": [
+    {
+      "type": "questlog:entity_approach",
+      "entity": "minecraft:horse",
+      "range": 3,
+      "required_amount": 1
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:read"
+    }
+  ],
+  "rewards": [],
+  "title": "坐騎",
+  "description": "現在，一個人該如何環遊世界？嗯，有很多選擇，但我相信這些是最通用的。\n\n§l馬§r可以帶你到陸地上的任何地方，因為它們速度很快，一旦將其設置為你的個人坐騎，就可以被召喚到任何地方。\n\n然而，還有其他類型的坐騎，特別是如果你生活在沒有馬的氣候中，或者你只是一個瘋子。 §l驢§r居住在稍微溫暖的地區。 §l骷髏馬§r可以從倒下的骷髏騎士身上獲得，§l駱駝§r通常在沙漠中以小群的形式出現。\n\n如果願意，§l北極熊§r可以被馴服和騎乘，§l灰熊§r也是如此。\n\n這片土地上還有更多的生物和野獸可以用作坐騎，只有瘋子才能弄清楚是哪一種。",
+  "icon": {
+    "item": "minecraft:saddle"
+  },
+  "background_texture": "questlog:textures/gui/quest_page.png",
+  "left_panel_width": 275,
+  "panel_height": 200,
+  "chapter": "nfts",
+  "toast_on_complete": false,
+  "triggered_sound": "minecraft:block.note_block.bell"
+}

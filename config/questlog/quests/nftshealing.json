@@ -1,0 +1,26 @@
+{
+  "requirements": [
+    {
+      "type": "questlog:stat",
+      "stat": "minecraft:damage_taken",
+      "required_amount": 5
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:read"
+    }
+  ],
+  "rewards": [],
+  "title": "照顧好自己",
+  "description": "幻想曲中人類的健康很脆弱。我建議旅行者隨身攜帶[繃帶](image:questlog:textures/gui/popups/popup_bandage.png:125:62)，或者如果可以的話，帶上[縫合套件](image:questlog:textures/gui/popups/popup_suturekit.png:125:62)。\n\n儘管您應該在安全的地方使用它們。修復自己需要一段時間，你也可以用它們來修復你的朋友。\n\n如果你遇到困難，我建議使用[治療藥水](image:questlog:textures/gui/popups/popup_healingpot.png:125:44) 或[草藥補品](image:questlog:textures/gui/popups/popup_tonic.png:125:62)。\n\n休息一下也可以幫助你更快康復，但前提是你不想在晚上用完繃帶。\n\n如果你正在準備戰鬥，也許[皮革綁定](image:questlog:textures/gui/popups/popup_leatherbinding.png:125:62)會有所幫助，如果你要和其他戰友一起去，我建議也帶上縫合套件來修補它們。",
+  "icon": {
+    "item": "medieval_healing:bandage"
+  },
+  "background_texture": "questlog:textures/gui/quest_page.png",
+  "left_panel_width": 275,
+  "panel_height": 200,
+  "chapter": "nfts",
+  "toast_on_complete": false,
+  "triggered_sound": "minecraft:block.note_block.bell"
+}

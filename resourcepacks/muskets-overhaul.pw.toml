@@ -1,0 +1,13 @@
+name = "Muskets Overhaul for Ewewkek's musket mod"
+filename = "Muskets_Overhaul v.3.4.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b882aeefab639b751f747b32359aff4a5497bf29"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6907038
+project-id = 989469

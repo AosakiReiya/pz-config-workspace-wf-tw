@@ -1,0 +1,313 @@
+[
+  {
+    "name": "yet_another_config_lib_v3_zh_tw",
+    "desc": "yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "dev.isxander.yacl3.dsl.CategoryDslImpl"
+    ],
+    "pairs": [
+      {
+        "key": "<unused var>",
+        "value": "<未使用變數>"
+      },
+      {
+        "key": "Future group ",
+        "value": "引用了未來組"
+      },
+      {
+        "key": " was referenced but was never built.",
+        "value": "，但它從未被構建。"
+      },
+      {
+        "key": "Future option ",
+        "value": "引用了未來選項"
+      },
+      {
+        "key": " was referenced but was never built.",
+        "value": "，但它從未被構建。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.isxander.yacl3.dsl.OptionRegistrarImpl"
+    ],
+    "pairs": [
+      {
+        "key": "null cannot be cast to non-null type java.util.concurrent.CompletableFuture<dev.isxander.yacl3.api.Option<T of dev.isxander.yacl3.dsl.OptionRegistrarImpl.futureRef>>",
+        "value": "null 無法轉換為非空型別 java.util.concurrent.CompletableFuture<dev.isxander.yacl3.api.Option<T of dev.isxander.yacl3.dsl.OptionRegistrarImpl.futureRef>>"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.isxander.yacl3.dsl.RootDslImpl"
+    ],
+    "pairs": [
+      {
+        "key": "<unused var>",
+        "value": "<未使用變數>"
+      },
+      {
+        "key": "Future category ",
+        "value": "引用了未來類別"
+      },
+      {
+        "key": " was referenced but was never built.",
+        "value": "，但它從未被構建。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.isxander.yacl3.gui.YACLScreen$CategoryTab"
+    ],
+    "pairs": [
+      {
+        "key": "Done",
+        "value": "完成"
+      },
+      {
+        "key": "Cancel",
+        "value": "取消"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.isxander.yacl3.gui.controllers.slider.DoubleSliderController"
+    ],
+    "pairs": [
+      {
+        "key": "`max` cannot be smaller than `min`",
+        "value": "`max` 不能小於 `min`"
+      },
+      {
+        "key": "`interval` must be more than 0",
+        "value": "`interval` 必須大於 0"
+      },
+      {
+        "key": "`valueFormatter` must not be null",
+        "value": "`valueFormatter` 不能為 null"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.isxander.yacl3.gui.controllers.slider.FloatSliderController"
+    ],
+    "pairs": [
+      {
+        "key": "`max` cannot be smaller than `min`",
+        "value": "`max` 不能小於 `min`"
+      },
+      {
+        "key": "`interval` must be more than 0",
+        "value": "`interval` 必須大於 0"
+      },
+      {
+        "key": "`valueFormatter` must not be null",
+        "value": "`valueFormatter` 不能為 null"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.isxander.yacl3.gui.controllers.slider.IntegerSliderController"
+    ],
+    "pairs": [
+      {
+        "key": "`max` cannot be smaller than `min`",
+        "value": "`max` 不能小於 `min`"
+      },
+      {
+        "key": "`interval` must be more than 0",
+        "value": "`interval` 必須大於 0"
+      },
+      {
+        "key": "`valueFormatter` must not be null",
+        "value": "`valueFormatter` 不能為 null"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.isxander.yacl3.gui.controllers.slider.LongSliderController"
+    ],
+    "pairs": [
+      {
+        "key": "`max` cannot be smaller than `min`",
+        "value": "`max` 不能小於 `min`"
+      },
+      {
+        "key": "`interval` must be more than 0",
+        "value": "`interval` 必須大於 0"
+      },
+      {
+        "key": "`valueFormatter` must not be null",
+        "value": "`valueFormatter` 不能為 null"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.isxander.yacl3.gui.controllers.string.StringControllerElement"
+    ],
+    "pairs": [
+      {
+        "key": "Click to type...",
+        "value": "點選以輸入..."
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.isxander.yacl3.impl.LabelOptionImpl"
+    ],
+    "pairs": [
+      {
+        "key": "Label Option",
+        "value": "標籤選項"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.isxander.yacl3.impl.LabelOptionImpl$BuilderImpl"
+    ],
+    "pairs": [
+      {
+        "key": "`stateManager` must not be null",
+        "value": "`stateManager` 不能為空"
+      },
+      {
+        "key": "Cannot set state manager if lines have already been defined",
+        "value": "如果行已定義，則無法設定狀態管理器"
+      },
+      {
+        "key": "`line` must not be null",
+        "value": "`line` 不能為空"
+      },
+      {
+        "key": "Cannot build label option without a state manager or lines",
+        "value": "在沒有狀態管理器或文本行的情況下，無法構建標籤選項"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.isxander.yacl3.impl.OptionImpl$BuilderImpl"
+    ],
+    "pairs": [
+      {
+        "key": "Name not specified!",
+        "value": "未指定名稱！"
+      },
+      {
+        "key": "`name` cannot be null",
+        "value": "`name` 不能為空"
+      },
+      {
+        "key": "`controllerBuilder` cannot be null",
+        "value": "`controllerBuilder` 不能為空"
+      },
+      {
+        "key": "`control` cannot be null",
+        "value": "`control` 不能為 null"
+      },
+      {
+        "key": "`stateManager` cannot be null",
+        "value": "`stateManager` 不能為空"
+      },
+      {
+        "key": "Cannot set state manager when binding is set",
+        "value": "已設定繫結時無法設定狀態管理器"
+      },
+      {
+        "key": "Cannot set state manager when instant is set",
+        "value": "當 instant 已設定時，無法設定狀態管理器"
+      },
+      {
+        "key": "`binding` cannot be null",
+        "value": "`binding` 不能為空"
+      },
+      {
+        "key": "Cannot set binding when state manager is set",
+        "value": "設定了狀態管理器時無法設定繫結"
+      },
+      {
+        "key": "`def` must not be null",
+        "value": "`def` 不能為 null"
+      },
+      {
+        "key": "`getter` must not be null",
+        "value": "`getter` 不得為 null"
+      },
+      {
+        "key": "`setter` must not be null",
+        "value": "`setter` 不能為 null"
+      },
+      {
+        "key": "`flag` must not be null",
+        "value": "`flag` 不能為空"
+      },
+      {
+        "key": "`flags` must not be null",
+        "value": "`flags` 不能為空"
+      },
+      {
+        "key": "Cannot set instant when state manager is set",
+        "value": "已設定狀態管理器時，無法設定瞬時值"
+      },
+      {
+        "key": "`listener` must not be null",
+        "value": "`listener` 不能為空"
+      },
+      {
+        "key": "`optionEventListeners` must not be null",
+        "value": "`optionEventListeners` 不得為 null"
+      },
+      {
+        "key": "`listeners` must not be null",
+        "value": "`listeners` 不能為 null"
+      },
+      {
+        "key": "`control` must not be null when building `Option`",
+        "value": "構建 `Option` 時，`control` 不能為 null"
+      },
+      {
+        "key": "instant application does not support option flags",
+        "value": "即時應用不支援選項標誌"
+      },
+      {
+        "key": "State manager must be set, either by using .binding() to create a simple manager or .state() to create an advanced one",
+        "value": "必須設定狀態管理器，可通過使用 .binding() 建立簡單管理器，或使用 .state() 建立高階管理器"
+      },
+      {
+        "key": "Always synced state managers do not support option flags.",
+        "value": "始終同步的狀態管理器不支援選項標記。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.isxander.yacl3.impl.OptionImpl"
+    ],
+    "pairs": [
+      {
+        "key": "`value` cannot be null",
+        "value": "`value` 不能為空"
+      },
+      {
+        "key": "Listener depth exceeded 10! Possible cyclic listener pattern: a listener triggered an event that triggered the initial event etc etc.",
+        "value": "監聽器深度超過 10！可能存在迴圈監聽器模式：某個監聽器觸發了一個事件，而該事件又觸發了初始事件，等等等等。"
+      }
+    ]
+  }
+]

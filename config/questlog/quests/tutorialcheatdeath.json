@@ -1,0 +1,26 @@
+{
+  "chapter": "nfts",
+  "left_panel_width": 275,
+  "panel_height": 200,
+  "requirements": [
+    {
+      "type": "questlog:stat",
+      "stat": "minecraft:deaths",
+      "required_amount": 3
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:read"
+    }
+  ],
+  "rewards": [],
+  "title": "欺騙死亡",
+  "description": "死亡總是正義的，但對某些人來說可能會覺得不公平。\n\n如果您的配偶或孩子死亡，您可以獲得使他們復活的力量。\n\n有一個[儀式](image:questlog:textures/gui/popups/popup_ritual.png:125:125)允許任何人召喚死亡女士的法官和劊子手。失敗後，其中一個會掉落死亡之矛，另一個可能會掉落復活之瓶。\n\n死亡之矛可以用來復活死者，但他們可能會復活為不死族，而復活瓶可以用來在旁邊的冒險家夥伴身上復活他們。然而，如果兩者結合起來，就會成為生命之杖。",
+  "icon": {
+    "item": "mca:scythe"
+  },
+  "background_texture": "questlog:textures/gui/quest_page.png",
+  "toast_on_complete": false,
+  "triggered_sound": "minecraft:block.note_block.bell"
+}

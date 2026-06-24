@@ -1,0 +1,13 @@
+name = "Lios Player Animator Api"
+filename = "liosplayeranimatorapi-forge-1.20.1-0.0.8.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5f87864f9ce339c813b1d7764beffaf40963d3d3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5535502
+project-id = 1002070

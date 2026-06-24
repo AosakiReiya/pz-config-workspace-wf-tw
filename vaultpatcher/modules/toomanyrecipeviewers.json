@@ -1,0 +1,78 @@
+[
+  {
+    "name": "toomanyrecipeviewers_zh_tw",
+    "desc": "toomanyrecipeviewers-0.8.1+mc.20.1.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "toomanyrecipeviewers-0.8.1+mc.20.1.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "dev.nolij.toomanyrecipeviewers.EMIPlugin"
+    ],
+    "pairs": [
+      {
+        "key": "[TMRV] Initializing...",
+        "value": "[TMRV] 正在初始化..."
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.nolij.toomanyrecipeviewers.impl.ingredient.ErrorEmiStack"
+    ],
+    "pairs": [
+      {
+        "key": "This shouldn't be here. It only shows when TooManyRecipeViewers has encountered an error. Please report this via a GitHub issue.\n",
+        "value": "這裡本不該顯示。只有在 TooManyRecipeViewers 遇到錯誤時才會顯示。請通過 GitHub issue 進行反饋。"
+      },
+      {
+        "key": "PLEASE INCLUDE WITH YOUR REPORT:",
+        "value": "請在你的報告中附上："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mezz.jei.common.gui.JeiTooltip"
+    ],
+    "pairs": [
+      {
+        "key": "JEI Debug:",
+        "value": "JEI 除錯:"
+      },
+      {
+        "key": "* type: ",
+        "value": "* 型別："
+      },
+      {
+        "key": "* has subtypes: ",
+        "value": "* 有子型別："
+      },
+      {
+        "key": "* uid: ",
+        "value": "* 唯一識別符號:"
+      },
+      {
+        "key": "* extra info: ",
+        "value": "* 額外資訊："
+      },
+      {
+        "key": "Crashed when rendering tooltip:\n",
+        "value": "渲染提示框時崩潰：\n"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mezz.jei.forge.platform.ItemStackHelper"
+    ],
+    "pairs": [
+      {
+        "key": "JEI Tooltip Testing for mod name formatting",
+        "value": "用於測試模組名稱格式的 JEI 工具提示"
+      }
+    ]
+  }
+]

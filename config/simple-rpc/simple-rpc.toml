@@ -1,0 +1,206 @@
+
+#General Config Section. See https://srpc.fdd-docs.com/introduction/
+[general]
+	#The Application ID of the Discord App to use
+	applicationID = "1381583156188282960"
+	#Enable/Disable the mod
+	enabled = true
+	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
+	debugging = false
+	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
+	launcherIntegration = false
+	#Allow using local image files, as RPC icons
+	rpcImageServer = false
+	#The URL of the RPC image server that will be used for local images. Restart required when changed
+	rpcImageServerUrl = "https://rpcavatar.firstdark.dev"
+	#Internal Version Number. NO TOUCHY!
+	version = 26
+
+#The Game Loading event
+[init]
+	#Enable/Disable the Game Loading Event
+	enabled = true
+
+	[[init.presence]]
+		type = "演奏"
+		description = "幻境載入中"
+		state = "遊戲啟動中..."
+		largeImageKey = ["幻想曲1_1"]
+		largeImageText = "waccyy的幻想曲"
+		smallImageKey = ["flogo1_1"]
+		smallImageText = "測試版 11.9"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		buttons = []
+
+#The Main Menu event
+[main_menu]
+	#Enable/Disable the Main Menu Event
+	enabled = true
+
+	[[main_menu.presence]]
+		type = "演奏"
+		description = "{{player.name}} 正在休息"
+		state = "在主選單中"
+		largeImageKey = ["幻想曲1_1"]
+		largeImageText = "waccyy的幻想曲"
+		smallImageKey = ["flogo1_1"]
+		smallImageText = "測試版11.9"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		buttons = []
+
+#The Server List event
+[server_list]
+	#Enable/Disable the Server List Event
+	enabled = true
+
+	[[server_list.presence]]
+		type = "演奏"
+		description = "{{player.name}} 正在尋找伺服器"
+		state = "尋找聚會"
+		largeImageKey = ["幻想曲1_1"]
+		largeImageText = "waccyy的幻想曲"
+		smallImageKey = ["{{images.player}}"]
+		smallImageText = "{{player.name}}"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		buttons = []
+
+#The Realms Screen event
+[realms_list]
+	#Enable/Disable the Realms Screen Event
+	enabled = false
+
+	[[realms_list.presence]]
+		type = "演奏"
+		description = "{{player.name}} 正在尋找 Realm"
+		state = "瀏覽 Realms"
+		largeImageKey = ["麥科洛新"]
+		largeImageText = "這是 Minecraft {{game.version}}，但已加入模組"
+		smallImageKey = ["{{images.player}}"]
+		smallImageText = "{{player.name}}"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		buttons = []
+
+#The Join Game Event
+[join_game]
+	#Enable/Disable the Join Game Event
+	enabled = true
+
+	[[join_game.presence]]
+		type = "演奏"
+		description = "{{player.name}} 正在加入一個世界"
+		state = "加入世界中"
+		largeImageKey = ["幻想曲1_1"]
+		largeImageText = "waccyy的幻想曲"
+		smallImageKey = ["flogo1_1"]
+		smallImageText = "測試版11.9"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		buttons = []
+
+#The Single Player Event
+[single_player]
+	#Enable/Disable the Single Player Event
+	enabled = true
+
+	[[single_player.presence]]
+		type = "演奏"
+		description = "當前位於 {{world.name}}"
+		state = "獨奏"
+		largeImageKey = ["幻想曲1_1"]
+		largeImageText = "waccyy的幻想曲"
+		smallImageKey = ["flogo1_1"]
+		smallImageText = "測試版11.9"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		buttons = []
+
+#The Multi Player Event
+[multi_player]
+	#Enable/Disable the Multi Player Event
+	enabled = true
+
+	[[multi_player.presence]]
+		type = "演奏"
+		description = "與 {{server.players.count}} 名其他玩家一起遊玩"
+		state = "線上玩"
+		largeImageKey = ["幻想曲1_1"]
+		largeImageText = "waccyy的幻想曲"
+		smallImageKey = ["{{images.player}}"]
+		smallImageText = "{{player.name}}"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		buttons = []
+
+#The Realms Game Event
+[realms]
+	#Enable/Disable the Realms Game Event
+	enabled = false
+
+	[[realms.presence]]
+		type = "演奏"
+		description = "正在 {{realm.name}} 上游玩"
+		state = "在 Realm 上玩"
+		largeImageKey = ["麥科洛新"]
+		largeImageText = "這是 Minecraft {{game.version}}，但已加入模組"
+		smallImageKey = ["{{images.player}}"]
+		smallImageText = "{{player.name}}"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		buttons = []
+
+#The Paused Event
+[paused]
+	#Enable/Disable the Pause Event
+	enabled = true
+
+	[[paused.presence]]
+		type = "演奏"
+		description = "{{player.name}} 正在休息"
+		state = "遊戲暫停"
+		largeImageKey = ["幻想曲1_1"]
+		largeImageText = "waccyy的幻想曲"
+		smallImageKey = ["flogo1_1"]
+		smallImageText = "測試版11.9"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		buttons = []
+
+#Fallback event for disabled events
+[generic]
+
+	[[generic.presence]]
+		type = "演奏"
+		description = "演奏幻想曲"
+		state = ""
+		largeImageKey = ["fantasia1_1"]
+		largeImageText = "waccyy的幻想曲"
+		smallImageKey = ["flogo1_1"]
+		smallImageText = "測試版 11.9"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		buttons = []
+
+#您可以使用的自訂配置變數
+[custom]
+	#這些變數必須與其他變數一起解析
+	enabled = true
+	##Your custom variables to add
+	variables = []
+
+#Dimension 信息覆盖
+[dimension_overrides]
+	##Allows you to override the displayed values for dimensions
+	enabled = false
+
+	[[dimension_overrides.dimensions]]
+		name = "minecraft:overworld"[[dimension_overrides.dimensions.presence]]
+			類型="PLAYING"描述="{{player.name}} 在主世界"狀態 =""大圖像鍵 = ["overworld"]
+			大圖像文字 ="位於主世界"小圖像鍵 = ["mclogo"]
+			小圖像文字 ="已安裝 {{game.mods}} 個模組"串流活動 URL ="https://twitch.tv/twitch"按鈕 = []
+
+	[[dimension_overrides.dimensions]]
+		name = "minecraft:the_nether"[[dimension_overrides.dimensions.presence]]
+			類型="PLAYING"描述="{{player.name}} 在下界"狀態 =""大圖像鍵 = ["nether"]
+			大圖像文字 ="位於下界"小圖像鍵 = ["mclogo"]
+			小圖像文字 ="已安裝 {{game.mods}} 個模組"串流活動 URL ="https://twitch.tv/twitch"按鈕 = []
+
+	[[dimension_overrides.dimensions]]
+		name = "minecraft:the_end"[[dimension_overrides.dimensions.presence]]
+			類型="PLAYING"描述="{{player.name}} 在末地"狀態 =""大圖像鍵 = ["end"]
+			大圖像文字 ="位於末地"小圖像鍵 = ["mclogo"]
+			小圖像文字 ="已安裝 {{game.mods}} 個模組"串流活動 URL ="https://twitch.tv/twitch"
+			buttons = []

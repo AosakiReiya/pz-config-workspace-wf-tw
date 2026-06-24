@@ -1,0 +1,13 @@
+name = "(Brewin' and Chewin') 3D delight foods & drinks"
+filename = "3D item on coaster.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1986029d007f583c6fb6f97afb70c19ab3cc0bbd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6546064
+project-id = 1233457

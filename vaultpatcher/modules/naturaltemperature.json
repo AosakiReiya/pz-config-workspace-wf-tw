@@ -1,0 +1,197 @@
+[
+  {
+    "name": "naturaltemperature_zh_tw",
+    "desc": "naturaltemperature-1.1.1-FORGE-MC-1.20.1.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "naturaltemperature-1.1.1-FORGE-MC-1.20.1.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.naturaltemperature.client.gui.NaturalTemperatureConfigScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Natural Temperature Config",
+        "value": "自然溫度配置"
+      },
+      {
+        "key": "Done",
+        "value": "完成"
+      },
+      {
+        "key": "Generation Mode",
+        "value": "生成模式"
+      },
+      {
+        "key": "Equatorial Distance",
+        "value": "赤道距離"
+      },
+      {
+        "key": "Equator Offset",
+        "value": "赤道偏移量"
+      },
+      {
+        "key": "Wave Magnification",
+        "value": "波次放大倍率"
+      },
+      {
+        "key": "Looping World",
+        "value": "迴圈世界"
+      },
+      {
+        "key": "Multidimensional Bands",
+        "value": "多維指環"
+      },
+      {
+        "key": "Global Temp Modifier %",
+        "value": "全域性溫度修正百分比"
+      },
+      {
+        "key": "Global Temp Mitigation %",
+        "value": "全域性溫度緩解百分比"
+      },
+      {
+        "key": "Temperature Zone 1",
+        "value": "溫度結界 1"
+      },
+      {
+        "key": "Temperature Zone 2",
+        "value": "溫度結界 2"
+      },
+      {
+        "key": "Temperature Zone 3",
+        "value": "溫度結界 3"
+      },
+      {
+        "key": "Temperature Zone 4",
+        "value": "溫度結界 4"
+      },
+      {
+        "key": "Temperature Zone 5",
+        "value": "溫度結界 5"
+      },
+      {
+        "key": "Temperature Zone 6",
+        "value": "溫度結界 6"
+      },
+      {
+        "key": "Enable Humidity Bands",
+        "value": "啟用溼度指環"
+      },
+      {
+        "key": "Humidity Bands Width",
+        "value": "溼度頻寬度"
+      },
+      {
+        "key": "Humidity Zone 1",
+        "value": "溼度結界 1"
+      },
+      {
+        "key": "Humidity Zone 2",
+        "value": "溼度結界 2"
+      },
+      {
+        "key": "Humidity Zone 3",
+        "value": "溼度結界 3"
+      },
+      {
+        "key": "Humidity Zone 4",
+        "value": "溼度結界 4"
+      },
+      {
+        "key": "Humidity Zone 5",
+        "value": "溼度結界 5"
+      },
+      {
+        "key": "Humidity Zone 6",
+        "value": "溼度結界 6"
+      },
+      {
+        "key": "Extra Bands",
+        "value": "額外光帶"
+      },
+      {
+        "key": "Coverage Zone 1 %",
+        "value": "覆蓋結界 1 %"
+      },
+      {
+        "key": "Coverage Zone 2 %",
+        "value": "覆蓋結界 2 %"
+      },
+      {
+        "key": "Coverage Zone 3 %",
+        "value": "覆蓋結界 3 %"
+      },
+      {
+        "key": "Coverage Zone 4 %",
+        "value": "覆蓋結界 4 %"
+      },
+      {
+        "key": "Coverage Zone 5 %",
+        "value": "覆蓋結界 5 %"
+      },
+      {
+        "key": "Coverage Zone 6 %",
+        "value": "覆蓋結界 6 %"
+      },
+      {
+        "key": "Randomize Underground",
+        "value": "地下結構隨機化"
+      },
+      {
+        "key": "Randomize Below Y",
+        "value": "隨機化 Y 座標以下區域"
+      },
+      {
+        "key": "Randomization Type (0/1/2)",
+        "value": "隨機化型別（0/1/2）"
+      },
+      {
+        "key": "Custom Mode ID 1 (101)",
+        "value": "自定義模式ID 1（101）"
+      },
+      {
+        "key": "Custom Mode ID 2 (102)",
+        "value": "自定義模式ID 2（102）"
+      },
+      {
+        "key": "Custom Mode ID 3 (103)",
+        "value": "自定義模式ID 3（103）"
+      },
+      {
+        "key": "Custom Mode ID 4 (104)",
+        "value": "自定義模式ID 4（104）"
+      },
+      {
+        "key": "Custom Mode ID 5 (105)",
+        "value": "自定義模式ID 5（105）"
+      },
+      {
+        "key": "General",
+        "value": "通用"
+      },
+      {
+        "key": "Temperature",
+        "value": "溫度"
+      },
+      {
+        "key": "Humidity",
+        "value": "溼度"
+      },
+      {
+        "key": "Bands",
+        "value": "光帶"
+      },
+      {
+        "key": "Underground",
+        "value": "地下"
+      },
+      {
+        "key": "Custom Modes",
+        "value": "自定義模式"
+      }
+    ]
+  }
+]

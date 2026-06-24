@@ -1,0 +1,71 @@
+[
+  {
+    "name": "obscure_api_zh_tw",
+    "desc": "obscure_api-18.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "obscure_api-18.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.obscuria.obscureapi.client.screen.AboutScreen"
+    ],
+    "pairs": [
+      {
+        "key": "§lObscuria Collection",
+        "value": "§lObscuria 合集"
+      },
+      {
+        "key": "Error loading data from server",
+        "value": "從伺服器載入資料時出錯"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.obscuria.obscureapi.client.screen.ModListScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Settings",
+        "value": "設定"
+      },
+      {
+        "key": "Mod Page",
+        "value": "模組頁面"
+      },
+      {
+        "key": "Update",
+        "value": "更新"
+      },
+      {
+        "key": "View on Curseforge",
+        "value": "在 Curseforge 檢視"
+      },
+      {
+        "key": "Error loading data from server",
+        "value": "從伺服器載入資料時出錯"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.obscuria.obscureapi.client.screen.SettingsScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Patreon Pet Mode",
+        "value": "贊助寵物模式"
+      },
+      {
+        "key": "Equipment Icons",
+        "value": "裝備圖示"
+      },
+      {
+        "key": "Food Icons",
+        "value": "食物圖示"
+      }
+    ]
+  }
+]

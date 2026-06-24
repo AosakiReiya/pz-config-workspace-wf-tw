@@ -1,0 +1,21 @@
+[
+  {
+    "name": "cloth_config_zh_tw",
+    "desc": "cloth-config-11.1.136-forge.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "cloth-config-11.1.136-forge.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "me.shedaniel.clothconfig2.gui.entries.DropdownBoxEntry$DefaultSelectionTopCellElement"
+    ],
+    "pairs": [
+      {
+        "key": "Invalid Value!",
+        "value": "無效的值！"
+      }
+    ]
+  }
+]

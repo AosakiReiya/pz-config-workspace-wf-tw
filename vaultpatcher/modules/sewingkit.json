@@ -1,0 +1,25 @@
+[
+  {
+    "name": "sewingkit_zh_tw",
+    "desc": "SewingKit-1.20.1-1.8.1.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "SewingKit-1.20.1-1.8.1.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "dev.gigaherz.sewingkit.patterns.PatternItem"
+    ],
+    "pairs": [
+      {
+        "key": "This feature is not implemented yet.",
+        "value": "此功能尚未實現。"
+      },
+      {
+        "key": "This item may be removed in the future.",
+        "value": "此物品可能會在未來被移除。"
+      }
+    ]
+  }
+]

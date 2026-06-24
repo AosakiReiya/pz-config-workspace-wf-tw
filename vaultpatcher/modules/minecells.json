@@ -1,0 +1,45 @@
+[
+  {
+    "name": "minecells_zh_tw",
+    "desc": "minecells-2.0.0.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "minecells-2.0.0.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.github.mim1q.minecells.command.SpecialPointCommand"
+    ],
+    "pairs": [
+      {
+        "key": "Cleared special point cache",
+        "value": "已清除特殊點快取"
+      },
+      {
+        "key": "Invalid dimension",
+        "value": "無效維度"
+      },
+      {
+        "key": "Not found",
+        "value": "未找到"
+      },
+      {
+        "key": "Found ",
+        "value": "在 "
+      },
+      {
+        "key": " at ",
+        "value": " 處發現 "
+      },
+      {
+        "key": ", rotation: ",
+        "value": "，旋轉角度："
+      },
+      {
+        "key": " in ",
+        "value": "，位於 "
+      }
+    ]
+  }
+]

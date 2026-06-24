@@ -1,0 +1,13 @@
+name = "Simple Lower Grass Sides"
+filename = "Simple Lower Grass Sides v1.1.0.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0ff620020600df5ba50a19bf1333356bcfa15af0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6375419
+project-id = 1040885

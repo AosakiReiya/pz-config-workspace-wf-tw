@@ -1,0 +1,8 @@
+#Tue Jun 23 18:59:11 HKT 2026
+Morning_Cloudy_Fog=0.04
+moon_illuminance=500.0
+Evening_Uniform_Fog=0.04
+Night_Cloudy_Fog=0.04
+MIN_LIGHT_AMOUNT=3.0
+Night_Uniform_Fog=0.06
+TONEMAP=ToneMap_Hejl2015

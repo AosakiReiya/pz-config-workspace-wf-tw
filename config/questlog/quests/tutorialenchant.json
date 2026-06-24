@@ -1,0 +1,22 @@
+{
+  "chapter": "nfts",
+  "left_panel_width": 275,
+  "panel_height": 200,
+  "requirements": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:enchanted_book",
+      "required_amount": 1
+    }
+  ],
+  "objectives": [],
+  "rewards": [],
+  "title": "妖嬈",
+  "description": "奧術寶石可以在§l加工熔爐§r中取得或在§n洞穴§r中找到。它們在強化你的武裝時具有巨大的力量。\n\n要使用它們的力量，必須將其與您的武器在§l鍛造台§r處結合。\n\n最後，你可以使用《古書》來提升你的武器，使其超越其限制，這可以在地下深處的地牢中找到。",
+  "icon": {
+    "item": "minecraft:enchanted_book"
+  },
+  "background_texture": "questlog:textures/gui/quest_page.png",
+  "toast_on_complete": false,
+  "triggered_sound": "minecraft:block.note_block.bell"
+}

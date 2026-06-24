@@ -1,0 +1,36 @@
+{
+  "requirements": [
+    {
+      "type": "questlog:or",
+      "objectives": [
+        {
+          "type": "questlog:visit_biome",
+          "biome": "minecraft:beach",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:visit_biome",
+          "biome": "regions_unexplored:grassy_beach",
+          "required_amount": 1
+        }
+      ]
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:read"
+    }
+  ],
+  "rewards": [],
+  "title": "單桅帆船",
+  "description": "要製造一艘船，您需要製造造船者的鷹架，它用作船隻的框架。\n\n單桅帆船的製作方式是[像這樣](image:questlog:textures/gui/popups/popup_sloop.png:125:125)，每個角落的防滑釘都面向側面。\n\n對於單桅帆船，你需要\n- 18 傾斜造船工的鷹架\n- 6 平造船工的鷹架\n- 4 個防滑釘\n- 116塊您選擇的木板\n- 34根相應的去皮原木\n- 16個相應的柵欄\n- 24 白色羊毛\n- 8 條線索\n- 和一個錨。\n\n[隔間](image:questlog:textures/gui/popups/popup_compartment_2.png:125:125) 可以加入到單桅帆船的某些部分，它可以是箱子、桶或其他有用的方塊。這也可以定制；您可以添加橫幅並為其命名。",
+  "icon": {
+    "item": "alekiships:anchor"
+  },
+  "background_texture": "questlog:textures/gui/quest_page.png",
+  "left_panel_width": 275,
+  "panel_height": 200,
+  "chapter": "nfts",
+  "toast_on_complete": false,
+  "triggered_sound": "minecraft:block.note_block.bell"
+}

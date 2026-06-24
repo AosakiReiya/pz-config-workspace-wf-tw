@@ -1,0 +1,73 @@
+[
+  {
+    "name": "balm_zh_tw",
+    "desc": "balm-forge-1.20.1-7.3.38-all.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "balm-forge-1.20.1-7.3.38-all.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "net.blay09.mods.balm.common.command.BalmCommand"
+    ],
+    "pairs": [
+      {
+        "key": "Daylight cycle disabled",
+        "value": "遊戲內時間流逝已停用"
+      },
+      {
+        "key": "Weather cycle disabled",
+        "value": "天氣更替已停用"
+      },
+      {
+        "key": "Keep Inventory enabled",
+        "value": "已啟用保留物品欄"
+      },
+      {
+        "key": "Insomnia disabled",
+        "value": "失眠已停用"
+      },
+      {
+        "key": "Mob Griefing disabled",
+        "value": "已停用允許破壞性生物行為"
+      },
+      {
+        "key": "Trader Spawning disabled",
+        "value": "已停用生成流浪商人"
+      },
+      {
+        "key": "Difficulty set to Peaceful",
+        "value": "難度已設定為和平"
+      },
+      {
+        "key": "Weather cleared",
+        "value": "天氣已清除"
+      },
+      {
+        "key": "Set the time to Daytime",
+        "value": "將時間設為白天"
+      },
+      {
+        "key": "This command will change several game rules and your world's difficulty. You should only use it if you know what you're doing!",
+        "value": "此命令將更改多項遊戲規則和你的世界難度。只有在你知道自己在做什麼的情況下才應使用！"
+      },
+      {
+        "key": "Exported config schema for ",
+        "value": "已匯出的配置架構："
+      },
+      {
+        "key": "Exported icons for ",
+        "value": "已匯出的圖示為 "
+      },
+      {
+        "key": "Error exporting icons for ",
+        "value": "匯出 "
+      },
+      {
+        "key": "Error exporting config data class: ",
+        "value": "匯出配置資料類時出錯："
+      }
+    ]
+  }
+]

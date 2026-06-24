@@ -1,0 +1,16 @@
+
+["XP Level Color Settings"]
+	#Color of the XP level number (ARGB format, hex)
+	#Example: Cyan = 0xFF00FFFF, Green = 0xFF00FF00
+	#Range: > -2147483648
+	xpLevelColor = -10432056
+	#Color of the XP level number's border (ARGB format, hex)
+	#Example: Cyan = 0xFF00FFFF, Green = 0xFF00FF00
+	#Range: > -2147483648
+	xpLevelBorderColor = -16777216
+	#Vertical offset for the XP level text
+	#Positive = moves up, Negative = moves down
+	#Vanilla position is 0
+	#Range: -100 ~ 100
+	xpLevelYOffset = 3
+

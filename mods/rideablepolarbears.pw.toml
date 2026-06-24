@@ -1,0 +1,13 @@
+name = "RideablePolarBears"
+filename = "RideablePolarBears-1.0.0-1.20.1-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "22ebeff34227f29ed7fdf1ce2e000bd53b466851"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4840105
+project-id = 932424

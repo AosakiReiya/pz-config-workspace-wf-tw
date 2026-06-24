@@ -1,0 +1,23 @@
+{
+  "item.kubejs.sulfuric_liquid_bucket": "液態硫酸桶",
+  "item.kubejs.alluring_sunstone": "魅惑太陽石",
+  "item.kubejs.nimble_spinel": "靈巧尖晶石",
+  "item.kubejs.rectifying_moonstone": "校正月長石",
+  "item.kubejs.scornful_bloodstone": "蔑視血石",
+  "item.kubejs.tranquil_pearl": "寧謐珍珠",
+  "item.kubejs.vengeful_onyx": "復仇黑曜石",
+  "item.kubejs.corpse_compass": "屍體羅盤",
+  "tooltip.kubejs.ermiras_favor.charges": "費用：%s",
+  "tooltip.kubejs.ermiras_favor.desc1_singular": "剩餘復活次數：%s",
+  "tooltip.kubejs.ermiras_favor.desc1_plural": "剩餘復活次數：%s",
+  "tooltip.kubejs.ermiras_favor.desc2": "死亡時，回憶到這個位置",
+  "tooltip.kubejs.ermiras_favor.desc3": "距離：%s 個街區",
+  "tooltip.kubejs.ermiras_favor.desc4": "過期時間：%s 天",
+  "message.kubejs.ermiras_favor.activated": "艾爾米拉的恩惠啟動！剩餘復活數：%s",
+  "message.kubejs.ermiras_favor.exhausted": "艾爾米拉的寵愛已經耗盡。",
+  "message.kubejs.ermiras_favor.failed_too_far": "失敗的！離死亡點太遠了。左復活：%s",
+  "message.kubejs.ermiras_favor.exhausted_too_far": "艾爾米拉的寵愛已經耗盡！離死亡點太遠了！",
+  "message.kubejs.teleport_gem.dimension_fail": "無法跨維度傳送！",
+  "tooltip.kubejs.corpse_compass.corpse_name": "目標：%s",
+  "tooltip.kubejs.corpse_compass.no_target": "沒有設定目標"
+}

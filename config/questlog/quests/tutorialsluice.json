@@ -1,0 +1,22 @@
+{
+  "chapter": "nfts",
+  "left_panel_width": 275,
+  "panel_height": 200,
+  "requirements": [
+    {
+      "type": "questlog:block_mine",
+      "block": "minecraft:gravel",
+      "required_amount": 3
+    }
+  ],
+  "objectives": [],
+  "rewards": [],
+  "title": "水閘",
+  "description": "水閘是一種非常有用的工具，可以用來收集材料或從泥土和泥土等無用材料中獲得有價值的東西。它由石頭或木製的通道製成，上面可以放置水源。\n\n要啟動水閘，如果您製作了木製水閘，請使用斧頭與一側互動，如果您製作了石質水閘，請使用鎬與一側互動。\n\n要從泥土、泥土或礫石中收集材料，只需將它們隨流水扔到水閘上即可。",
+  "icon": {
+    "item": "spelunkery:wooden_sluice"
+  },
+  "background_texture": "questlog:textures/gui/quest_page.png",
+  "toast_on_complete": false,
+  "triggered_sound": "minecraft:block.note_block.bell"
+}

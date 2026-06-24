@@ -1,0 +1,161 @@
+[
+  {
+    "soundEventId": "dsurround:item.blunt.equip",
+    "volumeScale": 50
+  },
+  {
+    "soundEventId": "dsurround:item.blunt.swing",
+    "volumeScale": 50
+  },
+  {
+    "soundEventId": "dsurround:item.bow.equip",
+    "volumeScale": 50
+  },
+  {
+    "soundEventId": "dsurround:item.bow.loose",
+    "volumeScale": 50
+  },
+  {
+    "soundEventId": "dsurround:item.bow.pull",
+    "volumeScale": 50
+  },
+  {
+    "soundEventId": "dsurround:item.potion.equip",
+    "volumeScale": 50
+  },
+  {
+    "soundEventId": "dsurround:item.shield.equip",
+    "volumeScale": 50
+  },
+  {
+    "soundEventId": "dsurround:item.shield.use",
+    "volumeScale": 50
+  },
+  {
+    "soundEventId": "dsurround:item.sword.equip",
+    "volumeScale": 50
+  },
+  {
+    "soundEventId": "dsurround:item.sword.swing",
+    "volumeScale": 50
+  },
+  {
+    "soundEventId": "dsurround:item.tool.equip",
+    "volumeScale": 50
+  },
+  {
+    "soundEventId": "dsurround:item.tool.swing",
+    "volumeScale": 50
+  },
+  {
+    "soundEventId": "dsurround:item.utility.equip",
+    "volumeScale": 50
+  },
+  {
+    "soundEventId": "immersivetoolsweaponssounds:player_attack_air",
+    "volumeScale": 50
+  },
+  {
+    "soundEventId": "immersivetoolsweaponssounds:player_attack_crit",
+    "volumeScale": 50
+  },
+  {
+    "soundEventId": "immersivetoolsweaponssounds:player_attack_strong",
+    "volumeScale": 50
+  },
+  {
+    "soundEventId": "immersivetoolsweaponssounds:player_attack_sweep",
+    "volumeScale": 50
+  },
+  {
+    "soundEventId": "immersivetoolsweaponssounds:player_bow_equip",
+    "volumeScale": 50
+  },
+  {
+    "soundEventId": "immersivetoolsweaponssounds:player_bow_pull",
+    "volumeScale": 50
+  },
+  {
+    "soundEventId": "immersivetoolsweaponssounds:player_bow_shoot",
+    "volumeScale": 50
+  },
+  {
+    "soundEventId": "immersivetoolsweaponssounds:player_crossbow_pull",
+    "volumeScale": 50
+  },
+  {
+    "soundEventId": "immersivetoolsweaponssounds:player_crossbow_shoot",
+    "volumeScale": 50
+  },
+  {
+    "soundEventId": "immersivetoolsweaponssounds:player_sword_equip",
+    "volumeScale": 50
+  },
+  {
+    "soundEventId": "immersivetoolsweaponssounds:player_tool_attack_air",
+    "volumeScale": 50
+  },
+  {
+    "soundEventId": "immersivetoolsweaponssounds:player_tool_attack_crit",
+    "volumeScale": 50
+  },
+  {
+    "soundEventId": "immersivetoolsweaponssounds:player_tool_attack_strong",
+    "volumeScale": 50
+  },
+  {
+    "soundEventId": "immersivetoolsweaponssounds:player_tool_equip",
+    "volumeScale": 52
+  },
+  {
+    "startup": true,
+    "soundEventId": "minecraft:ambient.underwater.exit"
+  },
+  {
+    "block": true,
+    "soundEventId": "minecraft:block.water.ambient"
+  },
+  {
+    "cull": true,
+    "soundEventId": "minecraft:entity.chicken.ambient"
+  },
+  {
+    "startup": true,
+    "soundEventId": "minecraft:entity.chicken.egg"
+  },
+  {
+    "cull": true,
+    "soundEventId": "minecraft:entity.cow.ambient"
+  },
+  {
+    "cull": true,
+    "soundEventId": "minecraft:entity.ender_dragon.death",
+    "volumeScale": 10
+  },
+  {
+    "startup": true,
+    "soundEventId": "minecraft:entity.experience_orb.pickup"
+  },
+  {
+    "cull": true,
+    "soundEventId": "minecraft:entity.llama.ambient"
+  },
+  {
+    "cull": true,
+    "soundEventId": "minecraft:entity.pig.ambient"
+  },
+  {
+    "cull": true,
+    "soundEventId": "minecraft:entity.sheep.ambient"
+  },
+  {
+    "cull": true,
+    "soundEventId": "minecraft:entity.wither.death",
+    "volumeScale": 10
+  },
+  {
+    "cull": true,
+    "soundEventId": "minecraft:entity.wither.spawn",
+    "volumeScale": 10
+  }
+]

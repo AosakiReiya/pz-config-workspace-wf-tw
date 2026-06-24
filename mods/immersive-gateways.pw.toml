@@ -1,0 +1,13 @@
+name = "Immersive Gateways"
+filename = "immersive_gateways-forge-0.0.5+1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3a3defb4a0f91e53f751e7fee1852abee374678f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8079370
+project-id = 1307924

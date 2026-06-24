@@ -1,0 +1,7 @@
+#Enable / disable the harvest level icon
+harvest_level_icon = true
+#Enable / disable the attack range icon
+attack_rage_icon = true
+#Enable / disable icons for curios
+curios_icons = true
+

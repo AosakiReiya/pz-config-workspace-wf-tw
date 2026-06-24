@@ -1,0 +1,63 @@
+[
+  {
+    "name": "bountiful_zh_tw",
+    "desc": "Bountiful-6.0.4+1.20.1-forge.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "Bountiful-6.0.4+1.20.1-forge.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "io.ejekta.bountiful.content.BountifulCommands"
+    ],
+    "pairs": [
+      {
+        "key": "Amount Range must have a minimum and maximum value!",
+        "value": "數量範圍必須同時具有最小值和最大值！"
+      },
+      {
+        "key": "Content added.",
+        "value": "內容已新增。"
+      },
+      {
+        "key": "Invalid pool name!",
+        "value": "無效的池名稱！"
+      },
+      {
+        "key": "Click to open file '",
+        "value": "點選開啟檔案“"
+      },
+      {
+        "key": "'",
+        "value": "”"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "io.ejekta.bountiful.content.BountyItem"
+    ],
+    "pairs": [
+      {
+        "key": "this as java.lang.String).substring(startIndex)",
+        "value": "將其作為 java.lang.String).substring(startIndex)"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "io.ejekta.bountiful.content.messages.OnBountyComplete"
+    ],
+    "pairs": [
+      {
+        "key": "Bounty Complete!",
+        "value": "懸賞完成！"
+      },
+      {
+        "key": "Turn in at a Bounty Board!",
+        "value": "請前往懸賞榜提交！"
+      }
+    ]
+  }
+]

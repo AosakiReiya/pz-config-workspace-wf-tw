@@ -1,0 +1,13 @@
+name = "L_Ender 's Cataclysm Reimagined"
+filename = "Cataclysm Reimagined v1.3.1 for Forge.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7cd454afc2fbe80ca8f633ca883e2ba6386c55da"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7059512
+project-id = 1212044

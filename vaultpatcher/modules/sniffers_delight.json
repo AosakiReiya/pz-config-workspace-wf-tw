@@ -1,0 +1,21 @@
+[
+  {
+    "name": "sniffers_delight_zh_tw",
+    "desc": "sniffers_delight-1.0.3-forge-1.20.1.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "sniffers_delight-1.0.3-forge-1.20.1.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "net.mcreator.sniffersdelight.procedures.StuffedSnifferEggOnBlockRightClickeddProcedure"
+    ],
+    "pairs": [
+      {
+        "key": "You need a Bowl to eat This",
+        "value": "你需要一個碗才能食用此物品"
+      }
+    ]
+  }
+]

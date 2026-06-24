@@ -1,0 +1,27 @@
+{
+  "user_agreement": false,
+  "modpack": {
+    "name": "Fantasia Beta 11.9-Beta 11.9",
+    "version": null,
+    "minecraft_version": "1.20.1",
+    "loader_type": "forge-47.4.10"
+  },
+  "curseforge": {
+    "project_id": 1266940,
+    "file_id": 8194776,
+    "project_slug": "waccyys-fantasia"
+  },
+  "resource_pack_install": {
+    "auto_install_enabled": false,
+    "install_method": "resourcepacks",
+    "description": "傳統資源包 (需手動啟用)"
+  },
+  "language_packs": [
+    "Fantasia漢化包.zip"
+  ],
+  "meta": {
+    "generated_at": "2026-06-04T15:53:42.403397",
+    "generator": "TranslateTool",
+    "generator_version": "1.0.0"
+  }
+}

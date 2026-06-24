@@ -1,0 +1,25 @@
+{
+  "chapter": "asof",
+  "sort_order": "3",
+  "include_in_main": true,
+  "requirements": [],
+  "objectives": [
+    {
+      "type": "questlog:entity_kill",
+      "entity": "mowziesmobs:ferrous_wroughtnaut",
+      "required_amount": 1,
+      "name": "擊敗守護者"
+    }
+  ],
+  "rewards": [],
+  "title": "第一章 大廳守護者",
+  "description": "「故事講述了未知領域中一座破舊的戰鬥塔...\n\n雖然有些人認為只有魔像才能守護塔樓，也就是他們所說的[信仰塔](image:questlog:textures/gui/popups/popup_tower.png:125:125)，但其他人則認為這座塔受到墮落騎士的保護。他們說他出身貴族血統，是幻想帝國的一部分。其他消息來源稱他不是貴族，而是一個尋找目標的農民。\n\n不管這些故事有什麼地方是錯的，或者什麼地方是對的，有一點是肯定的：這位騎士擁有一件強大的神器，可能對你特別有用。許多圖書館員出售地圖，他們出售的其中一張地圖通往塔樓。 」",
+  "icon": {
+    "item": "mowziesmobs:wrought_helmet"
+  },
+  "left_panel_width": 275,
+  "right_panel_width": 170,
+  "panel_height": 233,
+  "background_texture": "questlog:textures/gui/quest_page.png",
+  "toast_on_complete": false
+}

@@ -1,0 +1,34 @@
+{
+  "chapter": "nfts",
+  "left_panel_width": 275,
+  "panel_height": 200,
+  "requirements": [
+    {
+      "type": "questlog:or",
+      "objectives": [
+        {
+          "type": "questlog:entity_approach",
+          "entity": "mca:male_villager",
+          "range": 3,
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:entity_approach",
+          "entity": "mca:female_villager",
+          "range": 3,
+          "required_amount": 1
+        }
+      ]
+    }
+  ],
+  "objectives": [],
+  "rewards": [],
+  "title": "城鎮居民",
+  "description": "鎮民都是好人，至少只要你善待他們。他們做自己的事，有工作，或閒逛。\n\n當然，還有城鎮的保護者。他們戴著自己派系的旗幟，擁有可以抵禦強盜或敵人的不錯的武器。\n\n你可以與他們交朋友、僱用他們、與他們交易，甚至如果你願意的話還可以與他們結婚。如果你對一個村莊或城鎮做出了足夠的貢獻，他們可能會讓你成為他們的國王。\n\n如果你對他們的貿易感到好奇，你可以查看他們的[目錄](quest:questlog:tutorialmerchants)。",
+  "icon": {
+    "item": "numismatic-overhaul:gold_coin"
+  },
+  "background_texture": "questlog:textures/gui/quest_page.png",
+  "toast_on_complete": false,
+  "triggered_sound": "minecraft:block.note_block.bell"
+}

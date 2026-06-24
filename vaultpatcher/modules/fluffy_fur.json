@@ -1,0 +1,72 @@
+[
+  {
+    "name": "fluffy_fur_zh_tw",
+    "desc": "fluffy_fur-1.20.1-0.2.9.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "fluffy_fur-1.20.1-0.2.9.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "mod.maxbogomol.fluffy_fur.FluffyFur"
+    ],
+    "pairs": [
+      {
+        "key": "I love shrimps",
+        "value": "我喜歡蝦"
+      },
+      {
+        "key": "I wanna cuddle",
+        "value": "我想 cuddle"
+      },
+      {
+        "key": "wow you are cute",
+        "value": "哇，你真可愛"
+      },
+      {
+        "key": "Bad package detected: ",
+        "value": "檢測到損壞的包："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mod.maxbogomol.fluffy_fur.client.gui.screen.FluffyFurMod"
+    ],
+    "pairs": [
+      {
+        "key": "Unknown",
+        "value": "未知"
+      },
+      {
+        "key": "The Fluffy Village",
+        "value": "毛茸茸的村莊"
+      },
+      {
+        "key": "Github",
+        "value": "GitHub"
+      },
+      {
+        "key": "Modrinth",
+        "value": "Modrinth頁面"
+      },
+      {
+        "key": "Discord",
+        "value": "不和"
+      },
+      {
+        "key": "Reddit",
+        "value": "子版塊"
+      },
+      {
+        "key": "Website",
+        "value": "網站"
+      },
+      {
+        "key": "Twitter",
+        "value": "推特"
+      }
+    ]
+  }
+]

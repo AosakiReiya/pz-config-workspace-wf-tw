@@ -1,0 +1,146 @@
+[
+  {
+    "name": "structure_gel_zh_tw",
+    "desc": "structure_gel-1.20.1-2.16.2.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "structure_gel-1.20.1-2.16.2.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.legacy.structure_gel.core.commands.BuildingToolCommand"
+    ],
+    "pairs": [
+      {
+        "key": "This command must be ran by a player since they need to be in the dimension of the action.",
+        "value": "此命令必須由玩家執行，因為玩家需要處於該操作所在的維度中。"
+      },
+      {
+        "key": "Attempting to ",
+        "value": "正在嘗試 "
+      },
+      {
+        "key": "Cleared action history for ",
+        "value": "已清除以下物件的操作歷史："
+      },
+      {
+        "key": "Cleared clipboard for ",
+        "value": "已清空剪貼簿："
+      },
+      {
+        "key": " has no action history.",
+        "value": " 沒有操作歷史記錄。"
+      },
+      {
+        "key": "Cleared clipboard for ",
+        "value": "已清除"
+      },
+      {
+        "key": " in ",
+        "value": "在"
+      },
+      {
+        "key": "Cleared action history for ",
+        "value": "已清除 "
+      },
+      {
+        "key": " in ",
+        "value": " 中 "
+      },
+      {
+        "key": "Attempting to ",
+        "value": "正在嘗試"
+      },
+      {
+        "key": "'s last action",
+        "value": "的上一個操作"
+      },
+      {
+        "key": "Attempting to ",
+        "value": "正在嘗試從"
+      },
+      {
+        "key": " ",
+        "value": ""
+      },
+      {
+        "key": " actions from ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.legacy.structure_gel.core.commands.DistanceCommand"
+    ],
+    "pairs": [
+      {
+        "key": "- Average Distance: ",
+        "value": "- 平均距離:"
+      },
+      {
+        "key": "- Max Distance: ",
+        "value": "- 最大距離:"
+      },
+      {
+        "key": "- Found: ",
+        "value": "- 已找到:"
+      },
+      {
+        "key": "Failed searches",
+        "value": "搜尋失敗"
+      },
+      {
+        "key": "- Search: ",
+        "value": "- 搜尋:"
+      },
+      {
+        "key": ", Pos: ",
+        "value": ", 位置:"
+      },
+      {
+        "key": "Average distances of vanilla structures (Recorded in 1.19.2)",
+        "value": "原版結構的平均距離（記錄於 1.19.2）"
+      },
+      {
+        "key": "Results for ",
+        "value": "結果： "
+      },
+      {
+        "key": " contains no values or does not exist.",
+        "value": "不包含任何值或不存在。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.legacy.structure_gel.core.commands.GetSpawnsCommand"
+    ],
+    "pairs": [
+      {
+        "key": "--Spawn Data--",
+        "value": "--生成資料--"
+      },
+      {
+        "key": "No spawn data.",
+        "value": "無生成資料。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.legacy.structure_gel.core.structure.jigsaw.GelSinglePoolElement"
+    ],
+    "pairs": [
+      {
+        "key": "Can not serialize a runtime pool element",
+        "value": "無法序列化執行時池元素"
+      },
+      {
+        "key": "Gel[",
+        "value": "凝膠["
+      }
+    ]
+  }
+]

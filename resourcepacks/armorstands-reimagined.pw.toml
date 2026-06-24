@@ -1,0 +1,13 @@
+name = "Armorstands Reimagined"
+filename = "§eArmorstands-Reimagined§8-[v1.2].zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b7a02d3bf404171f997f0389b80eb4f7047e3a00"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3769048
+project-id = 500047

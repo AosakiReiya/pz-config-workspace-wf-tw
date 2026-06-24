@@ -1,0 +1,35 @@
+{
+  "chapter": "nfts",
+  "left_panel_width": 275,
+  "panel_height": 200,
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:mainquest3",
+      "required_amount": 1
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:respawn_anchor",
+      "required_amount": 1,
+      "name": "獲得重生錨"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "spelunkery:portal_fluid_bottle",
+      "required_amount": 1,
+      "name": "獲得瓶裝之淚"
+    }
+  ],
+  "rewards": [],
+  "title": "次元之淚",
+  "description": "如果必須在短時間內去兩次很遠的距離，那麼次元之淚就可以派上用場。\n\n首先，必須創建一個重生錨，然後它可以供電一次並且可以裝瓶。這將產生一瓶次元之淚，喝下它會讓你回到與其相連的錨點。\n\n如果你有一個連結的次元之淚瓶，你可以將它放入你的製作網格中以「重置」它的座標，讓你在喝醉後可以扭曲回家。\n\n不過，當你在下界之外使用錨時要小心，因為不小心將啟動的重生錨與螢石或瓶子以外的任何東西一起使用會導致災難性的爆炸。",
+  "icon": {
+    "item": "spelunkery:portal_fluid_bottle"
+  },
+  "background_texture": "questlog:textures/gui/quest_page.png",
+  "toast_on_complete": false,
+  "triggered_sound": "minecraft:block.note_block.bell"
+}

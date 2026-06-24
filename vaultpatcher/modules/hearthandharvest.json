@@ -1,0 +1,63 @@
+[
+  {
+    "name": "hearthandharvest_zh_tw",
+    "desc": "hearthandharvest-1.20.1-1.0.12.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "hearthandharvest-1.20.1-1.0.12.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "alabaster.hearthandharvest.common.item.MarshmallowStickItem"
+    ],
+    "pairs": [
+      {
+        "key": "Hold near a campfire to cook",
+        "value": "靠近營火手持即可烹飪"
+      },
+      {
+        "key": "Perfectly roasted!",
+        "value": "完美烤制！"
+      },
+      {
+        "key": "Oh, it's burnt...",
+        "value": "哦，燒焦了……"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "alabaster.hearthandharvest.common.item.UniversalFeedItem"
+    ],
+    "pairs": [
+      {
+        "key": "Can be used to breed any animal",
+        "value": "可用於繁殖任何動物"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "alabaster.hearthandharvest.common.item.WateringCanItem"
+    ],
+    "pairs": [
+      {
+        "key": "Water Level: ",
+        "value": "水位："
+      },
+      {
+        "key": "Bone Meal Level: ",
+        "value": "骨粉等級："
+      },
+      {
+        "key": "Water Level: ",
+        "value": "水位等級："
+      },
+      {
+        "key": "Bone Meal Level: ",
+        "value": "骨粉等級："
+      }
+    ]
+  }
+]

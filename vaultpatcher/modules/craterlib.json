@@ -1,0 +1,33 @@
+[
+  {
+    "name": "craterlib_zh_tw",
+    "desc": "CraterLib-Forge-1.20-3.0.1.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "CraterLib-Forge-1.20-3.0.1.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.hypherionmc.craterlib.client.gui.config.ClothConfigScreenBuilder"
+    ],
+    "pairs": [
+      {
+        "key": "Entries",
+        "value": "條目"
+      },
+      {
+        "key": "General",
+        "value": "通用"
+      },
+      {
+        "key": "Failed To Save Config",
+        "value": "儲存配置失敗"
+      },
+      {
+        "key": "Restoring Backup Copy. Check log for details",
+        "value": "正在恢復備份副本。詳情請檢視日誌"
+      }
+    ]
+  }
+]

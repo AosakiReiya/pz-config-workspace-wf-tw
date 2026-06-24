@@ -1,0 +1,13 @@
+name = "Soft Imprints"
+filename = "softimprints-forge-1.20.1-0.0.21.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7bd85839fc6b0568f92f797ef3b2badb2a110c2b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7880902
+project-id = 1474300

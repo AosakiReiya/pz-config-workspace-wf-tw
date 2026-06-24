@@ -1,0 +1,33 @@
+[
+  {
+    "name": "obscure_api_dynamic_zh_tw",
+    "desc": "obscure_api-18.jar 硬編碼文本漢化（動態替換）",
+    "authors": "Auto-Translation-Tool",
+    "mods": "obscure_api-18.jar",
+    "dynamic": true,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.obscuria.obscureapi.client.screen.ObscuriaCollectionScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Obscuria Collection",
+        "value": "Obscuria 合集"
+      },
+      {
+        "key": "Settings",
+        "value": "設定"
+      },
+      {
+        "key": "Mods",
+        "value": "模組"
+      },
+      {
+        "key": "About",
+        "value": "關於"
+      }
+    ]
+  }
+]

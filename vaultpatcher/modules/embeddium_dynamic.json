@@ -1,0 +1,118 @@
+[
+  {
+    "name": "embeddium_dynamic_zh_tw",
+    "desc": "embeddium-0.3.31+mc1.20.1.jar 硬編碼文本漢化（動態替換）",
+    "authors": "Auto-Translation-Tool",
+    "mods": "embeddium-0.3.31+mc1.20.1.jar",
+    "dynamic": true,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "me.jellysquid.mods.sodium.client.gui.SodiumOptionsGUI"
+    ],
+    "pairs": [
+      {
+        "key": "Hello!",
+        "value": "你好！"
+      },
+      {
+        "key": "It seems that you've been enjoying ",
+        "value": "看來你一直很喜歡 "
+      },
+      {
+        "key": "Embeddium",
+        "value": "嵌入石"
+      },
+      {
+        "key": ", a fork of Sodium for Minecraft.",
+        "value": "，一個用於 Minecraft 的鈉分支。"
+      },
+      {
+        "key": "Sodium is complex, and requires ",
+        "value": "Sodium 很複雜，並且需要 "
+      },
+      {
+        "key": "thousands of hours",
+        "value": "數千小時"
+      },
+      {
+        "key": " of development, debugging, and tuning to create the experience that players have come to expect.",
+        "value": "以創造玩家早已期待的體驗，所需的開發、除錯與調優。"
+      },
+      {
+        "key": "If you'd like to show a token of appreciation, and support the development of Sodium in the process, then consider ",
+        "value": "如果你想表達一點心意，並在此過程中支援 Sodium 的開發，可以考慮"
+      },
+      {
+        "key": "buying them a coffee",
+        "value": "請他們喝杯咖啡"
+      },
+      {
+        "key": "And thanks again for using the mod! We hope it helps you (and your computer.)",
+        "value": "再次感謝你使用這個模組！我們希望它能幫到你（還有你的電腦。）"
+      },
+      {
+        "key": "Embeddium Options",
+        "value": "Embeddium 設定"
+      },
+      {
+        "key": "Support Sodium",
+        "value": "支援 Sodium"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "me.jellysquid.mods.sodium.client.gui.screen.ConfigCorruptedScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Restore defaults",
+        "value": "恢復預設設定"
+      },
+      {
+        "key": "Close game",
+        "value": "關閉遊戲"
+      },
+      {
+        "key": "Config corruption detected",
+        "value": "檢測到配置損壞"
+      },
+      {
+        "key": "Could not load configuration file",
+        "value": "無法載入配置檔案"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "org.embeddedt.embeddium.gui.EmbeddiumVideoOptionsScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Embeddium Options",
+        "value": "Embeddium 設定"
+      },
+      {
+        "key": "Support Sodium",
+        "value": "支援 Sodium"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "org.embeddedt.embeddium.gui.screen.PromptScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Prompt",
+        "value": "提示"
+      },
+      {
+        "key": "Close",
+        "value": "關閉"
+      }
+    ]
+  }
+]

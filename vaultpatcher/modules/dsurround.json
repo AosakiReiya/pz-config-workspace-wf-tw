@@ -1,0 +1,151 @@
+[
+  {
+    "name": "dsurround_zh_tw",
+    "desc": "DynamicSurroundings-Fabric-1.20.1-0.3.3.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "DynamicSurroundings-Fabric-1.20.1-0.3.3.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "org.orecruncher.dsurround.config.BlockEffectType"
+    ],
+    "pairs": [
+      {
+        "key": "unknown block effect type",
+        "value": "未知方塊效果型別"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "org.orecruncher.dsurround.config.EntityEffectType"
+    ],
+    "pairs": [
+      {
+        "key": "unknown entity effect",
+        "value": "未知實體效果"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "org.orecruncher.dsurround.gui.overlay.DiagnosticsOverlay"
+    ],
+    "pairs": [
+      {
+        "key": "MOD: ",
+        "value": "模組："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "org.orecruncher.dsurround.gui.overlay.plugins.ViewerPlugin"
+    ],
+    "pairs": [
+      {
+        "key": "Fluid Tags",
+        "value": "流體標籤"
+      },
+      {
+        "key": "Default Effects",
+        "value": "預設效果"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "org.orecruncher.dsurround.processing.AreaBlockEffects"
+    ],
+    "pairs": [
+      {
+        "key": "Block Updates: %d",
+        "value": "方塊更新：%d"
+      },
+      {
+        "key": "Area Block Effects",
+        "value": "範圍方塊效果"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "org.orecruncher.dsurround.processing.Scanners"
+    ],
+    "pairs": [
+      {
+        "key": "ceiling coverage: %.2f",
+        "value": "天花板覆蓋率：%.2f"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "org.orecruncher.dsurround.runtime.audio.effects.ReverbEffectSlot"
+    ],
+    "pairs": [
+      {
+        "key": "ReverbEffectSlot EXTEfx.AL_EFFECTSLOT_EFFECT density",
+        "value": "混響效果槽 EXTEfx.AL_EFFECTSLOT_EFFECT 密度"
+      },
+      {
+        "key": "ReverbEffectSlot EXTEfx.AL_EFFECTSLOT_EFFECT diffusion",
+        "value": "混響效果槽位 EXTEfx.AL_EFFECTSLOT_EFFECT 彌散"
+      },
+      {
+        "key": "ReverbEffectSlot EXTEfx.AL_EFFECTSLOT_EFFECT gain",
+        "value": "混響效果槽 EXTEfx.AL_EFFECTSLOT_EFFECT 增益"
+      },
+      {
+        "key": "ReverbEffectSlot EXTEfx.AL_EFFECTSLOT_EFFECT gainHF",
+        "value": "混響效果槽 EXTEfx.AL_EFFECTSLOT_EFFECT 高頻增益"
+      },
+      {
+        "key": "ReverbEffectSlot EXTEfx.AL_EFFECTSLOT_EFFECT decayTime",
+        "value": "混響效果槽 EXTEfx.AL_EFFECTSLOT_EFFECT 衰變時間"
+      },
+      {
+        "key": "ReverbEffectSlot EXTEfx.AL_EFFECTSLOT_EFFECT decayHFRatio",
+        "value": "混響效果槽 EXTEfx.AL_EFFECTSLOT_EFFECT 衰減高頻比率"
+      },
+      {
+        "key": "ReverbEffectSlot EXTEfx.AL_EFFECTSLOT_EFFECT reflectionsGain",
+        "value": "混響效果槽 EXTEfx.AL_EFFECTSLOT_EFFECT 反射增益"
+      },
+      {
+        "key": "ReverbEffectSlot EXTEfx.AL_EFFECTSLOT_EFFECT reflectionsDelay",
+        "value": "混響效果槽 EXTEfx.AL_EFFECTSLOT_EFFECT 反射延遲"
+      },
+      {
+        "key": "ReverbEffectSlot EXTEfx.AL_EFFECTSLOT_EFFECT lateReverbGain",
+        "value": "混響效果槽 EXTEfx.AL_EFFECTSLOT_EFFECT 後期混響增益"
+      },
+      {
+        "key": "ReverbEffectSlot EXTEfx.AL_EFFECTSLOT_EFFECT lateReverbDelay",
+        "value": "混響效果槽 EXTEfx.AL_EFFECTSLOT_EFFECT 後期混響延遲"
+      },
+      {
+        "key": "ReverbEffectSlot EXTEfx.AL_EFFECTSLOT_EFFECT airAbsorptionGainHF",
+        "value": "混響效果槽 EXTEfx.AL_EFFECTSLOT_EFFECT 空氣吸收高頻增益"
+      },
+      {
+        "key": "ReverbEffectSlot EXTEfx.AL_EFFECTSLOT_EFFECT roomRolloffFactor",
+        "value": "混響效果槽 EXTEfx.AL_EFFECTSLOT_EFFECT 房間衰減因子"
+      },
+      {
+        "key": "ReverbEffectSlot EXTEfx.AL_EFFECTSLOT_EFFECT decayHFLimit",
+        "value": "混響效果槽 EXTEfx.AL_EFFECTSLOT_EFFECT 高頻衰減限制"
+      },
+      {
+        "key": "ReverbEffectSlot EXTEfx.AL_EFFECTSLOT_EFFECT upload",
+        "value": "混響效果槽 EXTEfx.AL_EFFECTSLOT_EFFECT 上傳"
+      },
+      {
+        "key": "ReverbEffectSlot EXTEfx.AL_EFFECTSLOT_EFFECT null",
+        "value": "混響效果槽 EXTEfx.AL_EFFECTSLOT_EFFECT null"
+      }
+    ]
+  }
+]

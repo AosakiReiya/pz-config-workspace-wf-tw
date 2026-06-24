@@ -1,0 +1,40 @@
+[
+  {
+    "name": "eclipticseasons_zh_tw",
+    "desc": "EclipticSeasons-1.20.1-forge-0.13.4.2-all.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "EclipticSeasons-1.20.1-forge-0.13.4.2-all.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.teamtea.eclipticseasons.client.gui.screen.SuggestWidget"
+    ],
+    "pairs": [
+      {
+        "key": "Suggestions",
+        "value": "建議"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.teamtea.eclipticseasons.common.misc.MapExporter"
+    ],
+    "pairs": [
+      {
+        "key": "export ok for ",
+        "value": "匯出成功："
+      },
+      {
+        "key": "not load",
+        "value": "無法載入"
+      },
+      {
+        "key": "export fail \n%s",
+        "value": "匯出失敗 \n%s"
+      }
+    ]
+  }
+]

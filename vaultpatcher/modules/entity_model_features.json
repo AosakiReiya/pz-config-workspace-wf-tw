@@ -1,0 +1,148 @@
+[
+  {
+    "name": "entity_model_features_zh_tw",
+    "desc": "entity_model_features-3.2.4-1.20.1-forge.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "entity_model_features-3.2.4-1.20.1-forge.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "traben.entity_model_features.EMF"
+    ],
+    "pairs": [
+      {
+        "key": "for EMF",
+        "value": "適用於 EMF"
+      },
+      {
+        "key": "special thanks to Cody, top donator!",
+        "value": "特別感謝 Cody，最高捐贈者！"
+      },
+      {
+        "key": "your third cousin's, dog's, previous owner's, uncle's, old boss's, fifth favourite mod!",
+        "value": "你三表親家的狗的前主人的叔叔的前老闆最喜歡的第五個模組！"
+      },
+      {
+        "key": "breaking your resource packs since April 1st 2023.",
+        "value": "自 2023 年 4 月 1 日起持續破壞你的資源包。"
+      },
+      {
+        "key": "not fit for consumption in Portugal.",
+        "value": "不適合在葡萄牙食用。"
+      },
+      {
+        "key": "one of the mods ever made!",
+        "value": "史上其中一個模組！"
+      },
+      {
+        "key": ",serutaeF ledoM ytitnE gnidoaL",
+        "value": ",正在載入實體模型特性"
+      },
+      {
+        "key": "did you know if you turn off the lights and whisper 'OptiFine' 3 times you will lose 20fps.",
+        "value": "你知道嗎，如果你關掉燈並低聲念 3 次“OptiFine”，你就會損失 20fps。"
+      },
+      {
+        "key": "now compatible with Minecraft Legends!",
+        "value": "現在相容 Minecraft Legends！"
+      },
+      {
+        "key": "now available for Terraria!",
+        "value": "現已登陸 Terraria！"
+      },
+      {
+        "key": "OptiFine's weirder younger half-brother that runs around making train models.",
+        "value": "OptiFine 那個更古怪的弟弟，四處跑來跑去做火車模型。"
+      },
+      {
+        "key": "0% Opti, 70% Fine.",
+        "value": "0% Opti，70% 正常。"
+      },
+      {
+        "key": "we get there when we get there.",
+        "value": "到了自然就到了。"
+      },
+      {
+        "key": "the ETA is a lie.",
+        "value": "預計時間是騙人的。"
+      },
+      {
+        "key": "allegedly compatible with the OptiFine format.",
+        "value": "據稱相容 OptiFine 格式。"
+      },
+      {
+        "key": "now compatible with every mod, except all the ones that aren't...",
+        "value": "現在相容所有模組，除了那些不相容的……"
+      },
+      {
+        "key": "100% of the time it works 90% of the time!",
+        "value": "有 100% 的時候，它在 90% 的情況下都能奏效！"
+      },
+      {
+        "key": "now moving all models 0.00001 blocks to the left every 4 seconds.",
+        "value": "現在每 4 秒將所有模型向左移動 0.00001 格。"
+      },
+      {
+        "key": "PI = 3.1415927 and you can't convince me otherwise.",
+        "value": "PI = 3.1415927，誰也別想說服我不是這樣。"
+      },
+      {
+        "key": "making those animations fresh since 1862!",
+        "value": "讓這些動畫自 1862 年起就保持鮮活！"
+      },
+      {
+        "key": "Trabee got the flu!",
+        "value": "蜂塔比得流感了！"
+      },
+      {
+        "key": "is this 'EPF' in the room with us now?",
+        "value": "這個“EPF”現在和我們在一個房間裡嗎？"
+      },
+      {
+        "key": "Loading Entity Model Features, ",
+        "value": "正在載入實體模型特性，"
+      },
+      {
+        "key": "EMF has crashed due to a (probably) unrelated forge dependency error,\n EMF has been disabled so the true culprit will be sent to users after game load:\n",
+        "value": "EMF 因（可能）無關的 forge 依賴錯誤而崩潰，\n EMF 已被停用，以便在遊戲載入後將真正的罪魁禍首發送給使用者：\n"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "traben.entity_model_features.mod_compat.EBEConfigModifier"
+    ],
+    "pairs": [
+      {
+        "key": "EBE Enhanced Chests are disabled by a loaded EMF model!",
+        "value": "由於已載入的 EMF 模型，EBE 增強箱子已被停用！"
+      },
+      {
+        "key": "EBE Enhanced Shulker Boxes are disabled by a loaded EMF model!",
+        "value": "由於已載入的 EMF 模型，EBE 增強潛影盒已被停用！"
+      },
+      {
+        "key": "EBE Enhanced Bells are disabled by a loaded EMF model!",
+        "value": "由於已載入的 EMF 模型，EBE 增強鍾已被停用！"
+      },
+      {
+        "key": "EBE Enhanced Beds are disabled by a loaded EMF model!",
+        "value": "由於已載入的 EMF 模型，EBE 增強床已被停用！"
+      },
+      {
+        "key": "EBE Enhanced Signs are disabled by a loaded EMF model!",
+        "value": "由於已載入的 EMF 模型，EBE 增強告示牌已被停用！"
+      },
+      {
+        "key": "EBE Enhanced Decorated Pots are disabled by a loaded EMF model!",
+        "value": "由於已載入的 EMF 模型，EBE 增強紋飾陶罐已被停用！"
+      },
+      {
+        "key": "EBE config modified by EMF, the following blocks have been disabled in EBE because they have custom entity models (this can be disabled in EMF's settings): ",
+        "value": "EBE 配置已被 EMF 修改，以下方塊因具有自定義實體模型而在 EBE 中被停用（可在 EMF 設定中關閉）："
+      }
+    ]
+  }
+]

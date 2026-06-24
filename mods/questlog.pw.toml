@@ -1,0 +1,13 @@
+name = "Questlog"
+filename = "questlog-forge-1.20.1-2.3.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5597cf6f78bc8b9bc391a2a222b12cfa8c8b4902"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8189964
+project-id = 1202066

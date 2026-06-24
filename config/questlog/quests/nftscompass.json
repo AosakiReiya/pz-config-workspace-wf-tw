@@ -1,0 +1,26 @@
+{
+  "requirements": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "spelunkery:magnetic_compass",
+      "required_amount": 1
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:read"
+    }
+  ],
+  "rewards": [],
+  "title": "指南針",
+  "description": "[磁羅盤](image:questlog:textures/gui/popups/popup_compass.png:125:62) 是其中最基本的。它可以用磁鐵礦塊和 4 個鋼錠製成。\n\n它將指向北方，並可以在互動時告訴你的座標。如果附近有大量金屬，那麼您的指南針可能會指向它。如果玩家想要§l[Shift]+[RMB]§r，則可以重設此設定。",
+  "icon": {
+    "item": "spelunkery:magnetic_compass"
+  },
+  "background_texture": "questlog:textures/gui/quest_page.png",
+  "left_panel_width": 275,
+  "panel_height": 200,
+  "chapter": "nfts",
+  "toast_on_complete": false,
+  "triggered_sound": "minecraft:block.note_block.bell"
+}

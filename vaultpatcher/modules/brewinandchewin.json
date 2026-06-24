@@ -1,0 +1,25 @@
+[
+  {
+    "name": "brewinandchewin_zh_tw",
+    "desc": "BrewinAndChewin-1.20.1-3.2.1.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "BrewinAndChewin-1.20.1-3.2.1.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "umpaz.brewinandchewin.client.renderer.texture.BnCTextureModifiers"
+    ],
+    "pairs": [
+      {
+        "key": "Could not find texture modifier type ",
+        "value": "找不到紋理修改器型別"
+      },
+      {
+        "key": "Attempted to register duplicate ID texture modifiers. ",
+        "value": "嘗試註冊重複 ID 的紋理修改器。"
+      }
+    ]
+  }
+]

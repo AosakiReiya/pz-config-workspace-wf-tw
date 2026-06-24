@@ -1,0 +1,13 @@
+name = "Swappable Helms for Epic Knights"
+filename = "Swappable Helms 1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "eca5feb0578c69f65d3ede1fbacbc952aed517b4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7128444
+project-id = 1368717

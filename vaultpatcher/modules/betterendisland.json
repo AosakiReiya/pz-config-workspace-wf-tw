@@ -1,0 +1,29 @@
+[
+  {
+    "name": "betterendisland_zh_tw",
+    "desc": "YungsBetterEndIsland-1.20-Forge-2.0.6.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "YungsBetterEndIsland-1.20-Forge-2.0.6.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.yungnickyoung.minecraft.betterendisland.command.EndIslandCommand"
+    ],
+    "pairs": [
+      {
+        "key": "Could not find the End dimension.",
+        "value": "無法找到末地維度。"
+      },
+      {
+        "key": "Could not find the dragon fight.",
+        "value": "未能找到龍之戰。"
+      },
+      {
+        "key": "Ender Dragon fight has been reset.",
+        "value": "末影龍戰鬥已被重置。"
+      }
+    ]
+  }
+]

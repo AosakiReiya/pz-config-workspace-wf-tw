@@ -1,0 +1,77 @@
+[
+  {
+    "name": "mousetweaks_dynamic_zh_tw",
+    "desc": "MouseTweaks-forge-mc1.20.1-2.25.1.jar 硬編碼文本漢化（動態替換）",
+    "authors": "Auto-Translation-Tool",
+    "mods": "MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+    "dynamic": true,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "yalter.mousetweaks.ConfigScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Mouse Tweaks Options",
+        "value": "滑鼠微調選項"
+      },
+      {
+        "key": "RMB Tweak",
+        "value": "右鍵調整"
+      },
+      {
+        "key": "Wheel Tweak",
+        "value": "滾輪調整"
+      },
+      {
+        "key": "Wheel Tweak Search Order",
+        "value": "滾輪微調搜尋順序"
+      },
+      {
+        "key": "Scroll Direction",
+        "value": "滾動方向"
+      },
+      {
+        "key": "Scroll Scaling",
+        "value": "滾動縮放"
+      },
+      {
+        "key": "Debug Mode",
+        "value": "除錯模式"
+      },
+      {
+        "key": "First to Last",
+        "value": "從前到後"
+      },
+      {
+        "key": "Last to First",
+        "value": "從後到前"
+      },
+      {
+        "key": "Down to Push, Up to Pull",
+        "value": "向下滾動推入，向上滾動拉出"
+      },
+      {
+        "key": "Up to Push, Down to Pull",
+        "value": "向上滾動推入，向下滾動拉出"
+      },
+      {
+        "key": "Inventory Position Aware",
+        "value": "物品欄位置感知"
+      },
+      {
+        "key": "Inventory Position Aware, Inverted",
+        "value": "物品欄位置感知，反轉"
+      },
+      {
+        "key": "Multiple Wheel Clicks Move Multiple Items",
+        "value": "多次滾輪點選移動多個物品"
+      },
+      {
+        "key": "Always Move One Item (macOS Compatibility)",
+        "value": "總是移動一個物品（macOS 相容性）"
+      }
+    ]
+  }
+]

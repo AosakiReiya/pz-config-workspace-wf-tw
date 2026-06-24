@@ -1,0 +1,13 @@
+name = "Perception"
+filename = "Perception-FORGE-0.1.4+1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a1b3cdfb0895cbfc81a53f6f6eacdb0a0ee091e1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6451454
+project-id = 1112793

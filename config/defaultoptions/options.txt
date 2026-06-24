@@ -1,0 +1,3 @@
+lang:zh_tw
+
+resourcePacks:["file/Fantasia正體漢化包.zip"]

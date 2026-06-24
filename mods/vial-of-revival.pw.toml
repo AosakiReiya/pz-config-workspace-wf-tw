@@ -1,0 +1,13 @@
+name = "Vial of Revival"
+filename = "vialofrevival-1.0.0-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1fe45b12a1345d44d35bd5493e243940332a153b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6457822
+project-id = 1250412

@@ -1,0 +1,13 @@
+name = "Simplest Hammers"
+filename = "simplest_hammers-1.20.1-1.1.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0779882de72ce1180ba41f69309d5d4c593dde89"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6125080
+project-id = 982105

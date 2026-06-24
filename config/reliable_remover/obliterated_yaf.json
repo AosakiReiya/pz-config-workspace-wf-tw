@@ -1,0 +1,53 @@
+[
+    {
+        "action": "remove",
+        "pattern": "/yaf:.*_sofa/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/yaf:.*_curtain/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/yaf:.*_drawer/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/yaf:.*_stool/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/yaf:.*_lamp/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/yaf:.*_table/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/yaf:.*_chair/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/yaf:.*_fan/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/yaf:.*_cabinet/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/yaf:.*_chimes/"
+    },
+    {
+        "action": "remove",
+        "pattern": "/yaf:.*_mailbox/"
+    },
+    {
+        "action": "remove",
+        "items": [
+            "yaf:copper_saw",
+            "yaf:spigot"
+        ]
+    }
+]

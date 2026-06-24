@@ -1,0 +1,13 @@
+name = "Exposure + Immersive Paintings"
+filename = "immersivepaintings-exposure-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c00be5b595c512d18b9a3e05bc3725079fb8e2fd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7462555
+project-id = 1430255

@@ -1,0 +1,714 @@
+[
+  {
+    "result": "deny",
+    "mob": [
+      "mowziesmobs:sculptor",
+      "upgrade_aquatic:thrasher",
+      "upgrade_aquatic:great_thrasher",
+      "species:limpet",
+      "minecraft:ender_dragon",
+      "minecraft:ghast",
+      "minecraft:villager",
+      "takesapillage:clay_golem",
+      "irons_spellbooks:dead_king",
+      "spawn:snail",
+      "environmental:duck",
+      "species:treeper"
+    ],
+    "when": "onjoin"
+  },
+  {
+    "result": "deny",
+    "mob": ["fowlplay:pigeon", "fowlplay:blue_jay", "fowlplay:cardinal", "fowlplay:chickadee", "fowlplay:crow", "fowlplay:duck", "fowlplay:goose", "fowlplay:hawk", "fowlplay:raven", "fowlplay:robin", "fowlplay:sparrow"],
+    "mincount": 20,
+    "when": "onjoin"
+  },
+  {
+    "result": "deny",
+    "mob": ["fowlplay:penguin", "fowlplay:gull"],
+    "mincount": 16,
+    "when": "onjoin"
+  },
+  {
+    "result": "deny",
+    "mob": "irons_spellbooks:citadel_keeper",
+    "mincount": {
+      "amount": 1,
+      "mob": "irons_spellbooks:fire_boss",
+      "perchunk": true
+    },
+    "when": "onjoin"
+  },
+  {
+    "result": "allow",
+    "mob": [
+      "minecraft:horse",
+      "minecraft:donkey",
+      "minecraft:mule",
+      "minecraft:skeleton_horse",
+      "minecraft:zombie_horse"
+    ],
+    "speedmultiply": 1.2,
+    "when": "onjoin"
+  },
+  {
+    "mob": "mca:male_villager",
+    "when": "onjoin",
+    "customevent": "koboldConverter",
+    "spawntype": [
+      "natural",
+      "chunk_generation",
+      "structure"
+    ],
+    "structure": "windswept:village_frozen",
+    "result": "deny_with_actions"
+  },
+  {
+    "mob": "mca:female_villager",
+    "when": "onjoin",
+    "customevent": "koboldConverter",
+    "spawntype": [
+      "natural",
+      "chunk_generation",
+      "structure"
+    ],
+    "structure": "windswept:village_frozen",
+    "result": "deny_with_actions"
+  },
+  {
+    "mob": "guardvillagers:guard",
+    "when": "onjoin",
+    "customevent": "koboldGuardConverter",
+    "spawntype": [
+      "natural",
+      "chunk_generation",
+      "structure"
+    ],
+    "structure": "windswept:village_frozen",
+    "result": "deny_with_actions"
+  },
+  {
+    "mob": "environmental:zonkey",
+    "when": "onjoin",
+    "customevent": "zonkeyConverter",
+    "result": "deny_with_actions"
+  },
+  {
+    "mob": "environmental:zorse",
+    "when": "onjoin",
+    "customevent": "zorseConverter",
+    "result": "deny_with_actions"
+  },
+  {
+    "mob": [
+      "minecraft:iron_golem"
+    ],
+    "when": "onjoin",
+    "spawntype": [
+      "mob_summoned",
+      "spawn_egg",
+      "natural",
+      "chunk_generation",
+      "spawner",
+      "structure",
+      "breeding",
+      "jockey",
+      "event",
+      "conversion",
+      "reinforcement",
+      "triggered",
+      "bucket",
+      "command",
+      "dispenser",
+      "patrol"
+    ],
+    "result": "deny"
+  },
+  {
+    "mob": [
+      "minecraft:iron_golem"
+    ],
+    "when": "onjoin",
+    "customevent": "golemConverter",
+    "result": "deny_with_actions"
+  },
+  {
+    "mob": [
+      "minecraft:wither"
+    ],
+    "structure": "cataclysm:burning_arena",
+    "when": "onjoin",
+    "result": "allow"
+  },
+  {
+    "mob": [
+      "minecraft:wither"
+    ],
+    "when": "onjoin",
+    "customevent": "witherConverter",
+    "result": "deny_with_actions"
+  },
+  {
+    "result": "allow",
+    "mob": [
+      "minecraft:pillager",
+      "minecraft:vindicator",
+      "minecraft:evoker"
+    ],
+    "speedmultiply": 0.8,
+    "when": "onjoin"
+  },
+  {
+    "result": "allow",
+    "mob": "minecraft:wither",
+    "healthmultiply": 1.2,
+    "when": "onjoin"
+  },
+  {
+    "result": "allow",
+    "mob": [
+      "minecraft:sniffer"
+    ],
+    "speedmultiply": 1.5,
+    "when": "onjoin"
+  },
+  {
+    "result": "deny",
+    "mob": "minecraft:enderman",
+    "mincount": 25,
+    "dimension": "minecraft:the_end",
+    "when": "onjoin"
+  },
+  {
+    "mob": "mca:grim_reaper",
+    "when": "onjoin",
+    "customevent": "deathConverter",
+    "result": "deny_with_actions"
+  },
+  {
+    "mob": "irons_spellbooks:dead_king_corpse",
+    "when": "onjoin",
+    "customevent": "deadKingConverter",
+    "result": "deny_with_actions"
+  },
+  {
+    "result": "deny",
+    "mob": "minecraft:guardian",
+    "mincount": 10,
+    "when": "onjoin"
+  },
+  {
+    "result": "deny",
+    "mob": "minecraft:bat",
+    "mincount": 10,
+    "when": "onjoin"
+  },
+  {
+    "result": "deny",
+    "mob": "environmental:zebra",
+    "mincount": 12,
+    "when": "onjoin"
+  },
+  {
+    "result": "deny",
+    "mob": "spawn:hamster",
+    "mincount": 4,
+    "spawntype": [
+      "natural",
+      "chunk_generation"
+    ],
+    "when": "onjoin"
+  },
+  {
+    "result": "deny",
+    "mob": "species:cliff_hanger",
+    "mincount": 10,
+    "when": "onjoin"
+  },
+  {
+    "result": "deny",
+    "mob": [
+      "minecraft:pillager",
+      "minecraft:vindicator",
+      "minecraft:evoker",
+      "minecraft:witch"
+    ],
+    "mincount": 20,
+    "when": "onjoin"
+  },
+  {
+    "result": "deny",
+    "mob": [
+      "upgrade_aquatic:great_thrasher",
+      "upgrade_aquatic:thrasher"
+    ],
+    "mincount": 8,
+    "when": "onjoin"
+  },
+  {
+    "result": "deny",
+    "mob": "alexsmobs:orca",
+    "mincount": 5,
+    "when": "onjoin"
+  },
+  {
+    "result": "deny",
+    "mob": "alexsmobs:rocky_roller",
+    "mincount": 8,
+    "when": "onjoin"
+  },
+  {
+    "result": "deny",
+    "mob": "alexsmobs:seal",
+    "mincount": 12,
+    "when": "onjoin"
+  },
+  {
+    "result": "deny",
+    "mob": "alexsmobs:murmur",
+    "mincount": 2,
+    "when": "onjoin"
+  },
+  {
+    "result": "deny",
+    "mob": "cataclysm:draugr",
+    "mincount": 15,
+    "when": "onjoin"
+  },
+  {
+    "result": "deny",
+    "mob": "cataclysm:royal_draugr",
+    "mincount": 10,
+    "when": "onjoin"
+  },
+  {
+    "result": "deny",
+    "mob": "cataclysm:elite_draugr",
+    "mincount": 12,
+    "when": "onjoin"
+  },
+  {
+    "result": "deny",
+    "mob": "cataclysm:deepling",
+    "mincount": 12,
+    "when": "onjoin"
+  },
+  {
+    "result": "deny",
+    "mob": "savage_and_ravage:iceologer",
+    "mincount": 5
+  },
+  {
+    "result": "deny",
+    "mob": "minecraft:slime",
+    "mincount": 12
+  },
+  {
+    "result": "deny",
+    "mob": "minecraft:spider",
+    "mincount": 12
+  },
+  {
+    "result": "deny",
+    "mob": "minecraft:creeper",
+    "mincount": 4
+  },
+  {
+    "result": "deny",
+    "mob": "alexsmobs:centipede_head",
+    "when": "onjoin",
+    "mincount": 2
+  },
+  {
+    "result": "deny",
+    "mob": "irons_spellbooks:necromancer",
+    "mincount": 2
+  },
+  {
+    "result": "deny",
+    "mob": "spawn:clam",
+    "mincount": 12,
+    "when": "onjoin"
+  },
+  {
+    "result": "deny",
+    "mob": [
+      "alexsmobs:guster",
+      "species:birt",
+      "species:birt_egg",
+      "species:quake",
+      "species:wicked"
+    ],
+    "when": "onjoin"
+  },
+  {
+    "result": "deny",
+    "mob": "minecraft:piglin",
+    "mincount": 30
+  },
+  {
+    "result": "deny",
+    "mob": "minecraft:zombified_piglin",
+    "mincount": 30
+  },
+  {
+    "result": "deny",
+    "mob": "species:ghoul",
+    "mincount": 2
+  },
+  {
+    "result": "deny",
+    "mob": "minecraft:piglin_brute",
+    "mincount": 15,
+    "when": "onjoin"
+  },
+  {
+    "result": "deny",
+    "mob": "species:bewereager",
+    "spawntype": [
+      "natural"
+    ]
+  },
+  {
+    "result": "allow",
+    "mob": "mowziesmobs:lantern",
+    "biome": [
+      "regions_unexplored:fungal_fen"
+    ]
+  },
+  {
+    "result": "deny",
+    "mob": "mowziesmobs:lantern"
+  },
+  {
+    "result": "deny",
+    "mob": [
+      "minecraft:enderman",
+      "savage_and_ravage:skeleton_villager",
+      "irons_spellbooks:necromancer",
+      "savage_and_ravage:iceologer"
+    ],
+    "dimension": "minecraft:overworld"
+  },
+  {
+    "result": "allow",
+    "mob": "minecraft:creeper",
+    "biome": [
+      "minecraft:jungle",
+      "minecraft:bamboo_jungle",
+      "minecraft:sparse_jungle",
+      "minecraft:lush_caves"
+    ]
+  },
+  {
+    "result": "deny",
+    "mob": "minecraft:creeper"
+  },
+  {
+    "result": "allow",
+    "mob": "species:ghoul",
+    "biome": [
+      "regions_unexplored:ancient_delta",
+      "minecraft:lush_caves"
+    ]
+  },
+  {
+    "result": "deny",
+    "mob": "species:ghoul"
+  },
+  {
+    "result": "deny",
+    "mob": [
+      "mca:male_zombie_villager",
+      "mca:female_zombie_villager"
+    ],
+    "spawntype": [
+      "natural",
+      "chunk_generation"
+    ],
+    "when": "onjoin"
+  },
+  {
+    "result": "allow",
+    "mob": [
+      "mca:male_zombie_villager",
+      "mca:female_zombie_villager"
+    ],
+    "spawntype": [
+      "conversion",
+      "mob_summoned"
+    ],
+    "when": "onjoin"
+  },
+  {
+    "result": "allow",
+    "mob": [
+      "savage_and_ravage:skeleton_villager",
+      "savage_and_ravage:iceologer",
+      "irons_spellbooks:necromancer"
+    ],
+    "dimension": "minecraft:overworld",
+    "biome": "minecraft:ice_spikes"
+  },
+  {
+    "result": "default",
+    "mob": "minecraft:slime",
+    "dimension": "minecraft:overworld",
+    "biome": [
+      "minecraft:swamp"
+    ]
+  },
+  {
+    "result": "deny",
+    "mob": "minecraft:slime",
+    "dimension": "minecraft:overworld"
+  },
+  {
+    "result": "default",
+    "mob": "minecraft:camel",
+    "dimension": "minecraft:overworld",
+    "biome": [
+      "minecraft:has_structure/village_desert",
+      "regions_unexplored:saguaro_desert"
+    ]
+  },
+  {
+    "result": "deny",
+    "mob": "minecraft:camel",
+    "dimension": "minecraft:overworld",
+    "incontrol": true
+  },
+  {
+    "result": "default",
+    "mob": "minecraft:squid",
+    "dimension": "minecraft:overworld",
+    "biome": [
+      "minecraft:ocean",
+      "minecraft:deep_ocean",
+      "minecraft:deep_lukewarm_ocean",
+      "minecraft:lukewarm_ocean"
+    ]
+  },
+  {
+    "result": "deny",
+    "mob": "minecraft:squid",
+    "dimension": "minecraft:overworld"
+  },
+  {
+    "result": "default",
+    "mob": "hexerei:owl",
+    "dimension": "minecraft:overworld",
+    "biome": [
+      "minecraft:dark_forest"
+    ]
+  },
+  {
+    "result": "deny",
+    "mob": "hexerei:owl",
+    "dimension": "minecraft:overworld",
+    "incontrol": true
+  },
+  {
+    "result": "allow",
+    "mob": [
+      "minecraft:husk",
+      "minecraft:skeleton",
+      "minecraft:stray",
+      "minecraft:witch",
+      "minecraft:zombie",
+      "windswept:chilled",
+      "minecraft:spider",
+      "minecraft:cave_spider",
+      "cataclysm:koboleton",
+      "cataclysm:deepling",
+      "cataclysm:deepling_angler",
+      "cataclysm:deepling_brute",
+      "cataclysm:deepling_priest",
+      "cataclysm:deepling_warlock"
+    ],
+    "dimension": "minecraft:overworld",
+    "spawner": true
+  },
+  {
+    "result": "deny",
+    "mob": [
+      "minecraft:husk",
+      "minecraft:skeleton",
+      "minecraft:stray",
+      "minecraft:witch",
+      "minecraft:zombie",
+      "windswept:chilled",
+      "minecraft:spider",
+      "minecraft:cave_spider",
+      "cataclysm:koboleton",
+      "minecraft:drowned",
+      "cataclysm:deepling",
+      "cataclysm:deepling_angler",
+      "cataclysm:deepling_brute",
+      "cataclysm:deepling_priest",
+      "cataclysm:deepling_warlock"
+    ],
+    "dimension": "minecraft:overworld"
+  },
+  {
+    "result": "deny",
+    "mincount": 20,
+    "mob": [
+      "minecraft:skeleton"
+    ],
+    "structure": [
+      "bettermineshafts:mineshaft_overgrown",
+      "bettermineshafts:mineshaft_oak",
+      "bettermineshafts:mineshaft_lush"
+    ]
+  },
+  {
+    "result": "allow",
+    "mob": [
+      "minecraft:skeleton"
+    ],
+    "structure": [
+      "bettermineshafts:mineshaft_overgrown",
+      "bettermineshafts:mineshaft_oak",
+      "bettermineshafts:mineshaft_lush"
+    ]
+  },
+  {
+    "result": "allow",
+    "mob": "minecraft:drowned",
+    "dimension": "minecraft:overworld",
+    "biometags": "minecraft:is_ocean"
+  },
+  {
+    "result": "deny",
+    "mob": "guardvillagers:guard",
+    "mincount": 12,
+    "dimension": "minecraft:overworld",
+    "biometags": "minecraft:has_structure/village_plains",
+    "when": "onjoin"
+  },
+  {
+    "result": "deny",
+    "mob": "guardvillagers:guard",
+    "mincount": 12,
+    "dimension": "minecraft:overworld",
+    "biometags": "minecraft:has_structure/village_desert",
+    "when": "onjoin"
+  },
+  {
+    "result": "deny",
+    "mob": "guardvillagers:guard",
+    "mincount": 12,
+    "dimension": "minecraft:overworld",
+    "biometags": "minecraft:has_structure/village_taiga",
+    "when": "onjoin"
+  },
+  {
+    "result": "deny",
+    "mob": "guardvillagers:guard",
+    "mincount": 12,
+    "dimension": "minecraft:overworld",
+    "biometags": "minecraft:has_structure/village_snowy",
+    "when": "onjoin"
+  },
+  {
+    "result": "deny",
+    "mob": "guardvillagers:guard",
+    "mincount": 12,
+    "dimension": "minecraft:overworld",
+    "biometags": "minecraft:has_structure/village_savanna",
+    "when": "onjoin"
+  },
+  {
+    "result": "deny",
+    "mob": "minecraft:pillager",
+    "mincount": 30,
+    "dimension": "minecraft:overworld",
+    "structure": "minecraft:mansion",
+    "when": "onjoin"
+  },
+  {
+    "result": "deny",
+    "mob": "minecraft:vindicator",
+    "mincount": 20,
+    "dimension": "minecraft:overworld",
+    "structure": "minecraft:mansion",
+    "when": "onjoin"
+  },
+  {
+    "result": "deny",
+    "mob": "minecraft:pillager",
+    "mincount": 12,
+    "structuretags": "minecraft:pillager_outpost",
+    "when": "onjoin"
+  },
+  {
+    "result": "deny",
+    "mob": "minecraft:vindicator",
+    "mincount": 6,
+    "structuretags": "minecraft:pillager_outpost",
+    "when": "onjoin"
+  },
+  {
+    "result": "deny",
+    "mob": "guardvillagers:guard",
+    "mincount": 12,
+    "dimension": "minecraft:overworld",
+    "biometags": "towns_and_towers:has_structure/pillager_outpost_swamp",
+    "when": "onjoin"
+  },
+  {
+    "result": "deny",
+    "mob": "guardvillagers:guard",
+    "mincount": 15,
+    "dimension": "minecraft:overworld",
+    "structure": "minecraft:village_plains",
+    "when": "onjoin"
+  },
+  {
+    "result": "deny",
+    "mob": "guardvillagers:guard",
+    "mincount": 15,
+    "dimension": "minecraft:overworld",
+    "structure": "minecraft:village_taiga",
+    "when": "onjoin"
+  },
+  {
+    "result": "deny",
+    "mob": "guardvillagers:guard",
+    "mincount": 15,
+    "dimension": "minecraft:overworld",
+    "structure": "minecraft:village_snowy",
+    "when": "onjoin"
+  },
+  {
+    "result": "deny",
+    "mob": "guardvillagers:guard",
+    "mincount": 15,
+    "dimension": "minecraft:overworld",
+    "structure": "minecraft:village_desert",
+    "when": "onjoin"
+  },
+  {
+    "result": "deny",
+    "mob": "guardvillagers:guard",
+    "mincount": 15,
+    "dimension": "minecraft:overworld",
+    "structure": "minecraft:village_savanna",
+    "when": "onjoin"
+  },
+  {
+    "result": "allow",
+    "mob": "quark:shiba",
+    "dimension": "minecraft:overworld",
+    "biome": [
+      "minecraft:bamboo_jungle",
+      "minecraft:cherry_grove"
+    ]
+  },
+  {
+    "result": "deny",
+    "mob": "quark:shiba",
+    "dimension": "minecraft:overworld"
+  }
+]

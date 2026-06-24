@@ -1,0 +1,33 @@
+[
+  {
+    "name": "yungsapi_zh_tw",
+    "desc": "YungsApi-1.20-Forge-4.0.6.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "YungsApi-1.20-Forge-4.0.6.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.yungnickyoung.minecraft.yungsapi.world.structure.terrainadaptation.EnhancedTerrainAdaptationType"
+    ],
+    "pairs": [
+      {
+        "key": "Unknown enhanced terrain adaptation type: ",
+        "value": "未知的增強地形適配型別："
+      },
+      {
+        "key": "No ID found for enhanced terrain adaptation type ",
+        "value": "未找到增強地形適配型別的 ID："
+      },
+      {
+        "key": "No ID found for enhanced terrain adaptation type ",
+        "value": "未找到增強地形適配型別 "
+      },
+      {
+        "key": ". Is it registered?",
+        "value": " 的 ID。它已註冊嗎？"
+      }
+    ]
+  }
+]

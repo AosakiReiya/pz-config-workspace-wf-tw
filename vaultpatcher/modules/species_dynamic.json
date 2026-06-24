@@ -1,0 +1,21 @@
+[
+  {
+    "name": "species_dynamic_zh_tw",
+    "desc": "species-3.5.jar 硬編碼文本漢化（動態替換）",
+    "authors": "Auto-Translation-Tool",
+    "mods": "species-3.5.jar",
+    "dynamic": true,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.ninni.species.client.inventory.BirtdayCakeScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Name",
+        "value": "名稱"
+      }
+    ]
+  }
+]

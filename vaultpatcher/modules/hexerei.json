@@ -1,0 +1,89 @@
+[
+  {
+    "name": "hexerei_zh_tw",
+    "desc": "hexerei-0.4.2.3.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "hexerei-0.4.2.3.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "net.joefoxe.hexerei.data.books.PageDrawing"
+    ],
+    "pairs": [
+      {
+        "key": "Bookmark Page",
+        "value": "書籤頁面"
+      },
+      {
+        "key": "Change Font",
+        "value": "更改字型"
+      },
+      {
+        "key": "Delete Bookmark",
+        "value": "刪除書籤"
+      },
+      {
+        "key": "Close Book",
+        "value": "關閉書本"
+      },
+      {
+        "key": "Change Color - %s",
+        "value": "更改顏色 - %s"
+      },
+      {
+        "key": "%s%s - Page %s%s",
+        "value": "%s%s - 第 %s%s 頁"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.joefoxe.hexerei.integration.jei.HexereiJei"
+    ],
+    "pairs": [
+      {
+        "key": " - per dip action",
+        "value": "- 每次蘸取動作"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.joefoxe.hexerei.item.custom.WhistleItem"
+    ],
+    "pairs": [
+      {
+        "key": "Not Bound",
+        "value": "未繫結"
+      },
+      {
+        "key": "Bound to: %s",
+        "value": "繫結到：%s"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.joefoxe.hexerei.screen.WoodcutterScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Cost per craft.",
+        "value": "每次合成消耗。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.joefoxe.hexerei.item.ModItems$13"
+    ],
+    "pairs": [
+      {
+        "key": "the base is not for use, see the broom keychain.",
+        "value": "底座不可使用，請檢視掃帚鑰匙鏈。"
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "name": "reliable_remover_zh_tw",
+    "desc": "reliable_remover-forge-1.20.1-2.4.0.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "reliable_remover-forge-1.20.1-2.4.0.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.evandev.reliable_remover.command.ReliableRemoverCommands"
+    ],
+    "pairs": [
+      {
+        "key": "Opened Reliable Remover config folder.",
+        "value": "已開啟 Reliable Remover 配置資料夾。"
+      },
+      {
+        "key": "Failed to open config folder. Check server logs.",
+        "value": "無法開啟配置資料夾。請檢查伺服器日誌。"
+      },
+      {
+        "key": "Click to restore item",
+        "value": "點選以取回物品"
+      }
+    ]
+  }
+]

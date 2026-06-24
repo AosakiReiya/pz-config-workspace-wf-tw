@@ -1,0 +1,27 @@
+{
+  "chapter": "tkb",
+  "sort_order": "1",
+  "requirements": [
+    {
+      "type": "questlog:advancement",
+      "advancement": "fantasia_quests:age_of_advancement/phase_1/copper_age"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:read"
+    }
+  ],
+  "rewards": [],
+  "title": "II - 磨刀石",
+  "description": "除了在鍛造後[拋光](image:questlog:textures/gui/popups/popup_polishing.png:129:56)你的武器之外，你還可以修理你的裝備，但要以耐用性為代價。如果您還沒有獲得任何材料來修復您的軍械庫和工具，這是您最好的選擇。\n\n除此之外，如果你已經獲得了一個帶有你真正想要使用的附魔的工具，[你可以將一本書和附魔工具結合起來](image:questlog:textures/gui/popups/popup_grindstone_enchant.png:181:88)在磨刀石上。",
+  "icon": {
+    "item": "minecraft:grindstone"
+  },
+  "left_panel_width": 275,
+  "right_panel_width": 170,
+  "panel_height": 200,
+  "background_texture": "questlog:textures/gui/quest_page.png",
+  "toast_on_complete": false,
+  "triggered_sound": "minecraft:block.note_block.bell"
+}

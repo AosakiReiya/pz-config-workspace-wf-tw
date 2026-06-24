@@ -1,0 +1,13 @@
+name = "Ex Meteor Shower"
+filename = "meteor_shower-0.0.4.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4e542422df2b3146a2a9d130ce6535de64868e7f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7756940
+project-id = 1461322

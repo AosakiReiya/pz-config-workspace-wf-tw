@@ -1,0 +1,13 @@
+name = "Modulation"
+filename = "modulation-forge-1.20.1-1.5.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "63b6bd1e3683c5487f32d98a88c462eab75c3f02"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8089458
+project-id = 1482883

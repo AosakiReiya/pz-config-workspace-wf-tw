@@ -1,0 +1,13 @@
+name = "Modded Swords x Punchy!"
+filename = "Modded Swords x Punchy! 1.20.1 v1.3.1.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "43e6383e4e4d3a9000dabda375f9fb856073736c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8036300
+project-id = 1460857

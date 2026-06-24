@@ -1,0 +1,6 @@
+
+#General settings
+[general]
+	#If true riding a blaze will cause the rider to burn (default: true)
+	burnWhileRiding = false
+

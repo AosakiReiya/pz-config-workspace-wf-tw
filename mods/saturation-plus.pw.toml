@@ -1,0 +1,13 @@
+name = "Saturation Plus"
+filename = "saturation_plus-1.2.0-forge-1.20.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "716e8475de8226023076db394f3d1b03fca47ec5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7552750
+project-id = 959951

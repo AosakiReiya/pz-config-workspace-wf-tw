@@ -1,0 +1,13 @@
+name = "Nickname Easy"
+filename = "nickname_easy-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "775645e93e4cc89aab7b850a98645882a749d673"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6336044
+project-id = 1226274

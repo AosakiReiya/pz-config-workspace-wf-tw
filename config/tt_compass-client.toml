@@ -1,0 +1,14 @@
+
+[general]
+	#Eables The printing of the Compass
+	enableCompass = true
+	#Widhth of the Compass
+	#Range: 0 ~ 256
+	compassWidth = 180
+	#Sets Compass height from the top of the screen
+	#Range: 0 ~ 256
+	compassFromTop = 15
+	#Sets Compass Opacity
+	#Range: 0 ~ 100
+	compassOpacity = 100
+

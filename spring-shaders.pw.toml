@@ -1,0 +1,13 @@
+name = "Spring Shaders (Chun)"
+filename = "春 v2 260612.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "529e6e7179cedef536fad14eacf3bbb5593e4537"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8234931
+project-id = 1412914

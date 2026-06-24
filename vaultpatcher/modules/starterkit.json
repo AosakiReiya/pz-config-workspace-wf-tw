@@ -1,0 +1,519 @@
+[
+  {
+    "name": "starterkit_zh_tw",
+    "desc": "starterkit-1.20.1-8.0.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "starterkit-1.20.1-8.0.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.natamus.starterkit.ModFabric"
+    ],
+    "pairs": [
+      {
+        "key": "Starter Kit",
+        "value": "新手禮包"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.natamus.starterkit_common_fabric.cmds.CommandStarterkit"
+    ],
+    "pairs": [
+      {
+        "key": "The current ",
+        "value": "當前的"
+      },
+      {
+        "key": " starter kits are:",
+        "value": "新手套裝有："
+      },
+      {
+        "key": "Starter Kit Admin Usage:",
+        "value": "新手禮包管理員用法："
+      },
+      {
+        "key": "Starter Kit User Usage:",
+        "value": "新手禮包使用說明:"
+      },
+      {
+        "key": "This command can only be ran as a player.",
+        "value": "此命令只能由玩家執行。"
+      },
+      {
+        "key": "You are not eligible for a starter kit.",
+        "value": "你沒有資格領取新手禮包。"
+      },
+      {
+        "key": "Something went wrong while choosing your starter kit.",
+        "value": "選擇你的新手禮包時出了點問題。"
+      },
+      {
+        "key": "Moved all kits to the inactive folder.",
+        "value": "已將所有套件移至未啟用資料夾。"
+      },
+      {
+        "key": "Moved all kits to the active folder.",
+        "value": "已將所有套件移至活動資料夾。"
+      },
+      {
+        "key": "One kit is given randomly on join.",
+        "value": "加入時會隨機獲得一個套件。"
+      },
+      {
+        "key": "Players can choose one of the kits on join.",
+        "value": "玩家加入時可以選擇其中一套裝備。"
+      },
+      {
+        "key": " > If 2 more kits are added.",
+        "value": "> 如果再新增 2 個套件。"
+      },
+      {
+        "key": "All active kits have been reloaded.",
+        "value": "所有啟用的套件均已重新載入。"
+      },
+      {
+        "key": "Starter Kit tracking data has been reset. All players will now again receive a kit on join.",
+        "value": "新手禮包追蹤資料已重置。現在所有玩家再次加入時都會收到一個禮包。"
+      },
+      {
+        "key": "You do not have permission to use that command.",
+        "value": "你沒有許可權使用該命令。"
+      },
+      {
+        "key": "     Adds your current inventory to the active kits.",
+        "value": "將你當前的物品欄新增到已啟用的工具包中。"
+      },
+      {
+        "key": "     Sets your current inventory as the only active kit.",
+        "value": "將你當前的物品欄設為唯一啟用的套件。"
+      },
+      {
+        "key": "     Give a player a random (or specific) starter kit.",
+        "value": "給予玩家一個隨機（或指定的）新手禮包。"
+      },
+      {
+        "key": "     Moves kit_name or all kits from inactive to active.",
+        "value": "將 kit_name 或所有套件從未啟用移至啟用狀態。"
+      },
+      {
+        "key": "     Moves kit_name or all kits from active to inactive.",
+        "value": "將 kit_name 或所有套件從啟用狀態移至未啟用狀態。"
+      },
+      {
+        "key": "     Lists all active (or inactive) kits.",
+        "value": "列出所有已啟用（或未啟用）的套件。"
+      },
+      {
+        "key": "     Resets all tracking. Players receive another kit on join.",
+        "value": "重置所有追蹤。玩家加入時會再次獲得一個套件。"
+      },
+      {
+        "key": "     Reloads starter kit changes from the config folder.",
+        "value": "從配置資料夾重新載入新手禮包的更改。"
+      },
+      {
+        "key": "     Allows players to choose a starter kit via commands. This is only needed when Starter Kit is not installed on the client and the server enabled kit choices.",
+        "value": "允許玩家通過命令選擇新手禮包。僅當客戶端未安裝 Starter Kit 且伺服器啟用了禮包選擇時，才需要此功能。"
+      },
+      {
+        "key": "     Shows the description and items of kit_name.",
+        "value": "顯示 kit_name 的描述和物品。"
+      },
+      {
+        "key": " If you'd like to specify the kit name, use:",
+        "value": "如果你想指定套件名稱，請使用："
+      },
+      {
+        "key": "Something went wrong while ",
+        "value": ""
+      },
+      {
+        "key": " a new starter kit.",
+        "value": " 新手禮包時出現錯誤。"
+      },
+      {
+        "key": "The starter kit '",
+        "value": "新手禮包“"
+      },
+      {
+        "key": "' was ",
+        "value": "”已"
+      },
+      {
+        "key": "!",
+        "value": "！"
+      },
+      {
+        "key": " There ",
+        "value": " 現有 "
+      },
+      {
+        "key": " starter kit",
+        "value": " 個可用的新手禮包"
+      },
+      {
+        "key": " available.",
+        "value": "。"
+      },
+      {
+        "key": " > If 1 more kit is added. For now all players will receive the '",
+        "value": " > 若再新增 1 個套件，目前所有玩家都將直接獲得“"
+      },
+      {
+        "key": "' kit without a choice screen.",
+        "value": "”套件，而不會出現選擇介面。"
+      },
+      {
+        "key": " has been given the choice for a new starter kit!",
+        "value": " 已獲得新手禮包選擇機會！"
+      },
+      {
+        "key": "Unable to move the '",
+        "value": "無法將“"
+      },
+      {
+        "key": "' kit to the active folder.",
+        "value": "”套件移至活動資料夾。"
+      },
+      {
+        "key": "The kit '",
+        "value": "套件“"
+      },
+      {
+        "key": "' has been moved to the active folder.",
+        "value": "”已移至活動資料夾。"
+      },
+      {
+        "key": "Unable to move the '",
+        "value": "無法將“"
+      },
+      {
+        "key": "' kit to the inactive folder.",
+        "value": "”套件移至未啟用資料夾。"
+      },
+      {
+        "key": "The kit '",
+        "value": "套件“"
+      },
+      {
+        "key": "' has been moved to the inactive folder.",
+        "value": "”已移至未啟用資料夾。"
+      },
+      {
+        "key": "The starter kit '",
+        "value": "新手禮包“"
+      },
+      {
+        "key": "' does not exist.",
+        "value": "”不存在。"
+      },
+      {
+        "key": "You have been given the '",
+        "value": "你已獲得“"
+      },
+      {
+        "key": "' starter kit.",
+        "value": "”新手禮包。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.natamus.starterkit_common_fabric.functions.StarterGearFunctions"
+    ],
+    "pairs": [
+      {
+        "key": "Name: ",
+        "value": "名稱："
+      },
+      {
+        "key": "Description: ",
+        "value": "描述："
+      },
+      {
+        "key": "Items: ",
+        "value": "物品:"
+      },
+      {
+        "key": " Available kits: ",
+        "value": " 可用禮包："
+      },
+      {
+        "key": " has been given the '",
+        "value": " 已獲得“"
+      },
+      {
+        "key": "' starter kit!",
+        "value": "”新手禮包！"
+      },
+      {
+        "key": "Kit_",
+        "value": "禮包_"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.natamus.starterkit_common_fabric.inventory.StarterKitInventoryScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Choose Starter Kit",
+        "value": "選擇新手禮包"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.natamus.starterkit_common_forge.cmds.CommandStarterkit"
+    ],
+    "pairs": [
+      {
+        "key": "The current ",
+        "value": "當前的"
+      },
+      {
+        "key": " starter kits are:",
+        "value": "新手套裝有："
+      },
+      {
+        "key": "Starter Kit Admin Usage:",
+        "value": "新手禮包管理員用法："
+      },
+      {
+        "key": "Starter Kit User Usage:",
+        "value": "新手禮包使用說明:"
+      },
+      {
+        "key": "This command can only be ran as a player.",
+        "value": "此命令只能由玩家執行。"
+      },
+      {
+        "key": "You are not eligible for a starter kit.",
+        "value": "你沒有資格領取新手禮包。"
+      },
+      {
+        "key": "Something went wrong while choosing your starter kit.",
+        "value": "選擇你的新手禮包時出了點問題。"
+      },
+      {
+        "key": "Moved all kits to the inactive folder.",
+        "value": "已將所有套件移至未啟用資料夾。"
+      },
+      {
+        "key": "Moved all kits to the active folder.",
+        "value": "已將所有套件移至活動資料夾。"
+      },
+      {
+        "key": "One kit is given randomly on join.",
+        "value": "加入時會隨機獲得一個套件。"
+      },
+      {
+        "key": "Players can choose one of the kits on join.",
+        "value": "玩家加入時可以選擇其中一套裝備。"
+      },
+      {
+        "key": " > If 2 more kits are added.",
+        "value": "> 如果再新增 2 個套件。"
+      },
+      {
+        "key": "All active kits have been reloaded.",
+        "value": "所有啟用的套件均已重新載入。"
+      },
+      {
+        "key": "Starter Kit tracking data has been reset. All players will now again receive a kit on join.",
+        "value": "新手禮包追蹤資料已重置。現在所有玩家再次加入時都會收到一個禮包。"
+      },
+      {
+        "key": "You do not have permission to use that command.",
+        "value": "你沒有許可權使用該命令。"
+      },
+      {
+        "key": "     Adds your current inventory to the active kits.",
+        "value": "將你當前的物品欄新增到已啟用的工具包中。"
+      },
+      {
+        "key": "     Sets your current inventory as the only active kit.",
+        "value": "將你當前的物品欄設為唯一啟用的套件。"
+      },
+      {
+        "key": "     Give a player a random (or specific) starter kit.",
+        "value": "給予玩家一個隨機（或指定的）新手禮包。"
+      },
+      {
+        "key": "     Moves kit_name or all kits from inactive to active.",
+        "value": "將 kit_name 或所有套件從未啟用移至啟用狀態。"
+      },
+      {
+        "key": "     Moves kit_name or all kits from active to inactive.",
+        "value": "將 kit_name 或所有套件從啟用狀態移至未啟用狀態。"
+      },
+      {
+        "key": "     Lists all active (or inactive) kits.",
+        "value": "列出所有已啟用（或未啟用）的套件。"
+      },
+      {
+        "key": "     Resets all tracking. Players receive another kit on join.",
+        "value": "重置所有追蹤。玩家加入時會再次獲得一個套件。"
+      },
+      {
+        "key": "     Reloads starter kit changes from the config folder.",
+        "value": "從配置資料夾重新載入新手禮包的更改。"
+      },
+      {
+        "key": "     Allows players to choose a starter kit via commands. This is only needed when Starter Kit is not installed on the client and the server enabled kit choices.",
+        "value": "允許玩家通過命令選擇新手禮包。僅當客戶端未安裝 Starter Kit 且伺服器啟用了禮包選擇時，才需要此功能。"
+      },
+      {
+        "key": "     Shows the description and items of kit_name.",
+        "value": "顯示 kit_name 的描述和物品。"
+      },
+      {
+        "key": " If you'd like to specify the kit name, use:",
+        "value": "如果你想指定套件名稱，請使用："
+      },
+      {
+        "key": "Something went wrong while ",
+        "value": ""
+      },
+      {
+        "key": " a new starter kit.",
+        "value": " 新手禮包時出現錯誤。"
+      },
+      {
+        "key": "The starter kit '",
+        "value": "新手禮包“"
+      },
+      {
+        "key": "' was ",
+        "value": "”已"
+      },
+      {
+        "key": "!",
+        "value": "！"
+      },
+      {
+        "key": " There ",
+        "value": " 現有 "
+      },
+      {
+        "key": " starter kit",
+        "value": " 個可用的新手禮包"
+      },
+      {
+        "key": " available.",
+        "value": "。"
+      },
+      {
+        "key": " > If 1 more kit is added. For now all players will receive the '",
+        "value": " > 若再新增 1 個套件，目前所有玩家都將直接獲得“"
+      },
+      {
+        "key": "' kit without a choice screen.",
+        "value": "”套件，而不會出現選擇介面。"
+      },
+      {
+        "key": " has been given the choice for a new starter kit!",
+        "value": " 已獲得新手禮包選擇機會！"
+      },
+      {
+        "key": "Unable to move the '",
+        "value": "無法將“"
+      },
+      {
+        "key": "' kit to the active folder.",
+        "value": "”套件移至活動資料夾。"
+      },
+      {
+        "key": "The kit '",
+        "value": "套件“"
+      },
+      {
+        "key": "' has been moved to the active folder.",
+        "value": "”已移至活動資料夾。"
+      },
+      {
+        "key": "Unable to move the '",
+        "value": "無法將“"
+      },
+      {
+        "key": "' kit to the inactive folder.",
+        "value": "”套件移至未啟用資料夾。"
+      },
+      {
+        "key": "The kit '",
+        "value": "套件“"
+      },
+      {
+        "key": "' has been moved to the inactive folder.",
+        "value": "”已移至未啟用資料夾。"
+      },
+      {
+        "key": "The starter kit '",
+        "value": "新手禮包“"
+      },
+      {
+        "key": "' does not exist.",
+        "value": "”不存在。"
+      },
+      {
+        "key": "You have been given the '",
+        "value": "你已獲得“"
+      },
+      {
+        "key": "' starter kit.",
+        "value": "”新手禮包。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.natamus.starterkit_common_forge.functions.StarterGearFunctions"
+    ],
+    "pairs": [
+      {
+        "key": "Name: ",
+        "value": "名稱："
+      },
+      {
+        "key": "Description: ",
+        "value": "描述："
+      },
+      {
+        "key": "Items: ",
+        "value": "物品:"
+      },
+      {
+        "key": " Available kits: ",
+        "value": " 可用禮包："
+      },
+      {
+        "key": " has been given the '",
+        "value": " 已獲得“"
+      },
+      {
+        "key": "' starter kit!",
+        "value": "”新手禮包！"
+      },
+      {
+        "key": "Kit_",
+        "value": "禮包_"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.natamus.starterkit_common_forge.inventory.StarterKitInventoryScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Choose Starter Kit",
+        "value": "選擇新手禮包"
+      }
+    ]
+  }
+]

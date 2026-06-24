@@ -1,0 +1,57 @@
+[
+  {
+    "name": "octolib_zh_tw",
+    "desc": "OctoLib-FORGE-0.5.0.1+1.20.1.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "OctoLib-FORGE-0.5.0.1+1.20.1.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "it.hurts.octostudios.octolib.modules.commands.OctolibCommand"
+    ],
+    "pairs": [
+      {
+        "key": "You have not permission to reload config.",
+        "value": "你沒有過載配置的許可權。"
+      },
+      {
+        "key": "Error occurs while reload config by path ",
+        "value": "按路徑過載配置時發生錯誤"
+      },
+      {
+        "key": "Error occurs while reloading config by path ",
+        "value": "按路徑重新載入配置時發生錯誤"
+      },
+      {
+        "key": "Config by path \"",
+        "value": "按路徑配置 \""
+      },
+      {
+        "key": "Config with path \"",
+        "value": "路徑為 \" 的配置"
+      },
+      {
+        "key": "Config by path \"",
+        "value": "路徑“"
+      },
+      {
+        "key": "\" does not exist",
+        "value": "”的配置不存在"
+      },
+      {
+        "key": "Config with path \"",
+        "value": "路徑為“"
+      },
+      {
+        "key": "\" has been reloaded successfully",
+        "value": "”的配置已成功過載"
+      },
+      {
+        "key": " configs reload successfully",
+        "value": "配置已成功過載"
+      }
+    ]
+  }
+]

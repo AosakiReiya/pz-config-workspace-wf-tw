@@ -1,0 +1,26 @@
+{
+  "chapter": "nfts",
+  "left_panel_width": 275,
+  "panel_height": 200,
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:mainquest1",
+      "required_amount": 1
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:read"
+    }
+  ],
+  "rewards": [],
+  "title": "孤獨水晶",
+  "description": "孤獨水晶是帝國滅亡期間製造的魔法神器。\n\n它有一個屬性，可以無限地製造。將水晶打碎成小碎片，然後將其與[加工熔爐](image:questlog:textures/gui/popups/popup_crystal.png:161:62)中的幾種成分組合起來，即可製作出新的水晶。",
+  "icon": {
+    "item": "kubejs:teleport_gem"
+  },
+  "background_texture": "questlog:textures/gui/quest_page.png",
+  "toast_on_complete": false,
+  "triggered_sound": "minecraft:block.note_block.bell"
+}

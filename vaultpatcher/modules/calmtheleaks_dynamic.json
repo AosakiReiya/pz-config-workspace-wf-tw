@@ -1,0 +1,152 @@
+[
+  {
+    "name": "calmtheleaks_dynamic_zh_tw",
+    "desc": "calmtheleaks-1.2 Hotfix-forge.jar 硬編碼文本漢化（動態替換）",
+    "authors": "Auto-Translation-Tool",
+    "mods": "calmtheleaks-1.2 Hotfix-forge.jar",
+    "dynamic": true,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "uk.creatopia.unbound.calml_the_leaks_ctl.client.gui.CtlMainPanelScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Calm The Leaks",
+        "value": "平息洩漏"
+      },
+      {
+        "key": "Close",
+        "value": "關閉"
+      },
+      {
+        "key": "Close (ESC)",
+        "value": "關閉（ESC）"
+      },
+      {
+        "key": "Guide & how to use",
+        "value": "指南與使用方法"
+      },
+      {
+        "key": "Tracked leaks",
+        "value": "已跟蹤的洩漏"
+      },
+      {
+        "key": "Stop saving & delete world memory",
+        "value": "停止儲存並刪除世界記憶"
+      },
+      {
+        "key": "Save leak history in this world",
+        "value": "在此世界中儲存洩漏歷史記錄"
+      },
+      {
+        "key": "Open narrow-down toolkit",
+        "value": "開啟縮小範圍工具箱"
+      },
+      {
+        "key": "Opens the narrow-down toolkit: snapshot and compare leak lists while you change the modpack yourself (restart required). CTL never disables mods mid-game. Commands use /ctl narrow … (see that screen).",
+        "value": "開啟縮小範圍工具箱：在你自行修改整合包時（需重啟），快照並比較洩漏列表。CTL 絕不會在遊戲中途停用模組。命令使用 /ctl narrow …（詳見該介面）。"
+      },
+      {
+        "key": "Phase: ",
+        "value": "階段： "
+      },
+      {
+        "key": "Uptime: ",
+        "value": "執行時間："
+      },
+      {
+        "key": "Chunk hints: below ",
+        "value": "區塊提示：低於 "
+      },
+      {
+        "key": "Tracked right now: ",
+        "value": "當前追蹤中： "
+      },
+      {
+        "key": "World memory is ON. CTL stores leak history inside this world's save folder so it survives restarts. Folder name: calmtheleaks_world_memory",
+        "value": "世界記憶已開啟。CTL會將洩漏歷史儲存在此世界的存檔資料夾中，以便重啟後仍能保留。資料夾名稱：calmtheleaks_world_memory"
+      },
+      {
+        "key": "World memory is OFF. Turn it on only if you want CTL to remember leaks across game restarts for this world (stored in the save).",
+        "value": "世界記憶已關閉。僅當你希望CTL在遊戲重啟後仍記住此世界的洩漏資訊時才開啟（資料儲存在存檔中）。"
+      },
+      {
+        "key": "Phase: \u0001 — how settled the server is since it started (startup is expected to be noisy).",
+        "value": "階段：\u0001 — 表示伺服器自啟動以來的穩定程度（啟動階段通常會有較多噪聲）。"
+      },
+      {
+        "key": "Uptime: \u0001 s — longer uptime makes trends more meaningful.",
+        "value": "執行時間：\u0001秒 — 更長的執行時間可使趨勢更具意義。"
+      },
+      {
+        "key": "Chunk hints: below \u0001 is often normal retention; above \u0001 is treated as a stronger signal (configurable on the server).",
+        "value": "區塊提示：低於\u0001通常是正常留存；高於\u0001則被視為更強訊號（可在伺服器端配置）。"
+      },
+      {
+        "key": "Tracked right now: \u0001 — open the Tracked leaks tab to see each one as a row.",
+        "value": "當前追蹤中：\u0001 — 開啟“追蹤中的洩漏”標籤頁可檢視每一項的具體資訊。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "uk.creatopia.unbound.calml_the_leaks_ctl.client.gui.CtlNarrowScreen"
+    ],
+    "pairs": [
+      {
+        "key": "CTL narrow-down toolkit",
+        "value": "CTL 縮小範圍工具箱"
+      },
+      {
+        "key": "No diagnostics packet loaded. Open the main CTL panel first (F8 or /ctl panel), then open the narrow-down toolkit again.",
+        "value": "未載入診斷資料包。請先開啟主CTL面板（F8或/ctl panel），然後再重新開啟縮小範圍工具包。"
+      },
+      {
+        "key": "What this toolkit is for",
+        "value": "此工具箱的用途"
+      },
+      {
+        "key": "CTL never disables mods for you",
+        "value": "CTL 絕不會為你停用模組"
+      },
+      {
+        "key": "What CTL helps you do",
+        "value": "CTL 能幫你做什麼"
+      },
+      {
+        "key": "Spark, ATL, and CTL together",
+        "value": "魔力火花、ATL 與 CTL 協同工作"
+      },
+      {
+        "key": "Disabled mods list (server)",
+        "value": "已停用的模組列表（伺服器）"
+      },
+      {
+        "key": "Recorded mod ids: ",
+        "value": "已記錄的模組ID： "
+      },
+      {
+        "key": "Server commands (console or op)",
+        "value": "伺服器命令（控制台或管理員）"
+      },
+      {
+        "key": "Run on the dedicated server or in single-player with permission to use server commands. Tab-complete suggests mod ids where useful.",
+        "value": "在專用伺服器上執行，或在單人遊戲中擁有伺服器命令許可權時使用。在適用處，按Tab鍵可自動補全模組ID。"
+      },
+      {
+        "key": "Compare summary (from server)",
+        "value": "對比摘要（來自伺服器）"
+      },
+      {
+        "key": "Bundled when the main diagnostics panel was last built. Run /ctl narrow compare, then refresh the main panel (F8 or /ctl panel) and re-open this toolkit to update.",
+        "value": "上次構建主診斷面板時已打包。執行 /ctl narrow compare，然後重新整理主面板（按F8或使用 /ctl panel）並重新開啟此工具箱以更新。"
+      },
+      {
+        "key": "No summary lines yet. Run snapshot, change the pack, run compare, then refresh the main panel.",
+        "value": "尚無摘要行。請先執行快照，更改整合包，執行對比，然後重新整理主面板。"
+      }
+    ]
+  }
+]

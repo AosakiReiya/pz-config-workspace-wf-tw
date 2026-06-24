@@ -1,0 +1,13 @@
+name = "Easel Does It!"
+filename = "easel_does_it-1.20.1-1.0.9-all.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a92b0725c4d7cbfd929f4a0cfa4c525d1b81530a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7843598
+project-id = 1119194

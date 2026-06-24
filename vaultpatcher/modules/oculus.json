@@ -1,0 +1,64 @@
+[
+  {
+    "name": "oculus_zh_tw",
+    "desc": "oculus-mc1.20.1-1.8.1.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "oculus-mc1.20.1-1.8.1.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "net.irisshaders.iris.Iris"
+    ],
+    "pairs": [
+      {
+        "key": "No cheating; wireframe only in singleplayer!",
+        "value": "禁止作弊；線框模式僅限單人遊戲！"
+      },
+      {
+        "key": "Copy Info",
+        "value": "複製資訊"
+      },
+      {
+        "key": "enabled, logging will be more verbose!",
+        "value": "已啟用，日誌將更加詳細！"
+      },
+      {
+        "key": "Failed to compile shaders",
+        "value": "著色器編譯失敗"
+      },
+      {
+        "key": "Using shaderpack: ",
+        "value": "正在使用光影包："
+      },
+      {
+        "key": "Debug functionality is ",
+        "value": "除錯功能"
+      },
+      {
+        "key": "The ZIP at ",
+        "value": "位於"
+      },
+      {
+        "key": " is corrupt",
+        "value": "的 ZIP 已損壞"
+      },
+      {
+        "key": " (Development Environment)",
+        "value": "（開發環境）"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.irisshaders.iris.compat.sodium.impl.options.IrisSodiumOptions"
+    ],
+    "pairs": [
+      {
+        "key": "Display P3",
+        "value": "顯示 P3"
+      }
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "requirements": [
+    {
+      "type": "questlog:visit_dimension",
+      "dimension": "minecraft:overworld",
+      "required_amount": 1
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:read"
+    }
+  ],
+  "rewards": [],
+  "title": "來自開發者的消息",
+  "description": "你好！這是針對模組包目前狀態的一點免責聲明。\n\n§l§n目前，模組包尚未完成。 §r\n\n目前，事情只改進到鑽石等級。鑽石等級以上的任何內容都不是最終的，並且將來可能會發生變化。它仍然可以獲得，只是乏味，我不會推薦它。\n\n就主要故事情節而言，它在§l第二章-德西穆斯大廳§r結束，我確實打算在接下來的更新中繼續前奏（第1-10章）。不過，我要到 2.0 才會開始主要故事，因為已經計劃了很多事情，而且我想先完成一般的遊戲循環。\n\n隨著開發的進行，許多後期的遊戲功能將會得到完善，例如下界，當然還有 首領，這就是為什麼它們現在很困難的原因。它們是可行的，只需要一些技巧或磨練。\n\n不過，還有很多其他事情要做！總的來說，你可以耕種、釣魚和探索。這個模組包的製作非常注重§l角色扮演§環，所以在你的生活中要有一點奇思妙想，你們這些可憐的混蛋。 /j\n\n§lTL;DR - 模組包尚未完成，因此請耐心等待流程。 §r\n\n- waccyy 的創造者",
+  "icon": {
+    "item": "fluffy_fur:ralsei_plush"
+  },
+  "left_panel_width": 475,
+  "right_panel_width": 170,
+  "panel_height": 275,
+  "background_texture": "questlog:textures/gui/quest_page.png",
+  "hidden": true,
+  "toast_on_complete": false,
+  "toast_on_unlock": false,
+  "show_popup_on_unlock": true
+}

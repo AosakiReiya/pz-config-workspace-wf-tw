@@ -1,0 +1,64 @@
+[
+  {
+    "name": "oculus_dynamic_zh_tw",
+    "desc": "oculus-mc1.20.1-1.8.1.jar 硬編碼文本漢化（動態替換）",
+    "authors": "Auto-Translation-Tool",
+    "mods": "oculus-mc1.20.1-1.8.1.jar",
+    "dynamic": true,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "net.irisshaders.iris.gui.debug.DebugLoadFailedGridScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Reload pack",
+        "value": "過載資源包"
+      },
+      {
+        "key": "Copy error",
+        "value": "複製錯誤"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.irisshaders.iris.gui.screen.ShaderPackScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Shader debug mode toggle",
+        "value": "著色器除錯模式切換"
+      },
+      {
+        "key": "Debug mode helps investigate problems and shows shader errors. Would you like to enable it?",
+        "value": "除錯模式有助於排查問題並顯示著色器錯誤。你想啟用它嗎？"
+      },
+      {
+        "key": "Unknown shader toggle",
+        "value": "未知著色器切換"
+      },
+      {
+        "key": "This allows unknown shaders to load in.",
+        "value": "這允許載入未知著色器。"
+      },
+      {
+        "key": "Enable",
+        "value": "啟用"
+      },
+      {
+        "key": "Disable",
+        "value": "停用"
+      },
+      {
+        "key": "Oculus ",
+        "value": "眼球 "
+      },
+      {
+        "key": "Error importing shader settings file \"\u0001\"",
+        "value": "匯入著色器設定檔案 \"\\u0001\" 時出錯"
+      }
+    ]
+  }
+]

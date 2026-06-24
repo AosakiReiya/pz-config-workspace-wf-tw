@@ -1,0 +1,76 @@
+[
+  {
+    "mob": "minecraft:camel",
+    "attempts": 20,
+    "persecond": 0.2,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2,
+      "groupdistance": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 5,
+      "maxdist": 30,
+      "minheight": 45,
+      "maxheight": 175,
+      "maxthis": 4
+    }
+  },
+  {
+    "mob": "hexerei:owl",
+    "attempts": 20,
+    "persecond": 0.15,
+    "amount": {
+      "minimum": 2,
+      "maximum": 3,
+      "groupdistance": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 5,
+      "maxdist": 30,
+      "minheight": 45,
+      "maxheight": 175,
+      "maxthis": 4
+    }
+  },
+  {
+    "mob": "minecraft:squid",
+    "attempts": 20,
+    "persecond": 0.5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2,
+      "groupdistance": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "inwater": true,
+      "mindist": 5,
+      "maxdist": 30,
+      "minheight": 0,
+      "maxheight": 50,
+      "maxthis": 6
+    }
+  },
+  {
+    "mob": [
+      "minecraft:skeleton"
+    ],
+    "persecond": 0.075,
+    "attempts": 1,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 24,
+      "maxdist": 30,
+      "minheight": -30,
+      "maxheight": 5,
+      "maxthis": 12
+    }
+  }
+]

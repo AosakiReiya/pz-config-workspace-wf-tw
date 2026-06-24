@@ -1,0 +1,25 @@
+[
+  {
+    "name": "miningmaster_zh_tw",
+    "desc": "miningmaster-1.20.1-4.1.3.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "miningmaster-1.20.1-4.1.3.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "org.infernalstudios.miningmaster.items.GemItem"
+    ],
+    "pairs": [
+      {
+        "key": "§dCombine with an item in a smithing table to enchant!",
+        "value": "§d在鍛造臺中與物品組合以附魔！"
+      },
+      {
+        "key": "§8Hold Shift for Instructions",
+        "value": "§8按住Shift檢視說明"
+      }
+    ]
+  }
+]

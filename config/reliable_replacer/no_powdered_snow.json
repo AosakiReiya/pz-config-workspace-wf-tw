@@ -1,0 +1,8 @@
+[
+  {
+    "inputs": [
+      "minecraft:powder_snow"
+    ],
+    "output": "minecraft:snow_block"
+  }
+]

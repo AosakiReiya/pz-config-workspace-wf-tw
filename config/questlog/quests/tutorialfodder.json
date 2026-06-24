@@ -1,0 +1,21 @@
+{
+  "chapter": "nfts",
+  "left_panel_width": 275,
+  "panel_height": 200,
+  "requirements": [
+    {
+      "type": "questlog:stat",
+      "stat": "minecraft:animals_bred",
+      "required_amount": 3
+    }
+  ],
+  "objectives": [],
+  "rewards": [],
+  "title": "飼料",
+  "description": "透過將亞麻捆和乾草捆結合起來，你可以製作飼料，當你不在農場附近時，它可以餵養你的任何牲畜。\n\n餵食後，動物會自動繁殖，小動物會長得更快。",
+  "icon": {
+    "item": "supplementaries:fodder"
+  },
+  "background_texture": "questlog:textures/gui/quest_page.png",
+  "toast_on_complete": false
+}

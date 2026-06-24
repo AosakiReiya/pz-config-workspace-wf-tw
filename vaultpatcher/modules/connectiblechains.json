@@ -1,0 +1,33 @@
+[
+  {
+    "name": "connectiblechains_zh_tw",
+    "desc": "connectiblechains-forge-1.20.1-1.2.5.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "connectiblechains-forge-1.20.1-1.2.5.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.evandev.connectiblechains.command.ConnectChainCommand"
+    ],
+    "pairs": [
+      {
+        "key": "Cannot connect a chain to the same block.",
+        "value": "無法將連鎖連線到同一方塊。"
+      },
+      {
+        "key": "Successfully connected chain from ",
+        "value": "成功連線鏈從"
+      },
+      {
+        "key": "Successfully connected chain from ",
+        "value": "成功連線鏈路，從 "
+      },
+      {
+        "key": ") to ",
+        "value": ") 到 "
+      }
+    ]
+  }
+]

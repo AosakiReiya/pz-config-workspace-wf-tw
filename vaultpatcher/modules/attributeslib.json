@@ -1,0 +1,36 @@
+[
+  {
+    "name": "attributeslib_zh_tw",
+    "desc": "ApothicAttributes-1.20.1-1.3.7.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "ApothicAttributes-1.20.1-1.3.7.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "dev.shadowsoffire.attributeslib.client.AttributesGui"
+    ],
+    "pairs": [
+      {
+        "key": "Hide Unchanged",
+        "value": "隱藏未更改"
+      },
+      {
+        "key": "Modifier Formula",
+        "value": "修飾符公式"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.shadowsoffire.attributeslib.client.AttributesGui$HideUnchangedButton"
+    ],
+    "pairs": [
+      {
+        "key": "Hide Unchanged Attributes",
+        "value": "隱藏未更改的屬性"
+      }
+    ]
+  }
+]

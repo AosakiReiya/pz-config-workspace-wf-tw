@@ -1,0 +1,13 @@
+name = "Sneaky NameTag"
+filename = "sneakynametag-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "846469ba7e3f9e8ac23883efb6f487b5ebe17656"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6326349
+project-id = 1224420

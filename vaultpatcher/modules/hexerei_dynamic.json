@@ -1,0 +1,21 @@
+[
+  {
+    "name": "hexerei_dynamic_zh_tw",
+    "desc": "hexerei-0.4.2.3.jar 硬編碼文本漢化（動態替換）",
+    "authors": "Auto-Translation-Tool",
+    "mods": "hexerei-0.4.2.3.jar",
+    "dynamic": true,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "net.joefoxe.hexerei.screen.CrowScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Right Click a harvestable block to add to the whitelist",
+        "value": "右擊可收穫的方塊以將其新增到白名單"
+      }
+    ]
+  }
+]

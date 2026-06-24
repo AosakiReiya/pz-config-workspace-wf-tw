@@ -1,0 +1,13 @@
+name = "No Villager Discounts"
+filename = "no_villager_cure_discount-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e01a560ea929516bb81a12cec2721830853eacbb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5547027
+project-id = 1067113

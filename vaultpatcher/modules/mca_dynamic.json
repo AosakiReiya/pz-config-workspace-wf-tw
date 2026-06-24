@@ -1,0 +1,29 @@
+[
+  {
+    "name": "mca_dynamic_zh_tw",
+    "desc": "minecraft-comes-alive-7.6.16+1.20.1-universal.jar 硬編碼文本漢化（動態替換）",
+    "authors": "Auto-Translation-Tool",
+    "mods": "minecraft-comes-alive-7.6.16+1.20.1-universal.jar",
+    "dynamic": true,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "forge.net.mca.client.gui.SkinLibraryScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Toggle invalid",
+        "value": "切換無效"
+      },
+      {
+        "key": "Counter Report",
+        "value": "計數器報告"
+      },
+      {
+        "key": "Unexpected value: \u0001",
+        "value": "意外的值：\u0001"
+      }
+    ]
+  }
+]

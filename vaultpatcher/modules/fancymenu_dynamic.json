@@ -1,0 +1,32 @@
+[
+  {
+    "name": "fancymenu_dynamic_zh_tw",
+    "desc": "fancymenu_forge_3.8.1_MC_1.20.1.jar 硬編碼文本漢化（動態替換）",
+    "authors": "Auto-Translation-Tool",
+    "mods": "fancymenu_forge_3.8.1_MC_1.20.1.jar",
+    "dynamic": true,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "de.keksuccino.fancymenu.customization.action.ui.ActionScriptEditorScreen"
+    ],
+    "pairs": [
+      {
+        "key": "New Folder",
+        "value": "新建資料夾"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "de.keksuccino.fancymenu.customization.layout.editor.LayoutEditorScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Closing editor..",
+        "value": "正在關閉編輯器.."
+      }
+    ]
+  }
+]

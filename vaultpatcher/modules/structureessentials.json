@@ -1,0 +1,69 @@
+[
+  {
+    "name": "structureessentials_zh_tw",
+    "desc": "structureessentials-1.20.1-5.0.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "structureessentials-1.20.1-5.0.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.structureessentials.command.Command"
+    ],
+    "pairs": [
+      {
+        "key": "Features timings:",
+        "value": "功能耗時："
+      },
+      {
+        "key": "Structure timings:",
+        "value": "結構耗時："
+      },
+      {
+        "key": "Structures nearby: ",
+        "value": "附近的結構："
+      },
+      {
+        "key": "Biome tags for: ",
+        "value": "以下物件的生物群系標籤："
+      },
+      {
+        "key": "Biomes for tag: ",
+        "value": "標籤對應的生物群系："
+      },
+      {
+        "key": " Biome: ",
+        "value": " 生物群系: "
+      },
+      {
+        "key": "Similar biome tags for: ",
+        "value": "以下物件的相似生物群系標籤："
+      },
+      {
+        "key": "Weight:",
+        "value": "權重："
+      },
+      {
+        "key": "Weight:",
+        "value": "權重："
+      },
+      {
+        "key": " Biome: ",
+        "value": " 生物群系："
+      },
+      {
+        "key": "Weight:",
+        "value": "權重："
+      },
+      {
+        "key": " Tag: #",
+        "value": " 標籤：#"
+      },
+      {
+        "key": " time: ",
+        "value": " 時間: "
+      }
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "chapter": "nfts",
+  "left_panel_width": 275,
+  "panel_height": 200,
+  "requirements": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "fleshz:hide",
+      "required_amount": 1
+    }
+  ],
+  "objectives": [],
+  "rewards": [],
+  "title": "曬黑",
+  "description": "大多數動物都會掉落皮，可以將其製成皮革。\n\n徒步到山區或高地，人們可以找到成堆的可以開採的原鹽。\n\n原鹽可以磨成鹽堆。或者，可以熔煉一桶水來獲得 8 個鹽堆。\n\n鹽用於製備皮革。沿著獸皮將 3 個組合起來，製成準備好的獸皮。\n\n架子用於乾燥準備好的皮革。它由 3 塊木板製成。\n\n準備好的皮革可以放在架子上，一段時間後就會變成皮革。\n\n皮革條可以透過在製作網格上組合皮革和匕首或小刀來製作。",
+  "icon": {
+    "item": "minecraft:leather"
+  },
+  "background_texture": "questlog:textures/gui/quest_page.png",
+  "toast_on_complete": false,
+  "triggered_sound": "minecraft:block.note_block.bell"
+}

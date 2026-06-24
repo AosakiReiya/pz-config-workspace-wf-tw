@@ -1,0 +1,13 @@
+name = "Rideable Blazes"
+filename = "RidableBlazes-1.20.1-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e7b5d7d573772be388a76e8d8d3e203d8f71e629"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7625076
+project-id = 1462356

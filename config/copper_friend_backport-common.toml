@@ -1,0 +1,94 @@
+
+#Copper Golem AI Configuration||铜傀儡AI配置
+[ai_behavior]
+
+	#Speed and movement settings||速度和移动设置
+	[ai_behavior.speed]
+		#Speed multiplier when the Copper Golem is panicking (default: 1.5)||当铜傀儡处于惊慌状态时的速度倍增器（默认值：1.5）
+		#Range: 0.1 ~ 10.0
+		panicSpeedMultiplier = 1.5
+		#Speed multiplier when the Copper Golem is idle/walking (default: 1.0)||当铜傀儡处于闲置/行走状态时的速度倍增器（默认值：1.0）
+		#Range: 0.1 ~ 10.0
+		idleSpeedMultiplier = 1.0
+
+	#Item transportation settings||物品运输设置
+	[ai_behavior.transport]
+		#Horizontal search radius (in blocks) for finding chests to transport items (default: 32)||寻找箱子以运输物品的水平搜索半径（以方块为单位）（默认值：32）
+		#Range: 1 ~ 128
+		horizontalSearchRadius = 32
+		#Vertical search radius (in blocks) for finding chests to transport items (default: 8)||寻找箱子以运输物品的垂直搜索半径（以方块为单位）（默认值：8）
+		#Range: 1 ~ 64
+		verticalSearchRadius = 8
+		#Number of ticks before starting chest interaction animation (default: 1)||在开始与箱子交互动画之前的刻数（默认值：1）
+		#Range: 0 ~ 100
+		tickToStartInteraction = 1
+		#Number of ticks before playing interaction sound (default: 9)||在播放交互声音之前的刻数（默认值：9）
+		#Range: 0 ~ 100
+		tickToPlaySound = 9
+		#Total duration (in ticks) of chest interaction before closing (default: 60, 3 seconds)||与箱子交互的总持续时间（以刻为单位），然后关闭（默认值：60，3秒）
+		#Range: 1 ~ 200
+		chestInteractionDuration = 60
+
+	#Random wandering behavior settings||随机漫步行为设置
+	[ai_behavior.stroll]
+		#Speed multiplier for random strolling (default: 1.0)||随机漫步的速度倍增器（默认值：1.0）
+		#Range: 0.1 ~ 10.0
+		strollSpeed = 1.0
+		#Minimum distance (in blocks) for random stroll targets (default: 2)||随机漫步目标的最小距离（以方块为单位）（默认值：2）
+		#Range: 1 ~ 32
+		minStrollDistance = 2
+		#Maximum distance (in blocks) for random stroll targets (default: 2)||随机漫步目标的最大距离（以方块为单位）（默认值：2）
+		#Range: 1 ~ 32
+		maxStrollDistance = 2
+
+	#Idle behavior settings||行为设置
+	[ai_behavior.idle]
+		#Minimum duration (in ticks) for standing still (default: 30, 1.5 seconds)||最短静止时间（以刻为单位）（默认值：30，1.5秒）
+		#Range: 1 ~ 1200
+		doNothingMinDuration = 30
+		#Maximum duration (in ticks) for standing still (default: 60, 3 seconds)||最长静止时间（以刻为单位）（默认值：60，3秒）
+		#Range: 1 ~ 1200
+		doNothingMaxDuration = 60
+
+	#Looking at player settings||看向玩家的设置
+	[ai_behavior.look]
+		#Maximum distance (in blocks) at which golem will look at players (default: 6.0)||最大距离（以方块为单位），在此范围内傀儡会注视玩家（默认值：6.0）
+		#Range: 1.0 ~ 32.0
+		lookAtPlayerDistance = 6.0
+		#Minimum duration (in ticks) for looking at player (default: 40, 2 seconds)||最短注视玩家时间（以刻为单位）（默认值：40，2秒）
+		#Range: 1 ~ 1200
+		lookAtPlayerMinDuration = 40
+		#Maximum duration (in ticks) for looking at player (default: 80, 4 seconds)||最长注视玩家时间（以刻为单位）（默认值：80，4秒）
+		#Range: 1 ~ 1200
+		lookAtPlayerMaxDuration = 80
+
+#Weathering and oxidation settings||风化和氧化设置
+[weathering]
+	#Minimum ticks before oxidation occurs (default: 504000, ~7 hours)||氧化发生前的最少刻数（默认值：504000，约7小时）
+	#Range: 1 ~ 2000000
+	weatheringTickMin = 504000
+	#Maximum ticks before oxidation occurs (default: 552000, ~7.7 hours)||氧化发生前的最多刻数（默认值：552000，约7.7小时）
+	#Range: 1 ~ 2000000
+	weatheringTickMax = 552000
+	#Chance per tick for oxidized golem to turn into statue (default: 0.0058, ~0.58%)||氧化傀儡每刻变成雕像的概率（默认值：0.0058，约0.58%）
+	#Range: 0.0 ~ 1.0
+	turnToStatueChance = 0.0058
+
+#Animation timing settings||动画计时设置
+[animation]
+	#Minimum cooldown ticks between head spin animations (default: 200, 10 seconds)||头部旋转动画之间的最少冷却刻数（默认值：200，10秒）
+	#Range: 1 ~ 1200
+	spinAnimationMinCooldown = 200
+	#Maximum cooldown ticks between head spin animations (default: 240, 12 seconds)||头部旋转动画之间的最多冷却刻数（默认值：240，12秒）
+	#Range: 1 ~ 1200
+	spinAnimationMaxCooldown = 240
+
+#Spawn behavior settings||生成行为设置
+[spawn]
+	#Minimum cooldown ticks for item transport after spawn (default: 60, 3 seconds)||生成后物品传输的最少冷却刻数（默认值：60，3秒）
+	#Range: 1 ~ 1200
+	spawnCooldownMin = 60
+	#Maximum cooldown ticks for item transport after spawn (default: 100, 5 seconds)||生成后物品传输的最多冷却刻数（默认值：100，5秒）
+	#Range: 1 ~ 1200
+	spawnCooldownMax = 100
+

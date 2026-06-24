@@ -1,0 +1,36 @@
+[
+  {
+    "name": "villagerconfig_zh_tw",
+    "desc": "villagerconfig-4.1.2+1.20.1.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "villagerconfig-4.1.2+1.20.1.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "me.drex.villagerconfig.commands.GenerateCommand"
+    ],
+    "pairs": [
+      {
+        "key": "An error occurred, please look into the console for more information.",
+        "value": "發生錯誤，請檢視控制台以獲取更多資訊。"
+      },
+      {
+        "key": "Successfully generated trade data to ",
+        "value": "已成功生成交易資料到"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "me.drex.villagerconfig.commands.ReloadCommand"
+    ],
+    "pairs": [
+      {
+        "key": "VillagerConfig config reloaded.",
+        "value": "VillagerConfig 配置已重新載入。"
+      }
+    ]
+  }
+]

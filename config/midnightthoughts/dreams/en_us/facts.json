@@ -1,0 +1,30 @@
+{
+  "entries": [
+    {"text": "Bellows can speed up the smelting process.", "rarity": 1.0},
+    {"text": "Carpets can be placed on stairs.", "rarity": 1.0},
+    {"text": "Potions can be mixed in a normal Cauldron.", "rarity": 1.0},
+    {"text": "Sleeping in a well-furnished room can give you stat boosts.", "rarity": 1.0},
+    {"text": "Owls can be used to deliver messages and packages to other players or depots.", "rarity": 1.0},
+    {"text": "Plate armor protects you very well from many dangers.", "rarity": 1.0},
+    {"text": "The sun rises in the east and sets in the west.", "rarity": 1.0},
+    {"text": "It gets colder up north.", "rarity": 1.0},
+    {"text": "With fodder, animals will automatically breed during the right seasons.", "rarity": 1.0},
+    {"text": "Wearing heavier armor makes it less easy to dodge attacks.", "rarity": 1.0},
+    {"text": "Paper can be made from sugar cane or tree bark.", "rarity": 1.0},
+    {"text": "You can crawl by pressing 'X.'", "rarity": 1.0},
+    {"text": "You can sit on stairs and slabs.", "rarity": 1.0},
+    {"text": "You can carry up to two sacks at a time.", "rarity": 1.0},
+    {"text": "Donkeys, Mules, Sniffers & Elephants can carry chests.", "rarity": 1.0},
+    {"text": "Lances & Sabers do more damage whilst on horseback.", "rarity": 1.0},
+    {"text": "Traveling in a straight line is very impractical; try getting vantage points and exploring thoroughly.", "rarity": 1.0},
+    {"text": "You can hide in leaves and safely land on them.", "rarity": 1.0},
+    {"text": "Falling into shallow water can kill you.", "rarity": 1.0},
+    {"text": "Polar Bears can be tamed with Cod. It can also be ridden.", "rarity": 1.0},
+    {"text": "The Imperial Guardian's weak spot is its exposed back.", "rarity": 1.0},
+    {"text": "Corpses decompose after 3 days. The loot does not disappear.", "rarity": 1.0},
+    {"text": "A season passes after 28 days.", "rarity": 1.0},
+    {"text": "Map Atlases can be crafted with a scaled map. It will use fewer maps and map out a larger area.", "rarity": 1.0},
+    {"text": "Black Steel can be found in the north.", "rarity": 1.0},
+    {"text": "The Notes for the Survivalist contains many useful tips.", "rarity": 1.0}
+  ]
+}

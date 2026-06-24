@@ -1,0 +1,29 @@
+[
+  {
+    "name": "catalogue_dynamic_zh_tw",
+    "desc": "catalogue-forge-1.20.1-1.8.0.jar 硬編碼文本漢化（動態替換）",
+    "authors": "Auto-Translation-Tool",
+    "mods": "catalogue-forge-1.20.1-1.8.0.jar",
+    "dynamic": true,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.mrcrayfish.catalogue.client.screen.CatalogueModListScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Website",
+        "value": "網站"
+      },
+      {
+        "key": "Submit Bug",
+        "value": "提交Bug"
+      },
+      {
+        "key": "Mod ID: ",
+        "value": "模組 ID："
+      }
+    ]
+  }
+]

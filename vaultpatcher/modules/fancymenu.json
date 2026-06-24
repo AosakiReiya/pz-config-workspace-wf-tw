@@ -1,0 +1,128 @@
+[
+  {
+    "name": "fancymenu_zh_tw",
+    "desc": "fancymenu_forge_3.8.1_MC_1.20.1.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "fancymenu_forge_3.8.1_MC_1.20.1.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "de.keksuccino.fancymenu.commands.CloseGuiScreenCommand"
+    ],
+    "pairs": [
+      {
+        "key": "Error while executing command!",
+        "value": "執行命令時出錯！"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "de.keksuccino.fancymenu.commands.LayoutCommand"
+    ],
+    "pairs": [
+      {
+        "key": "Error while executing /fmlayout command!",
+        "value": "執行 /fmlayout 命令時出錯！"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "de.keksuccino.fancymenu.commands.OpenGuiScreenCommand"
+    ],
+    "pairs": [
+      {
+        "key": "Error while executing command!",
+        "value": "執行命令時出錯！"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "de.keksuccino.fancymenu.commands.VariableCommand"
+    ],
+    "pairs": [
+      {
+        "key": "Error while executing command!",
+        "value": "執行命令時出錯！"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "de.keksuccino.fancymenu.customization.action.actions.file.SelectFileAction$SelectFileConfig"
+    ],
+    "pairs": [
+      {
+        "key": "All Files (*.*)",
+        "value": "所有檔案 (*.*)"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "de.keksuccino.fancymenu.customization.action.actions.other.SendHttpRequestAction$SendHttpRequestActionValueScreen"
+    ],
+    "pairs": [
+      {
+        "key": "> Header #",
+        "value": "> 標題 #"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "de.keksuccino.fancymenu.customization.action.ui.ActionScriptEditorScreen$ExecutableEntry"
+    ],
+    "pairs": [
+      {
+        "key": "[UNKNOWN EXECUTABLE]",
+        "value": "[未知執行檔]"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "de.keksuccino.fancymenu.customization.layout.editor.widget.AbstractLayoutEditorWidget"
+    ],
+    "pairs": [
+      {
+        "key": "Widget",
+        "value": "小部件"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "de.keksuccino.fancymenu.customization.listener.gui.ManageListenersScreen"
+    ],
+    "pairs": [
+      {
+        "key": "[UNKNOWN BLOCK]",
+        "value": "[未知方塊]"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "de.keksuccino.fancymenu.customization.screen.dummyscreen.DummyScreens"
+    ],
+    "pairs": [
+      {
+        "key": "404 - Funny placeholder message not found!",
+        "value": "404 - 搞笑佔位訊息未找到！"
+      },
+      {
+        "key": "Progress Status Message",
+        "value": "進度狀態訊息"
+      },
+      {
+        "key": "Progress Stage Message",
+        "value": "進度階段訊息"
+      }
+    ]
+  }
+]

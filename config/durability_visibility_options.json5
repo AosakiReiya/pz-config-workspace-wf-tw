@@ -1,0 +1,36 @@
+{
+	zLayer: 200.0,
+	// Enable durability bar display
+	showDurability: true,
+	// Display durability bar vertically
+	isVertical: false,
+	showDurabilityBarUnderItem: false,
+	showDurabilityBarBackground: true,
+	// Show durability bar when durability is below this percentage
+	showDurabilityBarFromPercent: 50,
+	durabilityBarScale: 1.0,
+	durabilityBarOffsetX: 0.0,
+	durabilityBarOffsetY: 0.0,
+	// Durability bar color at maximum durability (RGB)
+	durabilityBarColor: -16711936,
+	// Durability bar color at minimum durability (RGB)
+	durabilityBarColorMin: -65536,
+	showDurabilityPercent: false,
+	showPercentSymbol: true,
+	percentAccuracy: 0,
+	durabilityPercentOffsetX: 0.0,
+	durabilityPercentOffsetY: 0.0,
+	showDurabilityPercentsFromPercent: 99,
+	durabilityPercentScale: 0.5,
+	durabilityPercentColor: -1,
+	durabilityPercentColorMin: -1,
+	showDurabilityAmount: false,
+	durabilityAmountOffsetX: 0.0,
+	durabilityAmountOffsetY: 0.0,
+	showDurabilityAmountsFromPercent: 99,
+	durabilityAmountScale: 0.5,
+	durabilityAmountColor: -1,
+	durabilityAmountColorMin: -1,
+	doRgbBar: false,
+	presetsName: ""
+}

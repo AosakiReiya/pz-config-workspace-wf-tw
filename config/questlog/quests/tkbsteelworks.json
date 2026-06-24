@@ -1,0 +1,27 @@
+{
+  "chapter": "tkb",
+  "sort_order": "5",
+  "requirements": [
+    {
+      "type": "questlog:advancement",
+      "advancement": "fantasia_quests:age_of_advancement/phase_2/blast_off"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "overgeared:steel_ingot",
+      "required_amount": 1
+    }
+  ],
+  "rewards": [],
+  "title": "VI - 煉鋼廠",
+  "description": "鋼是鐵和碳的合金。這個過程應該很簡單。在合金爐中，人們可以將煤和生鐵結合起來，從而產生粗鋼。然後可以在砧座上將其加工成錠。",
+  "icon": {
+    "item": "overgeared:steel_ingot"
+  },
+  "left_panel_width": 275,
+  "right_panel_width": 170,
+  "panel_height": 200,
+  "background_texture": "questlog:textures/gui/quest_page.png"
+}

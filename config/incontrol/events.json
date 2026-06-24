@@ -1,0 +1,164 @@
+[
+    {
+        "on": "mob_killed",
+        "parameters": {
+            "mob": "mowziesmobs:umvuthi",
+            "player": true
+        },
+        "command": [
+            "function questhelper:cloud_golem_reward",
+            "scoreboard players set @s cloudGolemSlain 1"
+        ]
+    },
+    {
+        "on": "mob_killed",
+        "parameters": {
+            "mob": "mowziesmobs:ferrous_wroughtnaut",
+            "player": true
+        },
+        "command": [
+            "scoreboard players add @s wroughtnautSlain 1"
+        ]
+    },
+    {
+        "on": "mob_killed",
+        "parameters": {
+            "mob": "cataclysm:maledictus",
+            "player": true
+        },
+        "command": [
+            "function questhelper:maledictus_reward",
+            "scoreboard players set @s maledictusSlain 1"
+        ]
+    },
+    {
+        "on": "mob_killed",
+        "parameters": {
+            "mob": "cataclysm:scylla",
+            "player": true
+        },
+        "command": [
+            "function questhelper:scylla_reward",
+            "scoreboard players set @s scyllaSlain 1"
+        ]
+    },
+    {
+        "on": "mob_killed",
+        "parameters": {
+            "mob": "cataclysm:ignis",
+            "player": true
+        },
+        "command": [
+            "function questhelper:ignis_reward",
+            "scoreboard players set @s ignisSlain 1"
+        ]
+    },
+    {
+        "on": "custom",
+        "parameters": {
+            "name": "tyrosUngank"
+        },
+        "command": [
+            "execute as @p at @s if entity @e[type=irons_spellbooks:fire_boss,distance=..15] run kill @e[type=irons_spellbooks:citadel_keeper,distance=..15]"
+        ]
+    },
+    {
+        "on": "custom",
+        "parameters": {
+            "name": "koboldConverter"
+        },
+        "spawn": {
+            "mob": "kobolds:kobold",
+            "mindistance": 0,
+            "maxdistance": 2,
+            "mincount": 1,
+            "maxcount": 1,
+            "attempts": 20,
+            "norestrictions": true
+        }
+    },
+    {
+        "on": "custom",
+        "parameters": {
+            "name": "koboldGuardConverter"
+        },
+        "spawn": {
+            "mob": "kobolds:kobold_warrior",
+            "mindistance": 0,
+            "maxdistance": 2,
+            "mincount": 1,
+            "maxcount": 1,
+            "attempts": 20,
+            "norestrictions": true
+        }
+    },
+    {
+        "on": "custom",
+        "parameters": {
+            "name": "zonkeyConverter"
+        },
+        "spawn": {
+            "mob": "minecraft:donkey",
+            "mindistance": 0,
+            "maxdistance": 0,
+            "mincount": 1,
+            "maxcount": 1,
+            "attempts": 20,
+            "norestrictions": true
+        }
+    },
+    {
+        "on": "custom",
+        "parameters": {
+            "name": "zorseConverter"
+        },
+        "spawn": {
+            "mob": "minecraft:horse",
+            "mindistance": 0,
+            "maxdistance": 0,
+            "mincount": 1,
+            "maxcount": 1,
+            "attempts": 20,
+            "norestrictions": true
+        }
+    },
+    {
+        "on": "custom",
+        "parameters": {
+            "name": "deadKingConverter"
+        },
+        "spawn": {
+            "mob": "minecraft:skeleton",
+            "mindistance": 0,
+            "maxdistance": 0,
+            "mincount": 1,
+            "maxcount": 1,
+            "attempts": 20,
+            "norestrictions": true
+        }
+    },
+    {
+        "on": "custom",
+        "parameters": {
+            "name": "golemConverter"
+        },
+        "command": ["summon item ~ ~1 ~ {Item:{id:\"minecraft:iron_block\",Count:4b}}", "summon item ~ ~1 ~ {Item:{id:\"minecraft:carved_pumpkin\",Count:1b}}"]
+    },
+    {
+        "on": "custom",
+        "parameters": {
+            "name": "witherConverter"
+        },
+        "command": ["summon item ~ ~1 ~ {Item:{id:\"minecraft:soul_sand\",Count:4b}}", "summon item ~ ~1 ~ {Item:{id:\"minecraft:wither_skeleton_skull\",Count:3b}}", "title @p actionbar \"§cThe Wither can not be constructed here...\""]
+    },
+    {
+        "on": "custom",
+        "parameters": {
+            "name": "deathConverter"
+        },
+        "command": [
+            "summon customnpcs:customnpc ~-2 ~-8 ~2 {ASLoaded:1b,AbsorptionAmount:0.0f,Accuracy:60,ActiveRange:32,AggroRange:32,AimWhileShooting:0b,Air:300s,Armor:[{Count:1b,Slot:0b,id:\"magistuarmoryaddon:dark_early_cabasset\",tag:{ArmorDecoration:{Items:[{color:5449580,dyeable:1b,name:\"magistuarmoryaddon:landsknecht_feathers\"},{color:5449580,dyeable:1b,name:\"magistuarmoryaddon:royal_plume\"}]},Damage:0,display:{Name:'{\"translate\":\"magistuarmory.decorated\",\"with\":[\"Dark Early Cabasset\"]}'}}},{Count:1b,Slot:1b,id:\"magistuarmoryaddon:dark_kastenbrust_chestplate\",tag:{ArmorDecoration:{Items:[{color:1,dyeable:0b,name:\"magistuarmoryaddon:dark_gorget\"}]},Damage:0,display:{Name:'{\"translate\":\"magistuarmory.decorated\",\"with\":[\"Dark Kastenbrust Chestplate\"]}'}}},{Count:1b,Slot:2b,id:\"magistuarmoryaddon:dark_kastenbrust_leggings\",tag:{Damage:0}},{Count:1b,Slot:3b,id:\"magistuarmoryaddon:dark_kastenbrust_boots\",tag:{Damage:0}}],ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],ArmorItems:[{},{},{},{}],AttackInvisible:0b,AttackOtherFactions:1b,AttackRange:2,AttackSpeed:20,AttackStrenght:12,Attributes:[{Base:0.0d,Name:\"minecraft:generic.knockback_resistance\"},{Base:12.0d,Name:\"minecraft:generic.attack_damage\"},{Base:0.08d,Name:\"forge:entity_gravity\"},{Base:0.30000001192092896d,Name:\"minecraft:generic.movement_speed\"},{Base:0.0d,Name:\"enhancedai:push_resistance\"},{Base:32.0d,Name:\"minecraft:generic.follow_range\"},{Base:0.0d,Name:\"minecraft:generic.attack_knockback\"},{Base:0.0d,Name:\"minecraft:generic.armor\"},{Base:0.8282856485126004d,Name:\"forge:entity_reach\"},{Base:4.0d,Name:\"minecraft:generic.attack_speed\"},{Base:0.0d,Name:\"minecraft:generic.armor_toughness\"},{Base:1.0d,Name:\"eeeabsmobs:crit_chance\"},{Base:0.0d,Name:\"forge:step_height_addition\"},{Base:150.0d,Name:\"minecraft:generic.max_health\"},{Base:9.600000381469727d,Name:\"forge:swim_speed\"},{Base:0.6000000238418579d,Name:\"minecraft:generic.flying_speed\"}],AvoidsSun:0b,AvoidsWater:0b,BalmData:{},BannerStack:{Count:0b,id:\"minecraft:air\",tag:{glide:0b,struck:0b}},BlueprintTrackedData:[{Boolean:0b,Id:\"windswept:cloaked\"},{Boolean:0b,Id:\"savage_and_ravage:invisible_due_to_mask\"}],BossBar:1b,BossColor:5,Brain:{memories:{}},BurnInSun:0b,BurstCount:1,CanDrown:0b,CanLeap:0b,CanPickUpLoot:0b,CanSprint:0b,CanSwim:1b,CanUpdate:1b,CitadelData:{},CloakTexture:\"\",CombatRegen:2,CreatureType:0,DeathTime:0s,DefendFaction:1b,DirectLOS:0b,DisablePitch:0b,DistanceToMelee:0,DoorInteract:2,DropChance:[{Integer:100.0f,Slot:0},{Integer:100.0f,Slot:1},{Integer:100.0f,Slot:2},{Integer:100.0f,Slot:3},{Integer:100.0f,Slot:4},{Integer:100.0f,Slot:5},{Integer:100.0f,Slot:6},{Integer:100.0f,Slot:7},{Integer:100.0f,Slot:8}],EntityJSData:{},FactionID:2,FactionPoints:{DecreaseFaction1Points:0b,DecreaseFaction2Points:0b,OptionFaction1Points:100,OptionFaction2Points:100,OptionFactions1:-1,OptionFactions2:-1},FallDistance:0.0f,FallFlying:0b,FindShelter:2,Fire:-20s,FireIndirect:0,FireRate:5,FiringSound:\"minecraft:entity.arrow.shoot\",ForgeCaps:{\"brewinandchewin:raging\":{stacks:0,ticks_until_reset:0},\"brewinandchewin:tipsy_numbed_hearts\":{numbed_health:0.0f,ticks_until_damage:0},\"cataclysm:charge_cap\":{ChargeDamage:0.0f,ChargeTime:0,KnockbackSpeed:0.0f,dx:0.0f,dz:0.0f,isCharge:0b,timer:0},\"cataclysm:hook_cap\":{hasHook:0b},\"cataclysm:parry_cap\":{frame:0},\"cataclysm:render_rush_cap\":{damage:0.0f,isRush:0b,timer:0},\"cataclysm:tentacle_cap\":{getLastTentacleID:0,hasTentacle:0b},\"curios:inventory\":{Curios:[]},\"eeeabsmobs:frenzy_cap\":{isFrenzy:0b,level:0},\"eeeabsmobs:frenzy_processor\":{isFrenzy:0b,level:0},\"eeeabsmobs:vertigo_processor\":{isVertigo:0b,limbSwingAmount:0.0f,pitch:0.0f,renderYawOffset:0.0f,swingProgress:0.0f,yaw:0.0f,yawHead:0.0f},\"eeeabsmobs:vertigo_processor_cap\":{isVertigo:0b,limbSwingAmount:0.0f,pitch:0.0f,renderYawOffset:0.0f,swingProgress:0.0f,yaw:0.0f,yawHead:0.0f},\"mowziesmobs:ability\":{},\"mowziesmobs:frozen\":{freezeDecayDelay:0,freezeProgress:0.0f,frozen:0b,frozenPitch:0.0f,frozenRenderYawOffset:0.0f,frozenSwingProgress:0.0f,frozenWalkAnimPosition:0.0f,frozenWalkAnimSpeed:0.0f,frozenYaw:0.0f,frozenYawHead:0.0f,prevFrozen:0b,prevHasAI:1b},\"mowziesmobs:frozen_cap\":{freezeDecayDelay:0,freezeProgress:0.0f,frozen:0b,frozenPitch:0.0f,frozenRenderYawOffset:0.0f,frozenSwingProgress:0.0f,frozenWalkAnimPosition:0.0f,frozenWalkAnimSpeed:0.0f,frozenYaw:0.0f,frozenYawHead:0.0f,prevFrozen:0b,prevHasAI:1b},\"mowziesmobs:last_damage\":{},\"mowziesmobs:living_cap\":{},\"structure_gel:gel_entity\":{portal:\"structure_gel:empty\"},\"witherreincarnated:possessed_capability\":{PossessedFor:0,PossessionCooldown:0,PossessionTime:0}},ForgeData:{cnpcmarkdata:{marks:[]},enhancedai:{actual_blindness:{},air_steal:{},falling_shockwave:{},fire_immune_ticks:{fire_immune_ticks:20},leaders:{},random_stroll:{random_stroll_chance_multiplier:0.65d},shielding:{},spawning:{},targeting:{alert_range:32,follow_ranges_processed:1b}},insanelib:{tags:{}},mobspropertiesrandomness:{events:{},processed:1b,scale_pehkui_applied:1b}},GlowTexture:\"fantasia:textures/entity/deathfollower_e.png\",GoldenAirSupply:0.0f,GraceRecharged:1b,GroundSound:\"minecraft:block.stone.break\",HandDropChances:[0.085f,0.085f],HandItems:[{},{}],Health:350.0f,HealthRegen:1,HideBodyWhenKilled:0b,HitSound:\"minecraft:entity.arrow.hit\",HurtByTimestamp:559,HurtTime:0s,IgnoreCobweb:0b,ImmuneToFire:0b,Invulnerable:0b,IsCaravanMember:0b,IsStatue:0b,KilledTime:0L,KnockBack:0,KubeJSPersistentData:{bloodSlashCooldown:0.0d,flameStrikeCooldown:0.0d},LeftHanded:0b,LinkedNpcName:\"\",LootMode:0,MarkovGender:0,MarkovGeneratorId:5,MaxExp:160,MaxFiringRange:15,MaxHealth:150,MinExp:160,ModRev:18,Motion:[0.0d,-0.0784000015258789d,0.0d],MountControl:0b,MoveSpeed:6,MoveState:0,MovementType:0,MovingPatern:0,MovingPathNew:[],MovingPause:1b,MovingPos:0,MovingState:0,NPCDialogOptions:[],Name:\"Ofydd, The Judge\",NoFallDamage:1b,NoLivingAnimation:0b,NpcAngrySound:\"\",NpcAttackLines:{Lines:[]},NpcDeathSound:\"minecraft:entity.player.hurt\",NpcHurtSound:\"minecraft:entity.player.hurt\",NpcIdleSound:\"\",NpcInteractLines:{Lines:[]},NpcInteractNPCLines:{Lines:[]},NpcInv:[{Count:1b,Slot:0b,id:\"mca:scythe\",tag:{Damage:0,active:0b}}],NpcJob:0,NpcKillLines:{Lines:[]},NpcKilledLines:{Lines:[]},NpcLines:{Lines:[]},NpcModelData:{Animation:0,Arms2Config:{NotShared:0b,ScaleX:1.0f,ScaleY:1.0f,ScaleZ:1.0f,TransX:0.0f,TransY:0.0f,TransZ:0.0f},ArmsConfig:{NotShared:0b,ScaleX:1.0f,ScaleY:1.0f,ScaleZ:1.0f,TransX:0.0f,TransY:0.0f,TransZ:0.0f},BodyConfig:{NotShared:0b,ScaleX:1.0f,ScaleY:1.0f,ScaleZ:1.0f,TransX:0.0f,TransY:0.0f,TransZ:0.0f},CustomSkinUrl:\"\",DisplayName:\"\",ExtraData:{},HeadConfig:{NotShared:0b,ScaleX:1.0f,ScaleY:1.0f,ScaleZ:1.0f,TransX:0.0f,TransY:0.0f,TransZ:0.0f},LastEdited:1765585565166L,Legs2Config:{NotShared:0b,ScaleX:1.0f,ScaleY:1.0f,ScaleZ:1.0f,TransX:0.0f,TransY:0.0f,TransZ:0.0f},LegsConfig:{NotShared:0b,ScaleX:1.0f,ScaleY:1.0f,ScaleZ:1.0f,TransX:0.0f,TransY:0.0f,TransZ:0.0f},ModelType:0,MoveAnimation:16,NewParts:[],Parts:[],SimpleRender:0b,WingMode:0},NpcScenes:{Scenes:[]},NpcStepSound:\"\",NpcVisible:0,NpcsTimers:[],OnAttack:0,OnGround:1b,OrderedLines:0b,Orientation:0,OverlayGlowing:1b,PersistenceRequired:0b,PortalCooldown:0,Pos:[-1072.5d,69.0d,-2097.5d],PositionOffsetX:5.0f,PositionOffsetY:5.0f,PositionOffsetZ:5.0f,PotionAmp:1,PotionDuration:5,PotionEffect:0,PotionImmune:0b,ReactsToFire:0b,Resistances:{Arrow:1.0f,Explosion:1.0f,Knockback:1.0f,Melee:1.0f},RespawnTime:0,ReturnToStart:0b,Role:0,Rotation:[-120.79368f,0.0f],ScriptEnabled:0b,ScriptLanguage:\"ECMAScript\",Scripts:[],ShotCount:1,ShowLayers:1b,ShowName:1,Size:6,SkinColor:16777215,SkinUrl:\"\",SpawnCycle:3,StandingState:0,StartPosNew:[I;-1073,68,-2098],Texture:\"fantasia:textures/entity/deathfollower.png\",Title:\"\",TotalTicksAlive:54012L,TransformEditingModus:0b,TransformHasAI:0b,TransformHasAdvanced:0b,TransformHasDisplay:0b,TransformHasInv:0b,TransformHasJob:0b,TransformHasRole:0b,TransformHasStats:0b,TransformIsActive:0b,UUID:[I;962234269,-983873370,-1473302971,-358361194],UsingSkinUrl:0b,UsingSpectreBoundedSpyglass:0b,VisibleAvailability:{AvailabilityDayTime:0,AvailabilityDialog:0,AvailabilityDialog2:0,AvailabilityDialog2Id:-1,AvailabilityDialog3:0,AvailabilityDialog3Id:-1,AvailabilityDialog4:0,AvailabilityDialog4Id:-1,AvailabilityDialogId:-1,AvailabilityFaction:0,AvailabilityFaction2:0,AvailabilityFaction2Id:-1,AvailabilityFaction2Stance:0,AvailabilityFactionId:-1,AvailabilityFactionStance:0,AvailabilityMinPlayerLevel:0,AvailabilityQuest:0,AvailabilityQuest2:0,AvailabilityQuest2Id:-1,AvailabilityQuest3:0,AvailabilityQuest3Id:-1,AvailabilityQuest4:0,AvailabilityQuest4Id:-1,AvailabilityQuestId:-1,AvailabilityScoreboard2Objective:\"\",AvailabilityScoreboard2Type:1,AvailabilityScoreboard2Value:1,AvailabilityScoreboardObjective:\"\",AvailabilityScoreboardType:1,AvailabilityScoreboardValue:1,ModRev:18},WalkingRange:10,Weapons:[{Count:1b,Slot:0b,id:\"mca:scythe\",tag:{Damage:0,active:0b}}],castingEquipmentSlot:\"mainhand\",castingSpellId:\"\",castingSpellLevel:0,effectFlags:0L,evasionHitsRemaining:0.0f,heartStopAccumulatedDamage:0.0f,id:\"customnpcs:customnpc\",isCasting:0b,maxDelay:40,minDelay:20,npcInteracting:1b,pArea:0,pDamage:4,pDur:5,pEffAmp:0,pEffect:0,pGlows:0b,pImpact:0,pPhysics:1b,pRender3D:1b,pSize:5,pSpeed:10,pSpin:0b,pStick:0b,pTrail:0,pXlr8:0b,spellSelection:{index:-1,lastIndex:-1,lastSlot:\"\",slot:\"\"},stopAndInteract:1b,usedSpecial:0b}",
+            "summon customnpcs:customnpc ~2 ~-8 ~-2 {ASLoaded:1b,AbsorptionAmount:0.0f,Accuracy:60,ActiveRange:32,AggroRange:128,AimWhileShooting:0b,Air:300s,Armor:[{Count:1b,Slot:0b,id:\"epicknights_open_helms:open_late_dark_sallet_helmet\",tag:{ArmorDecoration:{Items:[{color:5000268,dyeable:1b,name:\"magistuarmory:dragon\"},{color:5449580,dyeable:1b,name:\"magistuarmoryaddon:royal_plume\"}]},Damage:0,display:{Name:'{\"translate\":\"magistuarmory.decorated\",\"with\":[\"Open Dark Late Sallet\"]}'}}},{Count:1b,Slot:1b,id:\"magistuarmoryaddon:dark_greenwich_chestplate\",tag:{ArmorDecoration:{Items:[{color:1908001,dyeable:1b,name:\"magistuarmoryaddon:medieval_cloak\"}]},Damage:0,display:{Name:'{\"translate\":\"magistuarmory.decorated\",\"with\":[\"Dark Greenwich Chestplate\"]}'}}},{Count:1b,Slot:2b,id:\"magistuarmoryaddon:dark_gothic_leggings\",tag:{Damage:0}},{Count:1b,Slot:3b,id:\"magistuarmoryaddon:dark_greenwich_boots\",tag:{Damage:0}}],ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],ArmorItems:[{},{},{},{}],AttackInvisible:0b,AttackOtherFactions:1b,AttackRange:2,AttackSpeed:20,AttackStrenght:16,Attributes:[{Base:0.0d,Name:\"minecraft:generic.knockback_resistance\"},{Base:16.0d,Name:\"minecraft:generic.attack_damage\"},{Base:0.08d,Name:\"forge:entity_gravity\"},{Base:0.20000000298023224d,Name:\"minecraft:generic.movement_speed\"},{Base:0.0d,Name:\"enhancedai:push_resistance\"},{Base:32.0d,Name:\"minecraft:generic.follow_range\"},{Base:0.0d,Name:\"minecraft:generic.attack_knockback\"},{Base:0.0d,Name:\"minecraft:generic.armor\"},{Base:0.8282856485126004d,Name:\"forge:entity_reach\"},{Base:0.0d,Name:\"minecraft:generic.armor_toughness\"},{Base:4.0d,Name:\"minecraft:generic.attack_speed\"},{Base:1.0d,Name:\"eeeabsmobs:crit_chance\"},{Base:0.0d,Name:\"forge:step_height_addition\"},{Base:250.0d,Name:\"minecraft:generic.max_health\"},{Base:6.400000095367432d,Name:\"forge:swim_speed\"},{Base:0.4000000059604645d,Name:\"minecraft:generic.flying_speed\"}],AvoidsSun:0b,AvoidsWater:0b,BalmData:{},BannerStack:{Count:0b,id:\"minecraft:air\",tag:{glide:0b,struck:0b}},BlueprintTrackedData:[{Boolean:0b,Id:\"windswept:cloaked\"},{Boolean:0b,Id:\"savage_and_ravage:invisible_due_to_mask\"}],BossBar:1b,BossColor:5,Brain:{memories:{}},BurnInSun:0b,BurstCount:1,CanDrown:0b,CanLeap:0b,CanPickUpLoot:0b,CanSprint:0b,CanSwim:1b,CanUpdate:1b,CitadelData:{},CloakTexture:\"\",CombatRegen:0,CreatureType:0,DeathTime:0s,DefendFaction:1b,DirectLOS:0b,DisablePitch:0b,DistanceToMelee:0,DoorInteract:2,DropChance:[{Integer:50.0f,Slot:0},{Integer:100.0f,Slot:1},{Integer:100.0f,Slot:2},{Integer:100.0f,Slot:3},{Integer:100.0f,Slot:4},{Integer:100.0f,Slot:5},{Integer:100.0f,Slot:6},{Integer:100.0f,Slot:7},{Integer:100.0f,Slot:8}],EntityJSData:{},FactionID:2,FactionPoints:{DecreaseFaction1Points:0b,DecreaseFaction2Points:0b,OptionFaction1Points:100,OptionFaction2Points:100,OptionFactions1:-1,OptionFactions2:-1},FallDistance:0.0f,FallFlying:0b,FindShelter:2,Fire:-20s,FireIndirect:0,FireRate:5,FiringSound:\"minecraft:entity.arrow.shoot\",ForgeCaps:{\"brewinandchewin:raging\":{stacks:0,ticks_until_reset:0},\"brewinandchewin:tipsy_numbed_hearts\":{numbed_health:0.0f,ticks_until_damage:0},\"cataclysm:charge_cap\":{ChargeDamage:0.0f,ChargeTime:0,KnockbackSpeed:0.0f,dx:0.0f,dz:0.0f,isCharge:0b,timer:0},\"cataclysm:hook_cap\":{hasHook:0b},\"cataclysm:parry_cap\":{frame:0},\"cataclysm:render_rush_cap\":{damage:0.0f,isRush:0b,timer:0},\"cataclysm:tentacle_cap\":{getLastTentacleID:0,hasTentacle:0b},\"curios:inventory\":{Curios:[]},\"eeeabsmobs:frenzy_cap\":{isFrenzy:0b,level:0},\"eeeabsmobs:frenzy_processor\":{isFrenzy:0b,level:0},\"eeeabsmobs:vertigo_processor\":{isVertigo:0b,limbSwingAmount:0.0f,pitch:0.0f,renderYawOffset:0.0f,swingProgress:0.0f,yaw:0.0f,yawHead:0.0f},\"eeeabsmobs:vertigo_processor_cap\":{isVertigo:0b,limbSwingAmount:0.0f,pitch:0.0f,renderYawOffset:0.0f,swingProgress:0.0f,yaw:0.0f,yawHead:0.0f},\"mowziesmobs:ability\":{},\"mowziesmobs:frozen\":{freezeDecayDelay:0,freezeProgress:0.0f,frozen:0b,frozenPitch:0.0f,frozenRenderYawOffset:0.0f,frozenSwingProgress:0.0f,frozenWalkAnimPosition:0.0f,frozenWalkAnimSpeed:0.0f,frozenYaw:0.0f,frozenYawHead:0.0f,prevFrozen:0b,prevHasAI:1b},\"mowziesmobs:frozen_cap\":{freezeDecayDelay:0,freezeProgress:0.0f,frozen:0b,frozenPitch:0.0f,frozenRenderYawOffset:0.0f,frozenSwingProgress:0.0f,frozenWalkAnimPosition:0.0f,frozenWalkAnimSpeed:0.0f,frozenYaw:0.0f,frozenYawHead:0.0f,prevFrozen:0b,prevHasAI:1b},\"mowziesmobs:last_damage\":{},\"mowziesmobs:living_cap\":{},\"structure_gel:gel_entity\":{portal:\"structure_gel:empty\"},\"witherreincarnated:possessed_capability\":{PossessedFor:0,PossessionCooldown:0,PossessionTime:0}},ForgeData:{cnpcmarkdata:{marks:[]},enhancedai:{actual_blindness:{},air_steal:{},falling_shockwave:{},fire_immune_ticks:{fire_immune_ticks:20},leaders:{},random_stroll:{random_stroll_chance_multiplier:0.65d},shielding:{},spawning:{},targeting:{alert_range:32,follow_ranges_processed:1b}},insanelib:{tags:{}},mobspropertiesrandomness:{events:{},processed:1b,scale_pehkui_applied:1b}},GlowTexture:\"fantasia:textures/entity/deathfollower_e.png\",GoldenAirSupply:0.0f,GraceRecharged:1b,GroundSound:\"minecraft:block.stone.break\",HandDropChances:[0.085f,0.085f],HandItems:[{},{}],Health:450.0f,HealthRegen:1,HideBodyWhenKilled:0b,HitSound:\"minecraft:entity.arrow.hit\",HurtByTimestamp:2736,HurtTime:0s,IgnoreCobweb:0b,ImmuneToFire:1b,Invulnerable:0b,IsCaravanMember:0b,IsStatue:0b,KilledTime:0L,KnockBack:4,LeftHanded:0b,LinkedNpcName:\"\",LootMode:0,MarkovGender:0,MarkovGeneratorId:5,MaxExp:160,MaxFiringRange:15,MaxHealth:250,MinExp:160,ModRev:18,Motion:[0.0d,-0.0784000015258789d,0.0d],MountControl:0b,MoveSpeed:4,MoveState:0,MovementType:0,MovingPatern:0,MovingPathNew:[],MovingPause:1b,MovingPos:0,MovingState:0,NPCDialogOptions:[],Name:\"Siôr, The Executioner\",NoFallDamage:1b,NoLivingAnimation:0b,NpcAngrySound:\"\",NpcAttackLines:{Lines:[]},NpcDeathSound:\"minecraft:entity.player.hurt\",NpcHurtSound:\"minecraft:entity.player.hurt\",NpcIdleSound:\"\",NpcInteractLines:{Lines:[]},NpcInteractNPCLines:{Lines:[]},NpcInv:[{Count:1b,Slot:0b,id:\"vialofrevival:vial_of_revival\"}],NpcJob:0,NpcKillLines:{Lines:[]},NpcKilledLines:{Lines:[]},NpcLines:{Lines:[]},NpcModelData:{Animation:0,Arms2Config:{NotShared:0b,ScaleX:1.0f,ScaleY:1.0f,ScaleZ:1.0f,TransX:0.0f,TransY:0.0f,TransZ:0.0f},ArmsConfig:{NotShared:0b,ScaleX:1.0f,ScaleY:1.0f,ScaleZ:1.0f,TransX:0.0f,TransY:0.0f,TransZ:0.0f},BodyConfig:{NotShared:0b,ScaleX:1.0f,ScaleY:1.0f,ScaleZ:1.0f,TransX:0.0f,TransY:0.0f,TransZ:0.0f},CustomSkinUrl:\"\",DisplayName:\"\",ExtraData:{},HeadConfig:{NotShared:0b,ScaleX:1.0f,ScaleY:1.0f,ScaleZ:1.0f,TransX:0.0f,TransY:0.0f,TransZ:0.0f},LastEdited:1765585565166L,Legs2Config:{NotShared:0b,ScaleX:1.0f,ScaleY:1.0f,ScaleZ:1.0f,TransX:0.0f,TransY:0.0f,TransZ:0.0f},LegsConfig:{NotShared:0b,ScaleX:1.0f,ScaleY:1.0f,ScaleZ:1.0f,TransX:0.0f,TransY:0.0f,TransZ:0.0f},ModelType:0,MoveAnimation:16,NewParts:[],Parts:[],SimpleRender:0b,WingMode:0},NpcScenes:{Scenes:[]},NpcStepSound:\"\",NpcVisible:0,NpcsTimers:[],OnAttack:0,OnGround:1b,OrderedLines:0b,Orientation:0,OverlayGlowing:1b,PersistenceRequired:0b,PortalCooldown:0,Pos:[-1068.944249924462d,69.0d,-2098.246064212198d],PositionOffsetX:5.0f,PositionOffsetY:5.0f,PositionOffsetZ:5.0f,PotionAmp:1,PotionDuration:5,PotionEffect:0,PotionImmune:1b,ReactsToFire:0b,Resistances:{Arrow:1.0f,Explosion:1.0f,Knockback:1.0f,Melee:1.0f},RespawnTime:0,ReturnToStart:0b,Role:0,Rotation:[36.546608f,0.0f],ScriptEnabled:0b,ScriptLanguage:\"ECMAScript\",Scripts:[],ShotCount:1,ShowLayers:1b,ShowName:1,Size:8,SkinColor:16777215,SkinUrl:\"\",SpawnCycle:3,StandingState:0,StartPosNew:[I;-1052,69,-2093],Texture:\"fantasia:textures/entity/deathfollower.png\",Title:\"\",TotalTicksAlive:57406L,TransformEditingModus:0b,TransformHasAI:0b,TransformHasAdvanced:0b,TransformHasDisplay:0b,TransformHasInv:0b,TransformHasJob:0b,TransformHasRole:0b,TransformHasStats:0b,TransformIsActive:0b,UUID:[I;-1606096232,1538408682,-1772433707,1685113274],UsingSkinUrl:0b,UsingSpectreBoundedSpyglass:0b,VisibleAvailability:{AvailabilityDayTime:0,AvailabilityDialog:0,AvailabilityDialog2:0,AvailabilityDialog2Id:-1,AvailabilityDialog3:0,AvailabilityDialog3Id:-1,AvailabilityDialog4:0,AvailabilityDialog4Id:-1,AvailabilityDialogId:-1,AvailabilityFaction:0,AvailabilityFaction2:0,AvailabilityFaction2Id:-1,AvailabilityFaction2Stance:0,AvailabilityFactionId:-1,AvailabilityFactionStance:0,AvailabilityMinPlayerLevel:0,AvailabilityQuest:0,AvailabilityQuest2:0,AvailabilityQuest2Id:-1,AvailabilityQuest3:0,AvailabilityQuest3Id:-1,AvailabilityQuest4:0,AvailabilityQuest4Id:-1,AvailabilityQuestId:-1,AvailabilityScoreboard2Objective:\"\",AvailabilityScoreboard2Type:1,AvailabilityScoreboard2Value:1,AvailabilityScoreboardObjective:\"\",AvailabilityScoreboardType:1,AvailabilityScoreboardValue:1,ModRev:18},WalkingRange:10,Weapons:[{Count:1b,Slot:0b,id:\"spartanweaponry:netherite_battle_hammer\",tag:{Damage:0}}],castingEquipmentSlot:\"\",castingSpellId:\"\",castingSpellLevel:0,effectFlags:0L,evasionHitsRemaining:0.0f,heartStopAccumulatedDamage:0.0f,id:\"customnpcs:customnpc\",isCasting:0b,maxDelay:40,minDelay:20,npcInteracting:1b,pArea:0,pDamage:4,pDur:5,pEffAmp:0,pEffect:0,pGlows:0b,pImpact:0,pPhysics:1b,pRender3D:1b,pSize:5,pSpeed:10,pSpin:0b,pStick:0b,pTrail:0,pXlr8:0b,spellSelection:{index:-1,lastIndex:-1,lastSlot:\"\",slot:\"\"},stopAndInteract:1b,usedSpecial:0b}"
+        ]
+    }
+]

@@ -1,0 +1,203 @@
+[
+  {
+    "name": "incontrol_zh_tw",
+    "desc": "incontrol-1.20-9.4.6.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "incontrol-1.20-9.4.6.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "mcjty.incontrol.commands.CmdArea"
+    ],
+    "pairs": [
+      {
+        "key": "Not in any area",
+        "value": "不在任何區域內"
+      },
+      {
+        "key": "Current area: ",
+        "value": "當前區域："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.incontrol.commands.CmdDays"
+    ],
+    "pairs": [
+      {
+        "key": "Current day is ",
+        "value": "當前日期為"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.incontrol.commands.CmdInfo"
+    ],
+    "pairs": [
+      {
+        "key": "Light: ",
+        "value": "光照："
+      },
+      {
+        "key": "Current day is ",
+        "value": "當前日期為"
+      },
+      {
+        "key": "Current time is ",
+        "value": "當前時間為 "
+      },
+      {
+        "key": "Light: ",
+        "value": "方塊光："
+      },
+      {
+        "key": ", sky: ",
+        "value": "，天空光："
+      },
+      {
+        "key": ", full: ",
+        "value": "，完整光照："
+      },
+      {
+        "key": "Current time is ",
+        "value": "當前時間為"
+      },
+      {
+        "key": " (daytime: ",
+        "value": "（白天時間："
+      },
+      {
+        "key": ")",
+        "value": "）"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.incontrol.commands.CmdNumbers"
+    ],
+    "pairs": [
+      {
+        "key": "Current numbers: ",
+        "value": "當前數值："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.incontrol.commands.CmdPhases"
+    ],
+    "pairs": [
+      {
+        "key": "Current phases: ",
+        "value": "當前階段："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.incontrol.commands.CmdReload"
+    ],
+    "pairs": [
+      {
+        "key": "Reloaded InControl rules",
+        "value": "已重新載入 InControl 規則"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.incontrol.tools.rules.RuleBase"
+    ],
+    "pairs": [
+      {
+        "key": "Block is not valid!",
+        "value": "方塊無效！"
+      },
+      {
+        "key": "Mob resizing not implemented yet!",
+        "value": "怪物尺寸調整尚未實現！"
+      },
+      {
+        "key": "Bad NBT for mob!",
+        "value": "怪物的 NBT 錯誤！"
+      },
+      {
+        "key": "Unknown item '",
+        "value": "未知物品“"
+      },
+      {
+        "key": "'!",
+        "value": "”！"
+      },
+      {
+        "key": "Item description '",
+        "value": "物品描述“"
+      },
+      {
+        "key": "' is not valid!",
+        "value": "”無效！"
+      },
+      {
+        "key": "Bad number=expression specifier '",
+        "value": "錯誤的 number=expression 指定符“"
+      },
+      {
+        "key": "'!",
+        "value": "”！"
+      },
+      {
+        "key": "Can't find damage source '",
+        "value": "找不到傷害來源“"
+      },
+      {
+        "key": "'!",
+        "value": "”！"
+      },
+      {
+        "key": "Bad state=value specifier '",
+        "value": "錯誤的 state=value 指定符“"
+      },
+      {
+        "key": "'!",
+        "value": "”！"
+      },
+      {
+        "key": "Block '",
+        "value": "方塊“"
+      },
+      {
+        "key": "' is not valid!",
+        "value": "”無效！"
+      },
+      {
+        "key": "Bad potion specifier '",
+        "value": "錯誤的藥水說明符“"
+      },
+      {
+        "key": "'! Use <potion>,<duration>,<amplifier>",
+        "value": "”！請使用 <potion>、<duration>、<amplifier>"
+      },
+      {
+        "key": "Can't find potion '",
+        "value": "找不到藥水“"
+      },
+      {
+        "key": "'!",
+        "value": "”！"
+      },
+      {
+        "key": "Bad duration or amplifier integer for '",
+        "value": "“"
+      },
+      {
+        "key": "'!",
+        "value": "”的持續時間或等級整數無效！"
+      }
+    ]
+  }
+]

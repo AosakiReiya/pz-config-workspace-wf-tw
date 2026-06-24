@@ -1,0 +1,21 @@
+[
+  {
+    "name": "ibo_zh_tw",
+    "desc": "ibo-3.1.0-forge-1.19.3.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "ibo-3.1.0-forge-1.19.3.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "xyz.naomieow.ibo.IboMod"
+    ],
+    "pairs": [
+      {
+        "key": "Incendium Biomes Only",
+        "value": "僅限Incendium群系"
+      }
+    ]
+  }
+]

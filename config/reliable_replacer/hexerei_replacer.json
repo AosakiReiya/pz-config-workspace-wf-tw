@@ -1,0 +1,26 @@
+[
+  {
+    "inputs": [
+      "regions_unexplored:willow_leaves"
+    ],
+    "output": "hexerei:willow_leaves"
+  },
+  {
+    "inputs": [
+      "regions_unexplored:willow_log"
+    ],
+    "output": "hexerei:willow_log"
+  },
+  {
+    "inputs": [
+      "irons_spellbooks:alchemist_cauldron"
+    ],
+    "output": "hexerei:mixing_cauldron"
+  },
+  {
+    "inputs": [
+      "minecraft:brewing_stand"
+    ],
+    "output": "minecraft:air"
+  }
+]

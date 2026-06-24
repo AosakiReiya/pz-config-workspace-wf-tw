@@ -1,0 +1,13 @@
+name = "FleshZ [Neo/Forge]"
+filename = "fleshz-1.20.1-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3d9614907e44531a2024b32ada1514238a7f6828"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8103662
+project-id = 1377302

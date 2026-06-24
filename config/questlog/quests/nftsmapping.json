@@ -1,0 +1,22 @@
+{
+  "requirements": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "map_atlases:atlas",
+      "required_amount": 1
+    }
+  ],
+  "objectives": [],
+  "rewards": [],
+  "title": "測繪",
+  "description": "另一個標準工具是地圖集，它可以用購買的地圖和書籍製作。可以使用[製作表](image:questlog:textures/gui/popups/popup_mapping_crafting.png:138:71)或[製圖表](image:questlog:textures/gui/popups/popup_mapping_table.png:175:86)添加更多空地圖以增加其大小。\n\n如果您喜歡傳統，那麼您應該獲得古董墨水，它可以應用於您的地圖集。",
+  "icon": {
+    "item": "map_atlases:atlas"
+  },
+  "background_texture": "questlog:textures/gui/quest_page.png",
+  "left_panel_width": 275,
+  "panel_height": 200,
+  "chapter": "nfts",
+  "toast_on_complete": false,
+  "triggered_sound": "minecraft:block.note_block.bell"
+}

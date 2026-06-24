@@ -1,0 +1,192 @@
+[
+  {
+    "name": "overgeared_zh_tw",
+    "desc": "overgeared-1.20.1-1.6.29.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "overgeared-1.20.1-1.6.29.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "net.stirdrem.overgeared.block.custom.AbstractSmithingAnvil"
+    ],
+    "pairs": [
+      {
+        "key": "Another player",
+        "value": "其他玩家"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.stirdrem.overgeared.client.BlacklistEditorScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Enter item ID or tag...",
+        "value": "輸入物品ID或標籤……"
+      },
+      {
+        "key": "Done",
+        "value": "完成"
+      },
+      {
+        "key": "Cancel",
+        "value": "取消"
+      },
+      {
+        "key": "Edit ",
+        "value": "編輯"
+      },
+      {
+        "key": "Current items: ",
+        "value": "當前物品："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.stirdrem.overgeared.client.BlacklistEditorScreen$BlacklistItemEntry"
+    ],
+    "pairs": [
+      {
+        "key": "Remove",
+        "value": "移除"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.stirdrem.overgeared.client.OvergearedConfigScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Overgeared Configuration",
+        "value": "Overgeared配置"
+      },
+      {
+        "key": "Done",
+        "value": "完成"
+      },
+      {
+        "key": "Default",
+        "value": "預設"
+      },
+      {
+        "key": "Durability & Grinding.base_durability_blacklist",
+        "value": "耐久度與研磨.base_durability_blacklist"
+      },
+      {
+        "key": "Durability & Grinding.grindingBlacklist",
+        "value": "耐久度與研磨.grindingBlacklist"
+      },
+      {
+        "key": "Minigame Config - ",
+        "value": "小遊戲配置 - "
+      },
+      {
+        "key": " Zone Starting Size",
+        "value": " 結界起始尺寸"
+      },
+      {
+        "key": " Zone Shrink Factor",
+        "value": "區域收縮係數"
+      },
+      {
+        "key": " Min Perfect Zone",
+        "value": " 最小完美結界"
+      },
+      {
+        "key": " Arrow Speed",
+        "value": " 箭矢速度"
+      },
+      {
+        "key": " Arrow Speed Increase",
+        "value": "箭矢速度提升"
+      },
+      {
+        "key": " Max Arrow Speed",
+        "value": " 最大箭矢速度"
+      },
+      {
+        "key": " Durability Bonus Multiplier",
+        "value": "耐久度加成倍率"
+      },
+      {
+        "key": " Mining Speed Bonus Multiplier",
+        "value": "挖掘速度加成倍率"
+      },
+      {
+        "key": "Failed to save config: ",
+        "value": "儲存配置失敗："
+      },
+      {
+        "key": "\u0001.maxArrowSpeed",
+        "value": "最大箭矢速度"
+      },
+      {
+        "key": "\u0001.arrowSpeedIncrease",
+        "value": "箭矢速度增幅"
+      },
+      {
+        "key": "\u0001.arrowSpeed",
+        "value": "箭矢速度"
+      },
+      {
+        "key": "\u0001.minPerfectZone",
+        "value": "最小完美區域"
+      },
+      {
+        "key": "\u0001.zoneShrinkFactor",
+        "value": "區域收縮因子"
+      },
+      {
+        "key": "\u0001.zoneStartingSize",
+        "value": "區域初始尺寸"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.stirdrem.overgeared.client.OvergearedConfigScreen$BlacklistEntry"
+    ],
+    "pairs": [
+      {
+        "key": "Edit Items",
+        "value": "編輯物品"
+      },
+      {
+        "key": " (",
+        "value": "（"
+      },
+      {
+        "key": " items)",
+        "value": "個物品）"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.stirdrem.overgeared.command.ModCommands"
+    ],
+    "pairs": [
+      {
+        "key": "You must hold an item",
+        "value": "你必須手持一個物品"
+      },
+      {
+        "key": "Set ForgingQuality to ",
+        "value": "設定鍛造品質為 "
+      },
+      {
+        "key": "Gave cast: ",
+        "value": "已給予鑄模： "
+      },
+      {
+        "key": "Gave cast: ",
+        "value": "已給予鑄模： "
+      }
+    ]
+  }
+]

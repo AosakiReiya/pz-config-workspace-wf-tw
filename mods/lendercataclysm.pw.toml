@@ -1,0 +1,13 @@
+name = "L_Ender 's Cataclysm"
+filename = "L_Enders_Cataclysm-3.28-optimization.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fe62e07150eeb9e34a901a144cae074198d043b7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8095632
+project-id = 551586

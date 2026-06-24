@@ -1,0 +1,13 @@
+name = "Durability Visibility Options"
+filename = "durability-visibility-options-1.12-mc-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "249dec28742347fb1d61dc2ad010d5827054d638"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6704738
+project-id = 1206524

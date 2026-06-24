@@ -1,0 +1,21 @@
+[
+  {
+    "name": "insanelib_zh_tw",
+    "desc": "insanelib-1.23.4.4.jar 硬編碼文本漢化",
+    "authors": "Auto-Translation-Tool",
+    "mods": "insanelib-1.23.4.4.jar",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "insane96mcp.insanelib.command.ILCommand"
+    ],
+    "pairs": [
+      {
+        "key": "Set time played to ",
+        "value": "將遊玩時間設定為"
+      }
+    ]
+  }
+]
