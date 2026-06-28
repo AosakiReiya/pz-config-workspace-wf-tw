@@ -1,13 +1,13 @@
 name = "Calm The Leaks (CTL)"
-filename = "calmtheleaks-1.2 Hotfix-forge.jar"
+filename = "calmtheleaks-1.2.1-forge.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "dbe083ab7ccd749a9f83dcfdd240dadebf2c0d7f"
+hash = "0f840a4696aa328c57407c70f8a31f015d7db327"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7878283
+file-id = 8052925
 project-id = 1449975

@@ -1,0 +1,11 @@
+
+#與核心遊戲相關的所有配置項
+[gameplay]
+	#是否偶爾在寶藏箱中生成補給船/營地[預設值：true] 【預設：true】
+	generatesupplyloot = true
+
+#所有有關於需求系統的設定
+[requestsystem]
+	#請求系統應顯示除錯資訊？發生故障時很有用。[默認: false] 【預設：false】
+	enabledebuglogging = false
+

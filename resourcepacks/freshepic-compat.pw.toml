@@ -1,0 +1,13 @@
+name = "Fresh Animations X Epic Fight Compat"
+filename = "FreshEpic Compat-1.0.5.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0a601d471c6b7c39a24894e2cc6d40311a77a998"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6764679
+project-id = 1094218

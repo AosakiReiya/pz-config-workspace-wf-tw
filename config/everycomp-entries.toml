@@ -496,6 +496,137 @@
 			pink_book_bundle = true
 			grass_thatch = true
 
+		[types.cut_block_type.create]
+			copper_shingle = true
+			exposed_copper_shingle = true
+			weathered_copper_shingle = true
+			oxidized_copper_shingle = true
+			waxed_copper_shingle = true
+			waxed_exposed_copper_shingle = true
+			waxed_weathered_copper_shingle = true
+			waxed_oxidized_copper_shingle = true
+			copper_tile = true
+			exposed_copper_tile = true
+			weathered_copper_tile = true
+			oxidized_copper_tile = true
+			waxed_copper_tile = true
+			waxed_exposed_copper_tile = true
+			waxed_weathered_copper_tile = true
+			waxed_oxidized_copper_tile = true
+			cut_granite = true
+			polished_cut_granite = true
+			cut_granite_brick = true
+			small_granite_brick = true
+			cut_diorite = true
+			polished_cut_diorite = true
+			cut_diorite_brick = true
+			small_diorite_brick = true
+			cut_andesite = true
+			polished_cut_andesite = true
+			cut_andesite_brick = true
+			small_andesite_brick = true
+			cut_calcite = true
+			polished_cut_calcite = true
+			cut_calcite_brick = true
+			small_calcite_brick = true
+			cut_dripstone = true
+			polished_cut_dripstone = true
+			cut_dripstone_brick = true
+			small_dripstone_brick = true
+			cut_deepslate = true
+			polished_cut_deepslate = true
+			cut_deepslate_brick = true
+			small_deepslate_brick = true
+			cut_tuff = true
+			polished_cut_tuff = true
+			cut_tuff_brick = true
+			small_tuff_brick = true
+			cut_asurine = true
+			polished_cut_asurine = true
+			cut_asurine_brick = true
+			small_asurine_brick = true
+			cut_crimsite = true
+			polished_cut_crimsite = true
+			cut_crimsite_brick = true
+			small_crimsite_brick = true
+			cut_limestone = true
+			polished_cut_limestone = true
+			cut_limestone_brick = true
+			small_limestone_brick = true
+			cut_ochrum = true
+			polished_cut_ochrum = true
+			cut_ochrum_brick = true
+			small_ochrum_brick = true
+			cut_scoria = true
+			polished_cut_scoria = true
+			cut_scoria_brick = true
+			small_scoria_brick = true
+			cut_scorchia = true
+			polished_cut_scorchia = true
+			cut_scorchia_brick = true
+			small_scorchia_brick = true
+			cut_veridium = true
+			polished_cut_veridium = true
+			cut_veridium_brick = true
+			small_veridium_brick = true
+
+		[types.cut_block_type.ars_nouveau]
+			sourcestone = true
+			sourcestone_mosaic = true
+			sourcestone_basketweave = true
+			sourcestone_alternating = true
+			sourcestone_large_bricks = true
+			sourcestone_small_bricks = true
+			smooth_sourcestone_basketweave = true
+			smooth_sourcestone_mosaic = true
+			smooth_sourcestone_alternating = true
+			smooth_sourcestone_large_bricks = true
+			smooth_sourcestone = true
+			smooth_sourcestone_small_bricks = true
+			gilded_sourcestone_mosaic = true
+			gilded_sourcestone_basketweave = true
+			gilded_sourcestone_alternating = true
+			gilded_sourcestone_large_bricks = true
+			gilded_sourcestone_small_bricks = true
+			smooth_gilded_sourcestone_mosaic = true
+			smooth_gilded_sourcestone_basketweave = true
+			smooth_gilded_sourcestone_alternating = true
+			smooth_gilded_sourcestone_large_bricks = true
+			smooth_gilded_sourcestone_small_bricks = true
+			archwood = true
+
+		[types.cut_block_type.valleysky]
+			elden_bricks = true
+			granite_bricks = true
+			marble_bricks = true
+			marble_block = true
+			brimstone_bricks = true
+			polished_brimstone = true
+			gracefelt_plank = true
+			temple_stone = true
+			cobbled_temple_stone = true
+			temple_bricks = true
+			polished_miquellan_stone = true
+			miquellan_bricks = true
+			haligtree_plank = true
+			leyndell_brick = true
+			cracked_leyndell_brick = true
+			leyndell_shingle = true
+			leyndell_tile = true
+			tarnished_maple_plank = true
+			elm_plank = true
+			tarnished_stone = true
+			tarnished_stone_bricks = true
+			polished_tarnished_stone = true
+			deeproot_plank = true
+			cobbled_tarnished_stone = true
+			mossy_cobbled_tarnished_stone = true
+			tarnished_bricks = true
+			mossy_tarnished_bricks = true
+
+		[types.cut_block_type.iceandfire]
+			dread_stone = true
+
 	[types.wood_type]
 
 		[types.wood_type.quark]
@@ -572,6 +703,23 @@
 
 		[types.wood_type.minecells]
 			putrid = true
+
+		[types.wood_type.domum_ornamentum]
+			cactus = true
+			cactus_extra = true
+
+		[types.wood_type.ars_nouveau]
+			archwood = true
+
+		[types.wood_type.valleysky]
+			gracefelt = true
+			haligtree = true
+			tarnished_maple = true
+			elm = true
+			deeproot = true
+
+		[types.wood_type.iceandfire]
+			dreadwood = true
 
 	[types.leaves_type]
 
@@ -655,6 +803,37 @@
 			orange_wilted = true
 			red_wilted = true
 
+		[types.leaves_type.fruitsdelight]
+			pear = true
+			hawberry = true
+			lychee = true
+			mango = true
+			persimmon = true
+			peach = true
+			orange = true
+			apple = true
+			mangosteen = true
+			bayberry = true
+			kiwi = true
+			fig = true
+			durian = true
+
+		[types.leaves_type.ars_nouveau]
+			blue_archwood = true
+			red_archwood = true
+			purple_archwood = true
+			green_archwood = true
+
+		[types.leaves_type.valleysky]
+			erdtree = true
+			mahogany = true
+			mahogany_gray = true
+			elm = true
+			tarnished_maple = true
+			gracefelt = true
+			haligtree_dull = true
+			haligtree_scarlet = true
+
 	[types.stone_type]
 
 		[types.stone_type.twigs]
@@ -697,6 +876,28 @@
 
 		[types.stone_type.upgrade_aquatic]
 			tooth = true
+
+		[types.stone_type.create]
+			limestone = true
+			asurine = true
+			crimsite = true
+			ochrum = true
+			veridium = true
+			scoria = true
+			scorchia = true
+
+		[types.stone_type.ars_nouveau]
+			sourcestone = true
+
+		[types.stone_type.valleysky]
+			marble = true
+			brimstone = true
+			temple_stone = true
+			miquellan_stone = true
+			tarnished_stone = true
+
+		[types.stone_type.iceandfire]
+			dread_stone = true
 
 	[types.cake]
 
@@ -786,6 +987,10 @@
 		[entries.wood_type.copperagebackport]
 			shelf = true
 
+		[entries.wood_type.create]
+			window_pane = true
+			window = true
+
 	[entries.leaves_type]
 
 		[entries.leaves_type.quark]
@@ -819,6 +1024,26 @@
 
 		[entries.stone_type.decorative_blocks]
 			pillar = true
+
+		[entries.stone_type.create]
+			small_brick_wall = true
+			cut_wall = true
+			small_bricks = true
+			cut = true
+			polished_cut = true
+			small_brick_slab = true
+			layered = true
+			cut_brick_wall = true
+			pillar = true
+			cut_stairs = true
+			cut_brick_stairs = true
+			cut_brick_slab = true
+			polished_cut_slab = true
+			small_brick_stairs = true
+			cut_bricks = true
+			polished_cut_stairs = true
+			polished_cut_wall = true
+			cut_slab = true
 
 	[entries.mud_type]
 

@@ -1,0 +1,13 @@
+name = "Epic Fight - Dual greatswords (Updated)"
+filename = "dualgreatswords-20.14.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6a150cc636683b44f10d18a4da91f3380a359e31"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7647220
+project-id = 1224015

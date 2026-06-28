@@ -1,0 +1,13 @@
+name = "Epic Fight Mod & Other Mods Weapons Compabilities"
+filename = "EFMCompat 2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7ad9bd7aee63f2cea9e5d8fdc132d9d029cd5e63"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5214748
+project-id = 952176

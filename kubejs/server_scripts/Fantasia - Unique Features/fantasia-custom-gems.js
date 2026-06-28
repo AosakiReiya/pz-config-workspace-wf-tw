@@ -71,8 +71,7 @@ ServerEvents.recipes(event => {
             "item": "kubejs:nimble_spinel"
         },
         "enchantments": [
-            "allurement:launch",
-            "combatroll:acrobat"
+            "allurement:launch"
         ]
     })
 

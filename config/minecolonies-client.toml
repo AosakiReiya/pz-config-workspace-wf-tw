@@ -1,0 +1,20 @@
+
+#與核心遊戲相關的所有配置項
+[gameplay]
+	#minecolonies.config.enablecitizenvoices.comment 【預設：true】
+	enablecitizenvoices = true
+	#默認情況下，將示意圖放置在其他建築物附近時，已放置的建築物將顯示為第 5 級，並在其周圍有藍色外框。 您可以將此設定為 false ，以停用該設定。 【預設：true】
+	neighborbuildingrendering = true
+	#將建築視為相鄰所需的最小間距，以一方塊為單位。 -1 = 重合，0 = 接觸 【預設：4、最小值：-2、最大值：16】
+	#Range: -2 ~ 16
+	neighborbuildingrange = 4
+	#中() 【預設：50、最小值：1、最大值：250】
+	#Range: 1 ~ 250
+	buildgogglerange = 50
+	#當啟用時，殖民地邊界將在拿著建築工具時以隊伍顏色顯示；當禁用時，你所在的殖民地邊界將會變白，其他殖民地邊界則會變紅。 【預設：true】
+	colonyteamborders = true
+	#是否顯示特殊節日內容？ 【預設：true】
+	holidayfeatures = true
+	#When true, dyed leather items will show a tooltip so that you know what color to use. 【預設：true】
+	showdyetooltips = true
+

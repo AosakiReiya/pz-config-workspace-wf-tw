@@ -1,0 +1,13 @@
+name = "Knight'sArmory32X32"
+filename = "Knight‘sArmor_32x32.ver.4.2[1.20.x].zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4e5f3a1d8ef191a35b3de04bd53edf47c619f204"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8270849
+project-id = 950761

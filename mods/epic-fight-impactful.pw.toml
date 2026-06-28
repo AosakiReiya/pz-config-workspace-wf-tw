@@ -1,0 +1,13 @@
+name = "Epic Fight - Impactful"
+filename = "impactful-20.14.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c539bb8172a1a961c5108fb8c84d29921801060f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7761403
+project-id = 945308

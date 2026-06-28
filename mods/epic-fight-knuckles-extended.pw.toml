@@ -1,0 +1,13 @@
+name = "Epic Fight Knuckles Extended"
+filename = "EF_Knuckles_extended_20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fe9623ca0dafe3bcc8133ba415a97a9991280928"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5277434
+project-id = 881746

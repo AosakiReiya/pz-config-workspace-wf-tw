@@ -25,7 +25,8 @@
     "replaceThunderSounds": true,
     "allowScarySounds": true,
     "playBiomeMusicWhileCreative": false,
-    "displayToastMessagesForMusic": false
+    "displayToastMessagesForMusic": false,
+    "remapSounds": true
   },
   "blockEffects": {
     "blockEffectRange": 32,
@@ -43,6 +44,7 @@
     "enableBowPull": true,
     "enableBreathEffect": true,
     "enablePlayerToolbarEffect": true,
+    "enableToolbarBlockSounds": false,
     "enableSwingEffect": true,
     "enableBrushStepEffect": true
   },
@@ -50,11 +52,9 @@
     "enableAccents": true,
     "enableArmorAccents": true,
     "enableWetSurfaceAccents": true,
-    "enableFloorSqueaks": true,
-    "enableLeafAccents": true
+    "enableFloorSqueaks": true
   },
   "particleTweaks": {
-    "suppressPlayerParticles": false,
     "suppressProjectileParticleTrails": false
   },
   "compassAndClockOptions": {
@@ -62,6 +62,12 @@
     "enableCompass": false,
     "compassStyle": "TRANSPARENT_WITH_INDICATOR",
     "scale": 1.0
+  },
+  "fogOptions": {
+    "enableFogEffects": true,
+    "enableMorningFog": true,
+    "enableBiomeFog": true,
+    "enableWeatherFog": true
   },
   "otherOptions": {
     "playRandomSoundOnStartup": true

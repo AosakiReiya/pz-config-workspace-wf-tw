@@ -1,0 +1,13 @@
+name = "Tide's Delight"
+filename = "tidesdelight-1.20.1-1.2.0-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1407c1446f3bad42d45c713fde2729474566531e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8049878
+project-id = 1188673

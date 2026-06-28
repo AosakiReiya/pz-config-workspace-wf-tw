@@ -49,8 +49,6 @@ ServerEvents.recipes((event) => {
     "irons_spellbooks:divine_pearl",
     "minecraft:recovery_compass",
     "netherchested:nether_chest",
-    "minecraft:netherite_ingot",
-    "minecraft:netherite_scrap",
     "farmersdelight:cutting/pumpkin_slice_alt",
     "farmersdelight:cutting/pumpkin"
   ];
@@ -98,9 +96,6 @@ ServerEvents.recipes((event) => {
     "spartanweaponry:handle",
     "spartanweaponry:pole",
     "spartanweaponry:simple_pole",
-    "cataclysm:mechanical_fusion_anvil",
-    "cataclysm:void_forge",
-    "cataclysm:black_steel_targe",
     "overgeared:crude_steel",
     "overgeared:heated_crude_steel",
     "spelunkery:rope_ladder",
@@ -151,7 +146,6 @@ ServerEvents.recipes((event) => {
     'windswept:sweet_snow_cone',
     'windswept:minty_snow_cone',
     'windswept_delights:melon_snow_cone',
-    'windswept_delights:pumpkin_snow_cone',
     'windswept_delights:chocolate_snow_cone',
     'windswept_delights:snow_cone',
     'windswept_delights:wild_berry_popsicle',
@@ -159,20 +153,6 @@ ServerEvents.recipes((event) => {
     'farmersdelight:melon_popsicle',
     'windswept:lavender_tea',
     'windswept:ginger_tea',
-    'minecraft:anvil',
-    'minecraft:repeater',
-    'minecraft:comparator',
-    'quark:redstone_randomizer',
-    'minecraft:daylight_detector',
-    'minecraft:piston',
-    'minecraft:sticky_piston',
-    'minecraft:observer',
-    'supplementaries:relayer',
-    'supplementaries:crystal_display',
-    'spawn:octoduct',
-    'quark:ender_watcher',
-    'minecraft:redstone_lamp',
-    'quark:gravisand',
     'minecraft:cookie',
     'windswept:gingerbread_cookie',
     'farmersrespite:green_tea_cookie',
@@ -203,9 +183,7 @@ ServerEvents.recipes((event) => {
   ];
 
   let removedMods = [
-    "coinsje",
-    "icarus",
-    "endrem"
+    "coinsje"
   ];
 
   removedTypes.forEach((type) => event.remove({ type: type }));

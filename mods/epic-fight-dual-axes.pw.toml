@@ -1,0 +1,13 @@
+name = "Epic Fight - Dual Axes"
+filename = "DualAxes-20.14.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a7fe577cd4860387581209e97115099e73eb2994"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7647115
+project-id = 1174112

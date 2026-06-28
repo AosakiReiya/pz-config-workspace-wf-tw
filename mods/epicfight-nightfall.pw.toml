@@ -1,0 +1,13 @@
+name = "EpicFight-Nightfall"
+filename = "EpicFight Nightfall-3.3.9.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5c6bfc6dd10cd668ba26eeb9e65690332d4afb96"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8323643
+project-id = 1307848

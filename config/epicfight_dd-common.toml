@@ -1,0 +1,7 @@
+#Enable Death Sound Effect (Default: true)
+deathsound = true
+#Set Gamemode to Spectator when a player respawns (Default: false)
+death_spectator = false
+#Enables the Particles on DawnDays Custom Death Animations (Default: true)
+death_particles = true
+

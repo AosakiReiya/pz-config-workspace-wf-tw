@@ -88,6 +88,17 @@
         "value": 1000
       }
     },
+    "epicfight:stamina_regen": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 30,
+        "value": 30
+      }
+    },
     "stardew_fishing:line_strength": {
       "enabled": false,
       "min": {
@@ -130,6 +141,17 @@
       "max": {
         "default": 999999,
         "value": 999999
+      }
+    },
+    "epicfight:execution_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "overhauleddamage:generic.poison_duration": {
@@ -594,6 +616,28 @@
         "value": 1024
       }
     },
+    "epicfight:stun_armor": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "epicfight:offhand_max_strikes": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "lhmiracleroad:init_difficulty_level": {
       "enabled": false,
       "min": {
@@ -647,6 +691,17 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "ars_nouveau:ars_nouveau.perk.max_mana": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
       }
     },
     "obscure_api:critical_damage": {
@@ -704,6 +759,17 @@
         "value": 100
       }
     },
+    "epicfight:offhand_attack_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "stardew_fishing:treasure_chance_bonus": {
       "enabled": false,
       "min": {
@@ -749,6 +815,17 @@
       }
     },
     "footwork:spirit_cooldown_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "ars_nouveau:ars_nouveau.perk.warding": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -812,6 +889,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "epicfight:weight": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "additionalentityattributes:player.bonus_rare_loot_rolls": {
@@ -1122,6 +1210,17 @@
         "value": 100
       }
     },
+    "ars_nouveau:ars_nouveau.perk.saturation": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
+      }
+    },
     "overhauleddamage:generic.burn_build_up_reduction": {
       "enabled": false,
       "min": {
@@ -1419,6 +1518,17 @@
         "value": 100
       }
     },
+    "ars_nouveau:ars_nouveau.perk.mana_regen": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2000,
+        "value": 2000
+      }
+    },
     "ranged_weapon:damage": {
       "enabled": false,
       "min": {
@@ -1472,6 +1582,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "ars_nouveau:ars_nouveau.perk.feather": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "playerex:level": {
@@ -1615,6 +1736,17 @@
       "max": {
         "default": 256,
         "value": 256
+      }
+    },
+    "epicfight:armor_negation": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "attributeslib:arrow_damage": {
@@ -1791,6 +1923,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "epicfight:offhand_armor_negation": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "irons_spellbooks:nature_magic_resist": {
@@ -2046,6 +2189,17 @@
         "value": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
       }
     },
+    "epicfight:offhand_impact": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "minecraft:zombie.spawn_reinforcements": {
       "enabled": true,
       "min": {
@@ -2066,6 +2220,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "ars_nouveau:ars_nouveau.perk.wixie": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "minecraft:generic.armor_toughness": {
@@ -2277,6 +2442,17 @@
         "value": 1024
       }
     },
+    "epicfight:staminar": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "attributeslib:prot_pierce": {
       "enabled": false,
       "min": {
@@ -2429,6 +2605,17 @@
       "max": {
         "default": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
         "value": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      }
+    },
+    "ars_nouveau:ars_nouveau.perk.spell_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
       }
     },
     "overhauleddamage:generic.additional_poison_damage": {
@@ -2627,6 +2814,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "minecolonies:mc_mob_damage": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 20,
+        "value": 20
       }
     },
     "lhmiracleroad:mining_speed": {
@@ -2839,6 +3037,17 @@
       }
     },
     "overhauleddamage:generic.freeze_build_up_reduction": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "epicfight:impact": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -3210,6 +3419,17 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "epicfight:max_strikes": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "overhauleddamage:generic.burn_duration": {

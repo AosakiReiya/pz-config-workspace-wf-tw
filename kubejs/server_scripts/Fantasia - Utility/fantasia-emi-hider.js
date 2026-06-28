@@ -12,10 +12,8 @@ let itemsToHide = [
     "citadel:icon_item",
     "moonlight:placeable_item",
     /epicknights_open_helms/,
-    /backpacked/,
     "magistuarmoryaddon:opened_sallet",
     "kubejs:zombie_claw",
-    "minecraft:brewing_stand",
     "minecraft:tipped_arrow",
     "overgeared:lingering_arrow"
 ]

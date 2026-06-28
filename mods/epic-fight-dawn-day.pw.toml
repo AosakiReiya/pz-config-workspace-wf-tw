@@ -1,0 +1,13 @@
+name = "Epic Fight: Dawn Day"
+filename = "EpicfightDd-20.14.1.11.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c5a06ec94bfa518d583345b85422638689fd15ac"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8318570
+project-id = 1463482

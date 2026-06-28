@@ -1,0 +1,13 @@
+name = "Epic Fight x Iron's Spells Armor Fix"
+filename = "EFMxIronsV3.1-1.20.1.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a9a0d807c337b087e26c6f4ee736b1e94003181e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6967801
+project-id = 957963

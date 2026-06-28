@@ -1,0 +1,28 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "aosakireiya",
+      "uniqueId": "584a0b71-0822-4334-90ac-f27be42120be"
+    },
+    "time": 1782529031545,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/wtLxziX6r3"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "aosakireiya",
+      "uniqueId": "584a0b71-0822-4334-90ac-f27be42120be"
+    },
+    "time": 1782523936426,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/KEspsWTO1I"
+    }
+  }
+]

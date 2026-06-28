@@ -1,0 +1,33 @@
+{
+  "active": 0,
+  "pages": [
+    {
+      "name": "Page 1",
+      "count": 6,
+      "slots": {
+        "0": {
+          "keybind": "key.callhorse.desc",
+          "label": "召喚馬"
+        },
+        "1": {
+          "keybind": "key.sethorse.desc",
+          "label": "設定馬"
+        },
+        "2": {
+          "keybind": "key.spartanweaponry.access_quiver",
+          "label": "訪問已裝備箭袋"
+        }
+      }
+    },
+    {
+      "name": "Page 2",
+      "count": 6,
+      "slots": {}
+    },
+    {
+      "name": "Page 3",
+      "count": 6,
+      "slots": {}
+    }
+  ]
+}

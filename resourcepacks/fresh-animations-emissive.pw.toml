@@ -1,0 +1,13 @@
+name = "Fresh Animations: Emissive"
+filename = "FA+Emissive-v1.6.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9ded93d65124d02bdccd0c5700271da69e283c7f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7999667
+project-id = 1346083
