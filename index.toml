@@ -1007,18 +1007,6 @@ file = "config/betterclouds-v1.json"
 hash = "36728a1ad9dba86d723c7fdcff1f2c1930d5e97b006bbddaf1ced29849f69f94"
 
 [[files]]
-file = "config/bettercombat/client.json5"
-hash = "7e51052c911f3ff239ef0e393d4c852b91ebcc8397d1086110b3374a5f2d19a9"
-
-[[files]]
-file = "config/bettercombat/fallback_compatibility.json"
-hash = "513dc950d004af06f174724c1bbca5b1c7e02644fd88eceafc8f99d9f7e3af7a"
-
-[[files]]
-file = "config/bettercombat/server.json5"
-hash = "8ddfc220e6ba197653fa41b1acc70962750f1154225b88ac80484acf4e1da4e0"
-
-[[files]]
 file = "config/betterdeserttemples-forge-1_20.toml"
 hash = "fff0524a95298dc9c53e88a45390a6202f46a5fde559ca76649352ae611aac6d"
 
@@ -1101,10 +1089,6 @@ hash = "15a5d984121f26a21e2a91ae0a3efca3da8a2733fe2cffcd1d33f9805ea4da70"
 [[files]]
 file = "config/bettermineshafts-forge-1_20.toml"
 hash = "016afc8af06af822bdaa07681699b3c068ec26274116b30b359d5ff03ef9ce11"
-
-[[files]]
-file = "config/bettermobcombat/server.json5"
-hash = "a518b28267c5bd0571bd9149e7b045c13623a679df383020486bed3d772bce47"
 
 [[files]]
 file = "config/betteroceanmonuments-forge-1_20.toml"
@@ -1785,10 +1769,6 @@ hash = "1a88586b9259f0aa429848c03b10ebabdd9b6261ca5ff322cb7bb68b9d442116"
 [[files]]
 file = "config/fantasydice.toml"
 hash = "d32ee0d8cd5861ea98821b0320b5eba9b24852574800453c556ba85cbb6c7645"
-
-[[files]]
-file = "config/fape_compat-client.toml"
-hash = "f41b1598c5030583e9803589048e4d422fdb0d54d771daf177df25c34457d10e"
 
 [[files]]
 file = "config/farmersdelight-client.toml"
@@ -3543,10 +3523,6 @@ file = "config/tt_compass-client.toml"
 hash = "4000677c2361d698c93cf5c8f3dcba477a5dd4300a5858d61ef72caadb2e5c57"
 
 [[files]]
-file = "config/unified_combat-common.toml"
-hash = "fcac7cfd0ad960f02dbe8cd8bd9f54fbe336c35f3b14a7a120ddf73d9caa39c9"
-
-[[files]]
 file = "config/uniqueaccessories-common.toml"
 hash = "c2f9150f66497cd30ee03635c51b157d7bf08ccbcf32905dcdd67792005fa446"
 
@@ -3995,18 +3971,6 @@ file = "kubejs/assets/stance_weapons_assets.zip"
 hash = "5d115690f64b7e36fbbf3bc242c5e3e295cb5f59a7e1c1a49580196503d072df"
 
 [[files]]
-file = "kubejs/client_scripts/Fantasia - Special/fantasia-corpse-compass.js"
-hash = "0063b4ab715851fd21c35726ca8ca10938d7d7d40b118ffae35ce652e962d894"
-
-[[files]]
-file = "kubejs/client_scripts/Fantasia - Special/fantasia-efavor.js"
-hash = "43d8a0c84061338fd2fda4b622b5a92ad9b4d80b765716f7348cea0e9c97c26a"
-
-[[files]]
-file = "kubejs/client_scripts/Fantasia - Special/fantasia-teleportgem.js"
-hash = "43141d0c54ff03fd819dd25babe276abe98fc2e6444118c233ea7f25516e764a"
-
-[[files]]
 file = "kubejs/client_scripts/_displayname_override.js"
 hash = "8fac5cee1b2f28ce5846d25be7a1090bfffa6e9950bd22e1e8066fcc9d0a60e4"
 
@@ -4015,40 +3979,8 @@ file = "kubejs/client_scripts/_displayname_override.js.disabled"
 hash = "6258a3d775a37428d10694a2ac10b76f3f249f86addf574f6c366e75c665e169"
 
 [[files]]
-file = "kubejs/client_scripts/example.js"
-hash = "152019ed6e0410a82805a95ea10f1ad1a17beaf2b50864d89b8fa9d172129ac7"
-
-[[files]]
 file = "kubejs/client_scripts/example.js.disabled"
 hash = "152019ed6e0410a82805a95ea10f1ad1a17beaf2b50864d89b8fa9d172129ac7"
-
-[[files]]
-file = "kubejs/client_scripts/fantasia-clean-tooltips.js"
-hash = "f50d0a1becb6368b5a01ee06b6dc11eee97a85456d0cb2f2fdfcd1ed7476601e"
-
-[[files]]
-file = "kubejs/client_scripts/fantasia-cooldowns-system.js"
-hash = "d727fdcd87a364d207923956017869f3a54b1463fd5b696c504436c3b7c0c427"
-
-[[files]]
-file = "kubejs/client_scripts/fantasia-eye-adventure.js"
-hash = "1922de1d560c5e029abff627d98c16a88413e1eeec6e6c3d93cec61485b00607"
-
-[[files]]
-file = "kubejs/client_scripts/fantasia-food-rework-tooltips.js"
-hash = "4edb2dd57dab9ed32fde6bf56ae7eebc978d70c125a80883c555b89c3d7bccdb"
-
-[[files]]
-file = "kubejs/client_scripts/fantasia-gem-tooltips.js"
-hash = "b1eced724d0a52d420e033b435e7e460db2230b0dc18a8ae90d37419a2343150"
-
-[[files]]
-file = "kubejs/client_scripts/fantasia-tooltips.js"
-hash = "da92262ee1f92367d005f72606ccefac83fafb197f73b6067765f58111d8ac0b"
-
-[[files]]
-file = "kubejs/client_scripts/parry-animations.js"
-hash = "efb016961ba32e5507a3e415f151ab3024fa7971154f260bfbd0681edd0f2bf7"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -4163,16 +4095,8 @@ file = "kubejs/server_scripts/Fantasia - Compatibility/fantasia-farmercore.js"
 hash = "630ea77c3a343c8e36beb044a3a8f1af4a63ff3bebf16a859ffbd6d9841fef39"
 
 [[files]]
-file = "kubejs/server_scripts/Fantasia - Compatibility/fantasia-force-tooltips.js"
-hash = "8af9d0ddc838549da6b5d092dbceab85a87f2695a86b4197855a460f0f5fdf2e"
-
-[[files]]
 file = "kubejs/server_scripts/Fantasia - Compatibility/fantasia-force-tooltips.js.disabled"
 hash = "8af9d0ddc838549da6b5d092dbceab85a87f2695a86b4197855a460f0f5fdf2e"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Compatibility/fantasia-general-tags.js"
-hash = "48ef649ce2bb61790932e1a17939caa8f1f2a3e8f8493341935268c252887a36"
 
 [[files]]
 file = "kubejs/server_scripts/Fantasia - Compatibility/fantasia-general-tags.js.disabled"
@@ -4187,122 +4111,6 @@ file = "kubejs/server_scripts/Fantasia - Compatibility/fantasia-itemoblit-lootjs
 hash = "660fbddb1fef27e31a349c7e714522f82d5d64b16a962775018426e24d003825"
 
 [[files]]
-file = "kubejs/server_scripts/Fantasia - Compatibility/parry-animations-tags.js"
-hash = "4ce73b59e6c8b1082f4575a76eca1e23373af140ced428fcc7ba5ab0cf93f660"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Compatibility/stance_weapon_tags.js"
-hash = "2e53b654beef6f746c73a0a258a7fabf4d34517048b1d2c78c69be4546e71bf8"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Core/entity-attack-entity.js"
-hash = "ee7c56fefbdc560ecdeb4ae22bbbf0835e5ff6b8b1698faffa6cf4d71a1e3f5d"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Core/entity_attack_entity/eject_from_seat_on_damage.js"
-hash = "38153af7bbebc4f6eb6ac98e7a10d59d603a521c67932260ecdb884ca32dc6db"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Core/entity_attack_entity/ghast-reflected-bonus-damage.js"
-hash = "fcb2efa90ad7606fa7c92a6aa574137bbd4d75afe2014af6c34d6869e3a09d56"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Core/fantasia-hall-placer.js"
-hash = "add5fc79fbc8c7003de5e4db8da887b7ffe4227a68d30e98fdb1c96dc72e5f04"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Core/fantasia-npc-dialogue.js"
-hash = "8a87991142e046e702f4b7b26e4158dda20edcb2013a0b50678a23f40ee3f80a"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Core/fantasia-parry.js"
-hash = "6ab0ed4fed2d05d2243c56e2dfa10bdfc8255fc6b36dfb1cd7a71bed0c25000c"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Core/fantasia_parry/fantasia-parry-animation-packet.js"
-hash = "57300958366a32491fed25ed897edca2bc44d80d3e5eab8ca2b6874259aad22e"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Core/fantasia_parry/fantasia-parry-particles.js"
-hash = "645f1497503021b19c9fda597e0d3c7111250a9937ff46486de2786cc4d949ea"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Core/fantasia_parry/parry-ghast-fireball.js"
-hash = "866e9ac44b1f2be0336a8ce30f27bd507786cdbf8aa665c874be96df5ec6a517"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Core/player_changed_dimension.js"
-hash = "297ab9eee6f0d3e56b111d215bafc47ce3f2db32aed99fdd83b3974fa35df26c"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Core/player_changed_dimension/apply_slow_falling_in_nether.js"
-hash = "7533672a64517cd5dc0779e59eb486cf1561a305d03a0b8d2530b576df5ca7e5"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Core/projectile-impact.js"
-hash = "3ce3c4c8fc21e452ef303d66f0821ba01fff70811a46d80476dec454951bb3c0"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Core/projectile_impact/fantasia-light-interactions.js"
-hash = "911c77fd62c92ad7132d4d2913acf0161a236b54475ad62412e555d84be8e29b"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Core/right_click_empty.js"
-hash = "00166edb20d9bad7892e789f41ac04569bf1b6dae70fb80607167e8ca697020e"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Core/right_click_empty/toggle_ship_sails.js"
-hash = "d7f54d6ca6c946f9c166cc5e8a7a46659f0e1bf53ef2877880742345e6db5c5d"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Core/toggle_ship_sails.js"
-hash = "d7f54d6ca6c946f9c166cc5e8a7a46659f0e1bf53ef2877880742345e6db5c5d"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Entities Goals/enhanced-ghast.js"
-hash = "07a12aca38f03be05d3f38f708ac88dfd48de19413403c8716cc0a0d0c5f7e96"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Entities Goals/fantasia-factions.js"
-hash = "23a112248077385941c384e38117a5ce66d9c43453d27c6b57aec993ae7fb832"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Entities Goals/sitting_fix_ai.js"
-hash = "520db9d35ee0b11089cec7cfaccb296929f8e6b9a974b53f45a0b680f568caf2"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Gameplay Changes/dynamic-plant-damage.js"
-hash = "4bf846905f62c1f554b5076302893d77aa72cb7079cff07c9f71049fa8e63eef"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Gameplay Changes/fantasia-anti-cheese.js"
-hash = "12f326350ac0a6b5b81aa687041516220076eacfa7388870c4daf771e5b83cec"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Gameplay Changes/fantasia-bossfix.js"
-hash = "02126c6e184ca7b36bf529956aca7bd76bd71e3609ccc161114d2e89d014ca6f"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Gameplay Changes/fantasia-combat-roll-server.js"
-hash = "6a4b1aafc5998540cf4b1c2555d870645c6a06b7d687498bab726891393201a7"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Gameplay Changes/fantasia-cooldowns.js"
-hash = "b6e5d840660c7842c54fbe75166218d328017009ffb7965ac4a3979551978ce9"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Gameplay Changes/fantasia-diet.js"
-hash = "00fe2e0c121ae93ecec6f219b3b52b43a8bbb1e8cf39765683f3a4c2f8b64458"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Gameplay Changes/fantasia-eye-adventure.js"
-hash = "1922de1d560c5e029abff627d98c16a88413e1eeec6e6c3d93cec61485b00607"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Gameplay Changes/fantasia-food-effects.js"
-hash = "dabc889f7cfb957fbcca6528140490d52c357a9aa61e10ae97714f205a5ab229"
-
-[[files]]
 file = "kubejs/server_scripts/Fantasia - Gameplay Changes/fantasia-food-rework-recipes.js"
 hash = "65655c55415ea7e5805c02c6343f9c1dd86705f4de0be56da380c33774bcb005"
 
@@ -4315,20 +4123,8 @@ file = "kubejs/server_scripts/Fantasia - Gameplay Changes/fantasia-glasscutter.j
 hash = "cb97b2f76f31afcf350230d9991aa60fda08875ecb6165938c4b1ae27b4bc8f2"
 
 [[files]]
-file = "kubejs/server_scripts/Fantasia - Gameplay Changes/fantasia-jobsite-tag.js"
-hash = "ed4e7d84c521f0c6184b177630d53d713f4bc6dca92e736572a328204ebd9b36"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Gameplay Changes/fantasia-lifegem-pillagers.js"
-hash = "a1392c0e5ab19f85355acd522e987ea0b5671500befc9585214ab25536de8bb2"
-
-[[files]]
 file = "kubejs/server_scripts/Fantasia - Gameplay Changes/fantasia-lifegem-pillagers.js.disabled"
 hash = "a1392c0e5ab19f85355acd522e987ea0b5671500befc9585214ab25536de8bb2"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Gameplay Changes/fantasia-lumber-mechanic.js"
-hash = "a956cba7d6f60e5299536170c5c3e7e280c49ee294a319a571b61e31ae6f1bdd"
 
 [[files]]
 file = "kubejs/server_scripts/Fantasia - Gameplay Changes/fantasia-lumber-mechanic.js.disabled"
@@ -4341,22 +4137,6 @@ hash = "b201b61b7601caf044e8afb91c2c97c01b963026760e008728584d6a43469c76"
 [[files]]
 file = "kubejs/server_scripts/Fantasia - Gameplay Changes/fantasia-lumber-to-planks.js"
 hash = "92ec43cded0cf13ccde5d35fee128c62c49e5dbd8b40fc0f9f19af7202490df6"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Gameplay Changes/fantasia-nointeract.js"
-hash = "611bbce07cc3f59dc8f48d00d918bd80beb7d04c1a9666c5f2981540c13c2489"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Gameplay Changes/fantasia-noregen.js"
-hash = "999c69e4ea2707fe102fbf45535f56d44760bf14ce68d4671184d69fb1716bb6"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Gameplay Changes/fantasia-trade-tag.js"
-hash = "7ad87b67d6ead83f81ff1f50a80cf4b3988298afbda2f8d9b2d77851e1105a5f"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Gameplay Changes/functioning-mimics.js"
-hash = "37276bbeb29b6ca981b0f8c89e00295a3340f70f8f76471f1a4252791c85ba41"
 
 [[files]]
 file = "kubejs/server_scripts/Fantasia - Recipe Changes/Devi's/chainmail-recipe-removals.js"
@@ -4523,46 +4303,6 @@ file = "kubejs/server_scripts/Fantasia - Recipe Changes/fantasia-valhelsia-posts
 hash = "2726b3d230877260d89bb81a700128e1ce2078d87e7397a11c7a039f3399031f"
 
 [[files]]
-file = "kubejs/server_scripts/Fantasia - Unique Features/Fantasia - Bosses/fantasia-o&s-boss.js"
-hash = "9dbc001dba6a24838c464b633bfbc48157d292ce46609ee67181060f7ff0982f"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Unique Features/Fantasia - Bosses/fantasia-paladin.js"
-hash = "cb341dcdb5e62e1c8c1617dcd0ded1250dfe996d3073b5c8ee1107e3cca3c54a"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Unique Features/Fantasia - Unique Items/fantasia-corpse-compass.js"
-hash = "3a552071d863e01ff25cccce061c97935c609f8c5c544a9fac50575646f5455a"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Unique Features/Fantasia - Unique Items/fantasia-efavor.js"
-hash = "56e8cc0bbe27793e4e128e547f3d4e76ee9c33bbcfa2abcb402f3f4d4780f620"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Unique Features/Fantasia - Unique Items/fantasia-teleportgem.js"
-hash = "c73e809012260f56e6b23994670a048058bdde7c8f6c2d6c0cd1f068ba050ff1"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Unique Features/Fantasia - Utility Fixes/first_scheduler_fix.js"
-hash = "2bf6095ab9fa52af1f8ae4ec645a5989c9b09fcc8f9007a3315d4d703616cb44"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Unique Features/fantasia-additional-keepinv.js"
-hash = "b0d9c695629c282ba3972059286eb46ab46c0126feebf6c42e11e415ae09ac8d"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Unique Features/fantasia-boss-souls-effects.js"
-hash = "42019ac73988a70099d9e31635f692da82f5748e6eb34178e435c16fe0c5bf32"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Unique Features/fantasia-boss-souls.js"
-hash = "b8ee4eac2d35f220b44299a0c74e859b8f34acaed085955f5e50775fb4d93f83"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Unique Features/fantasia-cooldowns-system.js"
-hash = "206b5388f10a44e257efac993564f416bd053917ab612b5e26d7f48a5855a408"
-
-[[files]]
 file = "kubejs/server_scripts/Fantasia - Unique Features/fantasia-custom-gems.js"
 hash = "d70e5e348ed93e59f0020849508670b90193c728f71b1c49fcf64ea1b8738f29"
 
@@ -4571,28 +4311,8 @@ file = "kubejs/server_scripts/Fantasia - Unique Features/fantasia-gem-alchemy.js
 hash = "e63d038f7474168cb82a27578457c5d721e2a56ccb202b2f83e24c077342316c"
 
 [[files]]
-file = "kubejs/server_scripts/Fantasia - Unique Features/fantasia-less-annoying-powdered-snow.js"
-hash = "cc6ae1ff66512ea7fa238988bb4fc4f36e6ac74e0e697ef93e70427db45ad26e"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Unique Features/fantasia-lifegem.js"
-hash = "7bf0bf912cc6f86a0c884fc9269887014c807c48f066164412caad54338476ca"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Unique Features/fantasia-lose-boss-souls.js"
-hash = "990f89716e2f2197d0073e7a2f5805829bca636c028792bc1cf269c4beaa3c1b"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Utility/fantasia-chest-fix-server.js"
-hash = "101e3432070a44af7867ed876643c432682a8b326d40fb2792eeb886bcb058c3"
-
-[[files]]
 file = "kubejs/server_scripts/Fantasia - Utility/fantasia-chest-fix-server.js.disabled"
 hash = "101e3432070a44af7867ed876643c432682a8b326d40fb2792eeb886bcb058c3"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Utility/fantasia-ek-tagadder.js"
-hash = "7aa97a14da048ba2c2e3a4d883d0ac768adc51a8f5ca3be959fb67dcbffdd18a"
 
 [[files]]
 file = "kubejs/server_scripts/Fantasia - Utility/fantasia-ek-tagadder.js.disabled"
@@ -4603,68 +4323,20 @@ file = "kubejs/server_scripts/Fantasia - Utility/fantasia-emi-hider.js"
 hash = "0bbf5cb2f10121d54e33aa504442de0273962016f9b5bcd3b0fa50fa57b44ea1"
 
 [[files]]
-file = "kubejs/server_scripts/Fantasia - Utility/fantasia-gameruleset.js"
-hash = "9b5dc95706cdd386c75d56e32e0643bc4110853aa4e49ee7750353bd269862a3"
-
-[[files]]
 file = "kubejs/server_scripts/Fantasia - Utility/fantasia-gameruleset.js.disabled"
 hash = "9b5dc95706cdd386c75d56e32e0643bc4110853aa4e49ee7750353bd269862a3"
-
-[[files]]
-file = "kubejs/server_scripts/Fantasia - Utility/fantasia-scoreboardset.js"
-hash = "2cc353bfeac3f8d2614772c645f5e783bd4e673024193712a07f9237dfe6f0a3"
 
 [[files]]
 file = "kubejs/server_scripts/Fantasia - Utility/fantasia-scoreboardset.js.disabled"
 hash = "2cc353bfeac3f8d2614772c645f5e783bd4e673024193712a07f9237dfe6f0a3"
 
 [[files]]
-file = "kubejs/server_scripts/Fantasia - Utility/fantasia-tag-fixer.js"
-hash = "23b89ed8c8575319e3be95af12dd50f8af91a80b4e204f6d2aab645b7aeb8ec1"
-
-[[files]]
 file = "kubejs/server_scripts/Fantasia - Utility/fantasia-tag-fixer.js.disabled"
 hash = "23b89ed8c8575319e3be95af12dd50f8af91a80b4e204f6d2aab645b7aeb8ec1"
 
 [[files]]
-file = "kubejs/server_scripts/bbsmc_welcome.js"
-hash = "3200efcb1242b1702a2101249d66f5f02dd48823ca8d62c15c510029da0fb12b"
-
-[[files]]
-file = "kubejs/startup_scripts/Fantasia - Core/entity-attack-entity.js"
-hash = "31a1106ff365f29a6505040ee4a4628069c5f2f9cb9424f17db43981ac0831fb"
-
-[[files]]
-file = "kubejs/startup_scripts/Fantasia - Core/player_changed_dimension.js"
-hash = "833982bcf1fe8a02cc49d6aa3e949d9980f94cc58a9168f93ed55dc3c81fdbcd"
-
-[[files]]
-file = "kubejs/startup_scripts/Fantasia - Core/projectile-impact.js"
-hash = "d4fee3596f077b6efbe3422e553f7bf8855d09ac5254653b6ed15ad313463e4f"
-
-[[files]]
-file = "kubejs/startup_scripts/Fantasia - Core/right_click_empty.js"
-hash = "ebecb842277ea33c1a100899c2dd05ddb2d0c3a2d953a04ef63516b87125bbe5"
-
-[[files]]
-file = "kubejs/startup_scripts/Fantasia - Core/useitemstart.js"
-hash = "d1c3fa467de3c4b08a39f3fe56e0be903d76c455a26ac483b181874ab0c527f6"
-
-[[files]]
-file = "kubejs/startup_scripts/Fantasia - Core/useitemstart/handle_weapon_stance_swap.js"
-hash = "f8e40961d13f8fe5a1eb82a2c30df53ee24b9e63f35f541776534735add7ca8e"
-
-[[files]]
-file = "kubejs/startup_scripts/Fantasia - Food Rework/fantasia-food-rework-modify-items.js"
-hash = "defbd621f0d98068b139e0c9f909e564a4f8deb7505f302acff40bd8e22ff596"
-
-[[files]]
 file = "kubejs/startup_scripts/Fantasia - Food Rework/fantasia-food-rework-modify-items.js.disabled"
 hash = "defbd621f0d98068b139e0c9f909e564a4f8deb7505f302acff40bd8e22ff596"
-
-[[files]]
-file = "kubejs/startup_scripts/Fantasia - Food Rework/fantasia-food-rework-new-fluids.js"
-hash = "661795082097e931e7cd1b6a03ded99bb2c77e779de7a17f38a380e75de52973"
 
 [[files]]
 file = "kubejs/startup_scripts/Fantasia - Food Rework/fantasia-food-rework-new-fluids.js.disabled"
@@ -4675,44 +4347,20 @@ file = "kubejs/startup_scripts/Fantasia - Food Rework/fantasia-food-rework-new-i
 hash = "9f3809846679096b7d0b00fc35028cb247f94894921c46804eb75e323ab7139b"
 
 [[files]]
-file = "kubejs/startup_scripts/Fantasia - Game Balance/fantasia-armor-weights.js"
-hash = "8799eab58b48878751c8b51957d0c628e673c35aa6da4c255626b8464908539f"
-
-[[files]]
 file = "kubejs/startup_scripts/Fantasia - Game Balance/fantasia-armor-weights.js.disabled"
 hash = "8799eab58b48878751c8b51957d0c628e673c35aa6da4c255626b8464908539f"
-
-[[files]]
-file = "kubejs/startup_scripts/Fantasia - Game Balance/fantasia-black_steel.js"
-hash = "7acd70bd2f71b268448df056bd9ccb1c1632998e546eda4127067f63a3151245"
 
 [[files]]
 file = "kubejs/startup_scripts/Fantasia - Game Balance/fantasia-black_steel.js.disabled"
 hash = "7acd70bd2f71b268448df056bd9ccb1c1632998e546eda4127067f63a3151245"
 
 [[files]]
-file = "kubejs/startup_scripts/Fantasia - Game Balance/fantasia-boss-weapon-rebalance.js"
-hash = "5b745f3a1ba7ec1f7b7510ed8643211ab6b093973375aaf331da83bc43d810c2"
-
-[[files]]
 file = "kubejs/startup_scripts/Fantasia - Game Balance/fantasia-boss-weapon-rebalance.js.disabled"
 hash = "5b745f3a1ba7ec1f7b7510ed8643211ab6b093973375aaf331da83bc43d810c2"
 
 [[files]]
-file = "kubejs/startup_scripts/Fantasia - Game Balance/fantasia-combat-roll.js"
-hash = "8a28b7e9f4840aa8e3664d33759152b79957ed676fb3af3c7987ca5c64bb158c"
-
-[[files]]
-file = "kubejs/startup_scripts/Fantasia - Game Balance/fantasia-enemyfix.js"
-hash = "9b259b4fe4ecf49d31fa834ec0cf35ea481f2b368a57e560ded200940708f3c6"
-
-[[files]]
 file = "kubejs/startup_scripts/Fantasia - Game Balance/fantasia-enemyfix.js.disabled"
 hash = "9b259b4fe4ecf49d31fa834ec0cf35ea481f2b368a57e560ded200940708f3c6"
-
-[[files]]
-file = "kubejs/startup_scripts/Fantasia - Game Balance/fantasia-spartan-combatry.js"
-hash = "e2c69919346ce7079eeaea9849ddf46d707a763e3d68568af10cc83268bbeace"
 
 [[files]]
 file = "kubejs/startup_scripts/Fantasia - Game Balance/fantasia-spartan-combatry.js.disabled"
@@ -4779,165 +4427,40 @@ file = "kubejs/startup_scripts/Fantasia - New Items/fantasia_fish.js"
 hash = "b126961a8ceaeb3f39e918edf152984294d64b6fe4532392ba6645d64dddf4e0"
 
 [[files]]
-file = "kubejs/startup_scripts/Fantasia - New Mechanics/Fantasia - Items/bug_fixes/change_dimension_use_item.js"
-hash = "3fb1a747d4ce5e0fd52b2e41caa58173d5e317d2399b8eac13d18dab10f8a684"
-
-[[files]]
-file = "kubejs/startup_scripts/Fantasia - New Mechanics/Fantasia - Items/events/useitemtick.js"
-hash = "103ae755f4c39211b44e96c8a9ba6f99d7a6fdab7622e6a106ff43fcde0cb411"
-
-[[files]]
-file = "kubejs/startup_scripts/Fantasia - New Mechanics/Fantasia - Items/items_config.js"
-hash = "d7909a3736c0346ad8587fb4b89ba230b38b214df06dbe2923a5c665ea4ea29b"
-
-[[files]]
-file = "kubejs/startup_scripts/Fantasia - New Mechanics/Fantasia - Items/player_sync_manager.js"
-hash = "2d7366bb968fce46b75cb7c52f5df7d0976519c7b0357dfa145bb81665af7de1"
-
-[[files]]
-file = "kubejs/startup_scripts/Fantasia - New Mechanics/Fantasia - Items/special/fantasia-corpse-compass.js"
-hash = "75fc33788808b61dfeb752fcc4e63a89e1b3538a7b9d82fa78c4f064e220c4da"
-
-[[files]]
-file = "kubejs/startup_scripts/Fantasia - New Mechanics/Fantasia - Items/special/fantasia-efavor.js"
-hash = "2b8387c0324f3900065618d3543371cee76bafce3c140bf0a13f2bd2b13b8319"
-
-[[files]]
-file = "kubejs/startup_scripts/Fantasia - New Mechanics/Fantasia - Items/special/fantasia-teleportgem.js"
-hash = "64dc296868a5d93708d6faa2f5e74354bac1e4d0d23a9374b7acce891303dc55"
-
-[[files]]
-file = "kubejs/startup_scripts/Fantasia - New Mechanics/Fantasia - Items/stance_weapons_registry/axes.js"
-hash = "40bf90bba7c6950c0c7dce2ae6a84b43a841198bbbe221966af847bd079597d5"
-
-[[files]]
-file = "kubejs/startup_scripts/Fantasia - New Mechanics/Fantasia - Items/stance_weapons_registry/battle_hammers.js"
-hash = "57b576a8eaf68c777b10b5535d9d499a62cf902d342b4cb17c6426a8e7f632ca"
-
-[[files]]
-file = "kubejs/startup_scripts/Fantasia - New Mechanics/Fantasia - Items/stance_weapons_registry/battleaxes.js"
-hash = "20ab6bc7eda2563e4011850db09cea341e2d7f8276763cefe0f53b0aca002b8e"
-
-[[files]]
-file = "kubejs/startup_scripts/Fantasia - New Mechanics/Fantasia - Items/stance_weapons_registry/creative_tab.js"
-hash = "29188884d9a0e9fcefb7c8a8b3279da3360e0872a25dd603c499349028c90c5f"
-
-[[files]]
-file = "kubejs/startup_scripts/Fantasia - New Mechanics/Fantasia - Items/stance_weapons_registry/flanged_maces.js"
-hash = "4128d2543c0cfeed95339fda47982421bdb08c23ec48c13344d9aebee86fcd09"
-
-[[files]]
-file = "kubejs/startup_scripts/Fantasia - New Mechanics/Fantasia - Items/stance_weapons_registry/greatswords.js"
-hash = "b06b3173837c72e668f546b67b13a26be9b925652d8a3f98bc9daa7a19a774ef"
-
-[[files]]
-file = "kubejs/startup_scripts/Fantasia - New Mechanics/Fantasia - Items/stance_weapons_registry/katanas.js"
-hash = "5db09ba302a5172ebd529e78c2ff82b48ed0d0c9b29df818f03523594d4bc355"
-
-[[files]]
-file = "kubejs/startup_scripts/Fantasia - New Mechanics/Fantasia - Items/stance_weapons_registry/longswords.js"
-hash = "da8949f635dc8ecd4351c2fd8dbf098f9f5c9314dddfce8b9f4044d6c3eb5851"
-
-[[files]]
-file = "kubejs/startup_scripts/Fantasia - New Mechanics/Fantasia - Items/stance_weapons_registry/rapiers.js"
-hash = "b56e22b0a4ff14d02e8bb01b225b74e0fe745ba07a79860841cd1a2f3109968f"
-
-[[files]]
-file = "kubejs/startup_scripts/Fantasia - New Mechanics/Fantasia - Items/stance_weapons_registry/register_functions.js"
-hash = "7d76c6f584c4899fb714f3ca4c0bfdc1dc19e64a009d4e7c1c6a5be09722856e"
-
-[[files]]
-file = "kubejs/startup_scripts/Fantasia - New Mechanics/Fantasia - Items/stance_weapons_registry/sabers.js"
-hash = "fcf05c33cd86dc1cb89a92d42b6a8d9807e15afc14a9026d69d398b8407c6336"
-
-[[files]]
-file = "kubejs/startup_scripts/Fantasia - New Mechanics/Fantasia - Items/stance_weapons_registry/swords.js"
-hash = "6924c7b4ea674ee9080e50ed6d9a857b648a392c4ded1ac64327a67d44badd79"
-
-[[files]]
-file = "kubejs/startup_scripts/Fantasia - New Mechanics/Fantasia - Items/stance_weapons_registry/warhammer.js"
-hash = "cf82366eac035ec6df483582f77d500de22db4dbfe2cbe8a7cafcc993323e939"
-
-[[files]]
-file = "kubejs/startup_scripts/Fantasia - Small Tweaks/fantasia-armor-modifications.js"
-hash = "2572d7856d0ca97d9cc1476a44f7f680b2861d7cf04fae25d54eeb6753c35ec4"
-
-[[files]]
 file = "kubejs/startup_scripts/Fantasia - Small Tweaks/fantasia-armor-modifications.js.disabled"
 hash = "2572d7856d0ca97d9cc1476a44f7f680b2861d7cf04fae25d54eeb6753c35ec4"
-
-[[files]]
-file = "kubejs/startup_scripts/Fantasia - Small Tweaks/fantasia-blockstacks.js"
-hash = "9df93f042643bebaa4f09906c4a881a88adb9eefecfdf76d722c72ed70f64c88"
 
 [[files]]
 file = "kubejs/startup_scripts/Fantasia - Small Tweaks/fantasia-blockstacks.js.disabled"
 hash = "9df93f042643bebaa4f09906c4a881a88adb9eefecfdf76d722c72ed70f64c88"
 
 [[files]]
-file = "kubejs/startup_scripts/Fantasia - Small Tweaks/fantasia-chest-fix-startup.js"
-hash = "547ae6e8a335a4abc801884a479158a1aa7d602819a012b33453fbc9cfe0fffb"
-
-[[files]]
 file = "kubejs/startup_scripts/Fantasia - Small Tweaks/fantasia-chest-fix-startup.js.disabled"
 hash = "547ae6e8a335a4abc801884a479158a1aa7d602819a012b33453fbc9cfe0fffb"
-
-[[files]]
-file = "kubejs/startup_scripts/Fantasia - Small Tweaks/fantasia-foodstacks.js"
-hash = "cde84f961ebfa355dd7dd09e1abb16dc1a5b98d7495b5f986c7fc3da2eaee8ff"
 
 [[files]]
 file = "kubejs/startup_scripts/Fantasia - Small Tweaks/fantasia-foodstacks.js.disabled"
 hash = "cde84f961ebfa355dd7dd09e1abb16dc1a5b98d7495b5f986c7fc3da2eaee8ff"
 
 [[files]]
-file = "kubejs/startup_scripts/Fantasia - Small Tweaks/fantasia-item-modifications.js"
-hash = "313ead0aa68a044bda8bc789bf058640f0f66edc795a1ade858d78cb4e982585"
-
-[[files]]
 file = "kubejs/startup_scripts/Fantasia - Small Tweaks/fantasia-item-modifications.js.disabled"
 hash = "313ead0aa68a044bda8bc789bf058640f0f66edc795a1ade858d78cb4e982585"
-
-[[files]]
-file = "kubejs/startup_scripts/Fantasia - Small Tweaks/fantasia-legendary-eyes.js"
-hash = "8abc34d798795682040eea5bbf3e9cf0bb8db36d1b4d25377db917309539de2b"
 
 [[files]]
 file = "kubejs/startup_scripts/Fantasia - Small Tweaks/fantasia-legendary-eyes.js.disabled"
 hash = "8abc34d798795682040eea5bbf3e9cf0bb8db36d1b4d25377db917309539de2b"
 
 [[files]]
-file = "kubejs/startup_scripts/Fantasia - Small Tweaks/fantasia-no-spelunkery-end.js"
-hash = "66bbf248f70dc3ef16593b4f1974d34eb981623b287103c5ce5a4f4dd9a0fc04"
-
-[[files]]
 file = "kubejs/startup_scripts/Fantasia - Small Tweaks/fantasia-no-spelunkery-end.js.disabled"
 hash = "66bbf248f70dc3ef16593b4f1974d34eb981623b287103c5ce5a4f4dd9a0fc04"
-
-[[files]]
-file = "kubejs/startup_scripts/Fantasia - Small Tweaks/fantasia-villager-jobsite.js"
-hash = "49928578c9ea4a212d88982b81379f30ef0df25227d11221229df0ff9945b65c"
 
 [[files]]
 file = "kubejs/startup_scripts/Fantasia - Small Tweaks/fantasia-villager-jobsite.js.disabled"
 hash = "49928578c9ea4a212d88982b81379f30ef0df25227d11221229df0ff9945b65c"
 
 [[files]]
-file = "kubejs/startup_scripts/example.js"
-hash = "395c96d3ddd178821db851f387e91560e606ea752177f66d2016f12bd0542b8f"
-
-[[files]]
 file = "mods/EuphoriaPatcher-1.9.0-r5.8-forge.jar"
 hash = "92aa462c9ae6b01bc0a9cedfc55a7d73a6bd11c763aae29a7b8d648d4abefca3"
-
-[[files]]
-file = "mods/FerrumWhiteList-forge-1.20.1.jar.disabled"
-hash = "cfa3fc4b075ecd4fc04f7cdd4f4c11cc127f3298f706d10193c0281c927c4cac"
-
-[[files]]
-file = "mods/accessories.pw.toml"
-hash = "5d3f94d4280b3367a376f086018a4005866ddecbe80b6abb0849e5d995a98e9d"
-metafile = true
 
 [[files]]
 file = "mods/ageing-spawners.pw.toml"
@@ -5050,11 +4573,6 @@ hash = "c772896561767d6fbd2e5176137bbd9c1c62ee159ef4886ad907cab96acae90a"
 metafile = true
 
 [[files]]
-file = "mods/asyncparticles.pw.toml"
-hash = "4ea9eee1c5b4b009428b7113f7a1aea0c0b09c0c77e0c003513032b93517c287"
-metafile = true
-
-[[files]]
 file = "mods/atlas-lib.pw.toml"
 hash = "e78a95a5dea14600ea73936a1209d3f6a44ece2d2122ea1b94fc6ecbb763f820"
 metafile = true
@@ -5112,31 +4630,6 @@ metafile = true
 [[files]]
 file = "mods/better-archeology.pw.toml"
 hash = "2adb8c4c9a368dac1980d99180bec4ff1ec51d8c01d73093bcc2610e95803cd9"
-metafile = true
-
-[[files]]
-file = "mods/better-clouds.pw.toml"
-hash = "2d2fcbf69e7e6c8b2682b43a160aa15a0bb8319ae07a159e4416300b0f0dfd6c"
-metafile = true
-
-[[files]]
-file = "mods/better-combat-by-daedelus.pw.toml"
-hash = "95e1e53b02444a363aef8e309fd75422bae1d8844ddf681ba8750f8e6d3e1942"
-metafile = true
-
-[[files]]
-file = "mods/better-mob-combat.pw.toml"
-hash = "1a021eb8913e63408ec73b93bdf793145b889039ef7bc64d959071620452aeb8"
-metafile = true
-
-[[files]]
-file = "mods/better-spellcasting.pw.toml"
-hash = "c503194df502945705ecfe4e4c0930abf9f0c645d2c258a99dca2c73bc328f91"
-metafile = true
-
-[[files]]
-file = "mods/better-third-person.pw.toml"
-hash = "350515eff162272fc4424ae014aa2d86bbe3ad4ded6c2139f352fa88bb522098"
 metafile = true
 
 [[files]]
@@ -5261,16 +4754,6 @@ metafile = true
 [[files]]
 file = "mods/colorwheel-patcher.pw.toml"
 hash = "59e71665ef4b0068433733809d07828b82887a07e563a9387eb3231bd1bb722e"
-metafile = true
-
-[[files]]
-file = "mods/combat-nouveau.pw.toml"
-hash = "94d0597d71cfcf4b7304e15aaab3a26c074f0e3495f6f23e6924365f62dd6d28"
-metafile = true
-
-[[files]]
-file = "mods/combat-roll.pw.toml"
-hash = "f5da0bd02c69394b819a539587c807f57bc373ea52f9db814c6ffb8f80f5eb73"
 metafile = true
 
 [[files]]
@@ -5489,11 +4972,6 @@ hash = "a2838740a586f37ff47380d82811e21ec3d3a7e7e49e9eaccde2d55cdb4011b8"
 metafile = true
 
 [[files]]
-file = "mods/dynamic-surroundings-fabric-edition.pw.toml"
-hash = "b4b05c61cafbf7efeef3aaf32e7b7f0aa0ad69f4ac7c18fb3da062b9d0c4c373"
-metafile = true
-
-[[files]]
 file = "mods/dynamic-surroundings-forge.pw.toml"
 hash = "284adc1f3708a594ab5e18e81bd9c0383d68e419ba010abe5f5e6751db67da4a"
 metafile = true
@@ -5566,11 +5044,6 @@ metafile = true
 [[files]]
 file = "mods/endremastered.pw.toml"
 hash = "3133aa811dfdddaf1fb5744776385bdaf13a2bf2f7ca1e750347f2cd54d8a214"
-metafile = true
-
-[[files]]
-file = "mods/enhanced-ai.pw.toml"
-hash = "16f04a25c8b3740bbf63d14d52714deecf219e36be63f5ff76731e34001cda59"
 metafile = true
 
 [[files]]
@@ -5694,11 +5167,6 @@ hash = "a057141b618b4da2aed379677913b33ec0ed1e18e405e1c5913578c5e4cf0952"
 metafile = true
 
 [[files]]
-file = "mods/explosive-enhancement-reforged.pw.toml"
-hash = "197ae024f6d018efc44da09a5324c2cec24219e3213b3fd2a34b9b6f2f0f7f01"
-metafile = true
-
-[[files]]
 file = "mods/exposure-immersive-paintings.pw.toml"
 hash = "daab9e03492a2b25868c600c5b2ac79bc1beeb2f0d02154ee7b1bbe61bc7c733"
 metafile = true
@@ -5722,10 +5190,6 @@ metafile = true
 file = "mods/fancymenu.pw.toml"
 hash = "fa9aa329bdbefc9430cdc17bf44456c278eb3a3632956b472f71f97df6c2f9a4"
 metafile = true
-
-[[files]]
-file = "mods/fape_compat-0.5.jar"
-hash = "03eaeaa8b938336501a546f0569f83f7148f8ce4620af6a4472f4f662be38bc8"
 
 [[files]]
 file = "mods/farmers-cutting-quark.pw.toml"
@@ -6267,11 +5731,6 @@ hash = "1124640b4a19fa1cba21e55f1ebf15e57d4bc594f74cbd006113071a91ac4b6e"
 metafile = true
 
 [[files]]
-file = "mods/no-villager-discounts.pw.toml"
-hash = "81b70dad2d231478b19ebac3195f6d5646cb0a930cca2d39e0cc746a237e2844"
-metafile = true
-
-[[files]]
 file = "mods/not-enough-animations.pw.toml"
 hash = "ec82610b3bbdaf07505f71b156d86991d94005f7c5e3533030292352d39b3361"
 metafile = true
@@ -6347,11 +5806,6 @@ hash = "24cdc93e6f9aafa4a4602a43f9d4a866075f4a871f8f05a816f959588c1213aa"
 metafile = true
 
 [[files]]
-file = "mods/particular-reforged.pw.toml"
-hash = "411e84b3167404d6a708f244d1a32cff8e71ac251a81cc989198bafeacf6b254"
-metafile = true
-
-[[files]]
 file = "mods/perception.pw.toml"
 hash = "f158739171c91c1caad10944e8bc23ddf3df50b68a774ac5c8b886d869d45216"
 metafile = true
@@ -6399,11 +5853,6 @@ metafile = true
 [[files]]
 file = "mods/proximity-text-chat.pw.toml"
 hash = "c9fcb42318305a8f4b500d6a0b76df1c9f27407566d131012919d665397ee1e1"
-metafile = true
-
-[[files]]
-file = "mods/punchy.pw.toml"
-hash = "c6628c1cf6fc70548c040a10b0c0e21bd2505fd4b742a6d954b5cba555250e7f"
 metafile = true
 
 [[files]]
@@ -6637,11 +6086,6 @@ hash = "8e53bd7c51af468c9dd6dc8843167c4f9a55cc059dcfb127b55f9ac06c387bca"
 metafile = true
 
 [[files]]
-file = "mods/skinrestorer.pw.toml"
-hash = "eca8072610e9dff738017c662c9baabbc88c02e5a75a64a2690f77ae82496117"
-metafile = true
-
-[[files]]
 file = "mods/smallcolonies.pw.toml"
 hash = "6fed7d6fffeece47afdf7c79cf3e6470bb7b297816fcfa6c12a11e036b447a62"
 metafile = true
@@ -6862,11 +6306,6 @@ hash = "7149b1beafef2ce275da37dd5ca2e12f5527ad979420630ecdef5bcabd4fef32"
 metafile = true
 
 [[files]]
-file = "mods/unified-combat.pw.toml"
-hash = "478c76a003f042defe6739a87f7fd01553a6ae0110ee2382d19e4ec6f32bdeb2"
-metafile = true
-
-[[files]]
 file = "mods/unique-accessories.pw.toml"
 hash = "eb46fa91cef10357c6040ae2f5d534842a0ac021a23c808cc0aab8e5154aa09b"
 metafile = true
@@ -6958,11 +6397,6 @@ metafile = true
 [[files]]
 file = "mods/watermedia-platform-extension.pw.toml"
 hash = "47942d183c540a0d7c5d29bce33f72d8c4fce6e0b6187849dad4a8098d696a26"
-metafile = true
-
-[[files]]
-file = "mods/watermedia-yt-plugin.pw.toml"
-hash = "ae4c442f0049d0af3abbe851d1b51126c43e614cb97636c9958036b910b619c9"
 metafile = true
 
 [[files]]
@@ -7103,10 +6537,6 @@ file = "resourcepacks/Fantasia正體漢化包.zip"
 hash = "2d672ba9c4ffbfc6ce9061426e143f97cdfccd3a74af3b1e2922e4406182bc02"
 
 [[files]]
-file = "resourcepacks/Modded Swords x Punchy! 1.2.5.zip"
-hash = "aa70255a72a1eed40e3f911f3785b4b90e977ebeaa91f29e09a2fa27a202a25b"
-
-[[files]]
 file = "resourcepacks/PA-FA-Compat-v1.zip"
 hash = "6e79fa4cf16c32b75bed0142b1173039a36e24043a7658b8a6a8c92259bc04be"
 
@@ -7202,11 +6632,6 @@ metafile = true
 [[files]]
 file = "resourcepacks/malfu-combat-animation.pw.toml"
 hash = "dd2abd04dbe13a596e850118d2d0a30fd57306f8d6c3f88f7bb066d6067476d0"
-metafile = true
-
-[[files]]
-file = "resourcepacks/modded-swords-x-punchy.pw.toml"
-hash = "ceed56e0a98b4200eb859701c07a6b5c7f2ebcf0602d59514d1273bd8754e5a5"
 metafile = true
 
 [[files]]
