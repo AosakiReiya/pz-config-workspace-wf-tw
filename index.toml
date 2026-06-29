@@ -4634,11 +4634,6 @@ hash = "fe46309d954710019e07813bcdc6db2c775b07795f3628cb559610adcb129a9a"
 metafile = true
 
 [[files]]
-file = "mods/bee-fix.pw.toml"
-hash = "4595467e59cc811c7334cb33a4abc569cd2637dbc1d5ae68de6ed1f367a57d3f"
-metafile = true
-
-[[files]]
 file = "mods/better-advancements.pw.toml"
 hash = "4a71c639cc4e8637c7a006c572a9a85ccd4784f5544acf8a027f4e216958008d"
 metafile = true
@@ -4676,11 +4671,6 @@ metafile = true
 [[files]]
 file = "mods/bountiful.pw.toml"
 hash = "2798fc9c61947e92e1e43c8b031429b811e45aa79a421b7fba9fe81754e319a2"
-metafile = true
-
-[[files]]
-file = "mods/break-my-fall.pw.toml"
-hash = "e03e81f5f8cf83966f36c2fe0c9a4b4666c7c6521bc7fff0202a359a8f00bbe1"
 metafile = true
 
 [[files]]
@@ -4795,11 +4785,6 @@ metafile = true
 [[files]]
 file = "mods/controlling.pw.toml"
 hash = "1e56f528d8e21b0cf9c52c3d6deea2a4eafa408170b39a070195dbf66617f373"
-metafile = true
-
-[[files]]
-file = "mods/copper-age-backport.pw.toml"
-hash = "39a7932628fc9059d78299fcccb3a4da27dd5b373671aa4abfb9df4019bfe2b8"
 metafile = true
 
 [[files]]
@@ -5086,11 +5071,6 @@ file = "mods/entitymodelshaderfix-forge-1.1.0+mc1.20.1.jar"
 hash = "d97ea7c699db53a652be3146fe75a463a6397cf2b3af8e6f645538f262e3c1d6"
 
 [[files]]
-file = "mods/entitymodelshaderfix.pw.toml"
-hash = "644b2fdacc9fdb25297004eeccc91ce7d2c0938021f5abf164b2ce1ce3d1d32a"
-metafile = true
-
-[[files]]
 file = "mods/environmental.pw.toml"
 hash = "9825060ebdf517eaa5e9d341fcb13816698aa0a39c21953439681e61c36943ff"
 metafile = true
@@ -5360,11 +5340,6 @@ file = "mods/hexerei-0.4.2.3.jar"
 hash = "419db9f15af0ac694dc53a9cc99fa97c3a0ef787ae3d43d9aff87d2030e3f556"
 
 [[files]]
-file = "mods/hexerei.pw.toml"
-hash = "79bfdf5bd4e7cc009b4ae84ab27b1f358bf2da1aa8f30102e77e1aae66aed688"
-metafile = true
-
-[[files]]
 file = "mods/hide-experimental-warning.pw.toml"
 hash = "2275a10df12349855b3c88ec95ccf944aace5a879e6dc3fd755fd8cfa7b842e2"
 metafile = true
@@ -5517,11 +5492,6 @@ metafile = true
 [[files]]
 file = "mods/kambrik.pw.toml"
 hash = "b7d3d553250955d3b3a669647e66ef6c4c7a31ee07f04e308432acdebb87adb0"
-metafile = true
-
-[[files]]
-file = "mods/keybind-atlas.pw.toml"
-hash = "bcd046bc81bd353451b68396c65d1270cab90e35205bc2442a142177fdb0d324"
 metafile = true
 
 [[files]]
@@ -5917,11 +5887,6 @@ hash = "77fa86d36ada0d178545853f987f9e71128e1833c9c29ae62c436c09bdb31948"
 metafile = true
 
 [[files]]
-file = "mods/realm-rpg-fallen-adventurers.pw.toml"
-hash = "5cbc2a1d0ba8c484dd895f33af1dc7c068eaef2329b070fc040b2c3946d18d9d"
-metafile = true
-
-[[files]]
 file = "mods/realmrpg_skeletons-1.1.0-forge-1.20.1.jar"
 hash = "5206c8117f3869f6ea894c034f4a18d4def40ef8b0da106eb662ebd4e8ebbf36"
 
@@ -6001,11 +5966,6 @@ hash = "bf769311288cfec94e64134ad5cb443a6f39d0f2c4acd6606b1fbaa54bbc1cd7"
 metafile = true
 
 [[files]]
-file = "mods/roll-delight.pw.toml"
-hash = "426d5d288a94ea019b1aa61f9a76a7f2c7c9be98108b1e14054e70c30e1ad32b"
-metafile = true
-
-[[files]]
 file = "mods/saturation-plus.pw.toml"
 hash = "1596f06199fbabfa919fa2e7dc854cbb2f1df7ad6c228e6e0ebce19a9901f0d9"
 metafile = true
@@ -6043,11 +6003,6 @@ metafile = true
 [[files]]
 file = "mods/servercore-forge-1.5.2+1.20.1.jar"
 hash = "d9ad4f456b6c36bac17a71cd12935fdccae69ca1e1fcd33857210758cb58e586"
-
-[[files]]
-file = "mods/servercore.pw.toml"
-hash = "4c1d37d3aecc6d67ce6c6a97d859345cdaefcf619a057069b0a8635f2ad551ac"
-metafile = true
 
 [[files]]
 file = "mods/sewing-kit.pw.toml"
@@ -6198,18 +6153,8 @@ file = "mods/spawn-3.3.jar"
 hash = "c017a4657dad7bda96edfdfad5d08c25481799423fa215f9701cbcb4895db5a3"
 
 [[files]]
-file = "mods/spawn-mod.pw.toml"
-hash = "985be1c6f04abed3097d5d2885539d6c42b652a152851c2af2546d53f2d033b7"
-metafile = true
-
-[[files]]
 file = "mods/species-3.5.jar"
 hash = "60cdc79387a14440d199dd217fe24edd6cd68d865460ee48e944d4bb0d78b23f"
-
-[[files]]
-file = "mods/species.pw.toml"
-hash = "3b01d740ecb84714512ba7007fda59fb01bb3c0891af6b0ac8496af901be1f2b"
-metafile = true
 
 [[files]]
 file = "mods/spelunkery.pw.toml"
@@ -6634,11 +6579,6 @@ hash = "70b8424ed62762ed8cddc79c4dc0cb46f369cbcbedb0843d9c57a1eb5fc879ca"
 metafile = true
 
 [[files]]
-file = "resourcepacks/armorstands-reimagined.pw.toml"
-hash = "8fd009abbb35a554ed05ff70ace93a285fb1cab24759eb7462422a97830a2295"
-metafile = true
-
-[[files]]
 file = "resourcepacks/blinking-ender-eyes.pw.toml"
 hash = "83356719b31298f10d06278548196b610b27b2d1bd87a2b05b02f5e43bdbf090"
 metafile = true
@@ -6674,48 +6614,13 @@ hash = "fa1d7ba075806a4650ed488c13d5f0f8debfdb5b248edb0fc428ce2859baf728"
 metafile = true
 
 [[files]]
-file = "resourcepacks/fresh-animations-details.pw.toml"
-hash = "633d75f8d6ce7ed6953271e44965f21a28f340b02717c92f93514f84d445bb91"
-metafile = true
-
-[[files]]
-file = "resourcepacks/fresh-animations-emissive.pw.toml"
-hash = "bd23807f23fe55691a15c0006bb329c807b7d6731727f971d770854afc60110a"
-metafile = true
-
-[[files]]
-file = "resourcepacks/fresh-animations-extensions.pw.toml"
-hash = "633345333ff363fd71d17faa2bb39be6c3b1041bb1c5fdcc616827d2221c152f"
-metafile = true
-
-[[files]]
-file = "resourcepacks/fresh-animations-spiders.pw.toml"
-hash = "7feedaaaca9bceee10aa26f4d56cb2e1ff99c18b204b3b2c6d196e9be40ae751"
-metafile = true
-
-[[files]]
-file = "resourcepacks/fresh-animations.pw.toml"
-hash = "da66421a2a0dcab59fc4b17705b0aae4cd88b20634ebea20b0224fee2bef8251"
-metafile = true
-
-[[files]]
 file = "resourcepacks/freshepic-compat.pw.toml"
 hash = "fffc324b5fd14176cd09bce92457ab578bede5a2e879d46942fd69d7e633ae8a"
 metafile = true
 
 [[files]]
-file = "resourcepacks/irons-spells-armor-reimagined.pw.toml"
-hash = "de0f4c37e7baa04301ec5b51ba60d82981f4b5e19d542aaa236211d4950fa212"
-metafile = true
-
-[[files]]
 file = "resourcepacks/knightarmory.pw.toml"
 hash = "4e3315e9325c56bb1ddae52e9be897cff9742d41d8635850ad7411e66f77ade6"
-metafile = true
-
-[[files]]
-file = "resourcepacks/malfu-combat-animation.pw.toml"
-hash = "dd2abd04dbe13a596e850118d2d0a30fd57306f8d6c3f88f7bb066d6067476d0"
 metafile = true
 
 [[files]]
@@ -6736,11 +6641,6 @@ metafile = true
 [[files]]
 file = "resourcepacks/patrix-32x.pw.toml"
 hash = "21c579e68b069ef4a0312ca3755cbf90988262a8553906aa4c644b3b58286efc"
-metafile = true
-
-[[files]]
-file = "resourcepacks/simple-kite-shield.pw.toml"
-hash = "d764ac9629e713d9fc4bc304a6c11d78e6ac03af1ebd33e821422fa690155545"
 metafile = true
 
 [[files]]
