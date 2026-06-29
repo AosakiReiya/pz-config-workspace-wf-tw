@@ -5733,11 +5733,6 @@ file = "mods/no_villager_cure_discount-1.0_mapped_srg_1.20.1.jar"
 hash = "23c32b9b0b777bb2f18455eaed12850a8019cf16c488eb9b5ddb7b43212d6f9a"
 
 [[files]]
-file = "mods/not-enough-animations.pw.toml"
-hash = "ec82610b3bbdaf07505f71b156d86991d94005f7c5e3533030292352d39b3361"
-metafile = true
-
-[[files]]
 file = "mods/notenoughanimations-forge-1.12.2-mc1.20.1.jar"
 hash = "4adf8422b1a480ca26b44c7e6d9a5962f47ed8d1945017afdf06dbb62bdbba9e"
 
@@ -6007,11 +6002,6 @@ hash = "d9ad4f456b6c36bac17a71cd12935fdccae69ca1e1fcd33857210758cb58e586"
 [[files]]
 file = "mods/sewing-kit.pw.toml"
 hash = "8e0bcde933e672c15afc8f0e6c1807426fc9961c5ea3acde85b5434922b01deb"
-metafile = true
-
-[[files]]
-file = "mods/shadow-drop.pw.toml"
-hash = "d02343c068c6998ed0809aff7a22a36b50a53582dd41a24d98452f066bf500de"
 metafile = true
 
 [[files]]
